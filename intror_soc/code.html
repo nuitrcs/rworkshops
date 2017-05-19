@@ -235,9 +235,9 @@ rmarkdown::render('script1.Rmd',
                   output_options=list(toc=TRUE,toc_float=TRUE),
                   output_file = 'code.html')
 rmarkdown::render('script1.Rmd',
-                  output_format="pdf_document",
-                  output_options=list(toc=FALSE),
-                  output_file = 'codewnotes.pdf',
+                  output_format="html_document",
+                  output_options=list(toc=FALSE,toc_float=FALSE),
+                  output_file = 'codewnotes.html',
                   params = list(notes=TRUE))
 --->
 <div id="some-basics" class="section level1">
@@ -579,33 +579,33 @@ color</code></pre>
 ## [17] &quot;blue&quot;  &quot;blue&quot;  &quot;blue&quot;  &quot;blue&quot;</code></pre>
 <pre class="r"><code>score&lt;-runif(20)
 score</code></pre>
-<pre><code>##  [1] 0.27230507 0.61582931 0.42967153 0.65165567 0.56773775 0.11350898
-##  [7] 0.59592531 0.35804998 0.42880942 0.05190332 0.26417767 0.39879073
-## [13] 0.83613414 0.86472123 0.61535242 0.77510990 0.35556869 0.40584997
-## [19] 0.70664691 0.83828767</code></pre>
+<pre><code>##  [1] 0.45372807 0.32675241 0.96541532 0.70748188 0.64454264 0.38982848
+##  [7] 0.69854364 0.54405786 0.22646718 0.48455776 0.79300717 0.00598763
+## [13] 0.18771245 0.68183362 0.37010412 0.36162557 0.86879490 0.90415467
+## [19] 0.61742457 0.13403163</code></pre>
 <pre class="r"><code>df&lt;-data.frame(id, color, score)
 df</code></pre>
 <pre><code>##    id color      score
-## 1   1   red 0.27230507
-## 2   2   red 0.61582931
-## 3   3   red 0.42967153
-## 4   4 green 0.65165567
-## 5   5 green 0.56773775
-## 6   6 green 0.11350898
-## 7   7 green 0.59592531
-## 8   8 green 0.35804998
-## 9   9 green 0.42880942
-## 10 10 green 0.05190332
-## 11 11 green 0.26417767
-## 12 12 green 0.39879073
-## 13 13 green 0.83613414
-## 14 14  blue 0.86472123
-## 15 15  blue 0.61535242
-## 16 16  blue 0.77510990
-## 17 17  blue 0.35556869
-## 18 18  blue 0.40584997
-## 19 19  blue 0.70664691
-## 20 20  blue 0.83828767</code></pre>
+## 1   1   red 0.45372807
+## 2   2   red 0.32675241
+## 3   3   red 0.96541532
+## 4   4 green 0.70748188
+## 5   5 green 0.64454264
+## 6   6 green 0.38982848
+## 7   7 green 0.69854364
+## 8   8 green 0.54405786
+## 9   9 green 0.22646718
+## 10 10 green 0.48455776
+## 11 11 green 0.79300717
+## 12 12 green 0.00598763
+## 13 13 green 0.18771245
+## 14 14  blue 0.68183362
+## 15 15  blue 0.37010412
+## 16 16  blue 0.36162557
+## 17 17  blue 0.86879490
+## 18 18  blue 0.90415467
+## 19 19  blue 0.61742457
+## 20 20  blue 0.13403163</code></pre>
 <p>Instead of making individual objects first, we could do it all together:</p>
 <pre class="r"><code>df&lt;-data.frame(id=1:20, 
                color=c(rep(&quot;red&quot;, 3), rep(&quot;green&quot;,10), rep(&quot;blue&quot;, 7)),
@@ -616,47 +616,47 @@ df</code></pre>
 ## Levels: blue green red</code></pre>
 <pre class="r"><code>df[1,]</code></pre>
 <pre><code>##   id color     score
-## 1  1   red 0.2395891</code></pre>
+## 1  1   red 0.7821933</code></pre>
 <pre class="r"><code>df[,3]</code></pre>
-<pre><code>##  [1] 0.23958913 0.77077153 0.35589774 0.53559704 0.09308813 0.16980304
-##  [7] 0.89983245 0.42263761 0.74774647 0.82265258 0.95465365 0.68544451
-## [13] 0.50050323 0.27548386 0.22890394 0.01443391 0.72896456 0.24988047
-## [19] 0.16118328 0.01704265</code></pre>
+<pre><code>##  [1] 0.78219328 0.42919882 0.92727397 0.77324322 0.25968125 0.32122467
+##  [7] 0.06019516 0.04345645 0.05505382 0.62554280 0.96447029 0.82730287
+## [13] 0.31502824 0.21302545 0.73249612 0.49924102 0.72977197 0.08033604
+## [19] 0.43553048 0.23658045</code></pre>
 <p>You can use negative values when indexing to exclude values:</p>
 <pre class="r"><code>df[,-2]</code></pre>
 <pre><code>##    id      score
-## 1   1 0.23958913
-## 2   2 0.77077153
-## 3   3 0.35589774
-## 4   4 0.53559704
-## 5   5 0.09308813
-## 6   6 0.16980304
-## 7   7 0.89983245
-## 8   8 0.42263761
-## 9   9 0.74774647
-## 10 10 0.82265258
-## 11 11 0.95465365
-## 12 12 0.68544451
-## 13 13 0.50050323
-## 14 14 0.27548386
-## 15 15 0.22890394
-## 16 16 0.01443391
-## 17 17 0.72896456
-## 18 18 0.24988047
-## 19 19 0.16118328
-## 20 20 0.01704265</code></pre>
+## 1   1 0.78219328
+## 2   2 0.42919882
+## 3   3 0.92727397
+## 4   4 0.77324322
+## 5   5 0.25968125
+## 6   6 0.32122467
+## 7   7 0.06019516
+## 8   8 0.04345645
+## 9   9 0.05505382
+## 10 10 0.62554280
+## 11 11 0.96447029
+## 12 12 0.82730287
+## 13 13 0.31502824
+## 14 14 0.21302545
+## 15 15 0.73249612
+## 16 16 0.49924102
+## 17 17 0.72977197
+## 18 18 0.08033604
+## 19 19 0.43553048
+## 20 20 0.23658045</code></pre>
 <pre class="r"><code>df[-1:-10,]</code></pre>
 <pre><code>##    id color      score
-## 11 11 green 0.95465365
-## 12 12 green 0.68544451
-## 13 13 green 0.50050323
-## 14 14  blue 0.27548386
-## 15 15  blue 0.22890394
-## 16 16  blue 0.01443391
-## 17 17  blue 0.72896456
-## 18 18  blue 0.24988047
-## 19 19  blue 0.16118328
-## 20 20  blue 0.01704265</code></pre>
+## 11 11 green 0.96447029
+## 12 12 green 0.82730287
+## 13 13 green 0.31502824
+## 14 14  blue 0.21302545
+## 15 15  blue 0.73249612
+## 16 16  blue 0.49924102
+## 17 17  blue 0.72977197
+## 18 18  blue 0.08033604
+## 19 19  blue 0.43553048
+## 20 20  blue 0.23658045</code></pre>
 <p>You can also use the names of the columns after a <code>$</code> or in the indexing:</p>
 <pre class="r"><code>df$color</code></pre>
 <pre><code>##  [1] red   red   red   green green green green green green green green
@@ -687,50 +687,49 @@ df</code></pre>
 ## 20  blue</code></pre>
 <pre class="r"><code>df[2:3]</code></pre>
 <pre><code>##    color      score
-## 1    red 0.23958913
-## 2    red 0.77077153
-## 3    red 0.35589774
-## 4  green 0.53559704
-## 5  green 0.09308813
-## 6  green 0.16980304
-## 7  green 0.89983245
-## 8  green 0.42263761
-## 9  green 0.74774647
-## 10 green 0.82265258
-## 11 green 0.95465365
-## 12 green 0.68544451
-## 13 green 0.50050323
-## 14  blue 0.27548386
-## 15  blue 0.22890394
-## 16  blue 0.01443391
-## 17  blue 0.72896456
-## 18  blue 0.24988047
-## 19  blue 0.16118328
-## 20  blue 0.01704265</code></pre>
+## 1    red 0.78219328
+## 2    red 0.42919882
+## 3    red 0.92727397
+## 4  green 0.77324322
+## 5  green 0.25968125
+## 6  green 0.32122467
+## 7  green 0.06019516
+## 8  green 0.04345645
+## 9  green 0.05505382
+## 10 green 0.62554280
+## 11 green 0.96447029
+## 12 green 0.82730287
+## 13 green 0.31502824
+## 14  blue 0.21302545
+## 15  blue 0.73249612
+## 16  blue 0.49924102
+## 17  blue 0.72977197
+## 18  blue 0.08033604
+## 19  blue 0.43553048
+## 20  blue 0.23658045</code></pre>
 <p>Instead of index numbers or names, you can also select values by using logical statements. This is usually done with selecting rows.</p>
 <pre class="r"><code>df[df$color==&quot;green&quot;,]</code></pre>
 <pre><code>##    id color      score
-## 4   4 green 0.53559704
-## 5   5 green 0.09308813
-## 6   6 green 0.16980304
-## 7   7 green 0.89983245
-## 8   8 green 0.42263761
-## 9   9 green 0.74774647
-## 10 10 green 0.82265258
-## 11 11 green 0.95465365
-## 12 12 green 0.68544451
-## 13 13 green 0.50050323</code></pre>
+## 4   4 green 0.77324322
+## 5   5 green 0.25968125
+## 6   6 green 0.32122467
+## 7   7 green 0.06019516
+## 8   8 green 0.04345645
+## 9   9 green 0.05505382
+## 10 10 green 0.62554280
+## 11 11 green 0.96447029
+## 12 12 green 0.82730287
+## 13 13 green 0.31502824</code></pre>
 <pre class="r"><code>df[df$score&gt;.5,]</code></pre>
 <pre><code>##    id color     score
-## 2   2   red 0.7707715
-## 4   4 green 0.5355970
-## 7   7 green 0.8998325
-## 9   9 green 0.7477465
-## 10 10 green 0.8226526
-## 11 11 green 0.9546536
-## 12 12 green 0.6854445
-## 13 13 green 0.5005032
-## 17 17  blue 0.7289646</code></pre>
+## 1   1   red 0.7821933
+## 3   3   red 0.9272740
+## 4   4 green 0.7732432
+## 10 10 green 0.6255428
+## 11 11 green 0.9644703
+## 12 12 green 0.8273029
+## 15 15  blue 0.7324961
+## 17 17  blue 0.7297720</code></pre>
 <p>You can assign names to the rows of a data frame as well as to the columns, and then use those names for indexing and selecting data.</p>
 <pre class="r"><code>rownames(df)</code></pre>
 <pre><code>##  [1] &quot;1&quot;  &quot;2&quot;  &quot;3&quot;  &quot;4&quot;  &quot;5&quot;  &quot;6&quot;  &quot;7&quot;  &quot;8&quot;  &quot;9&quot;  &quot;10&quot; &quot;11&quot; &quot;12&quot; &quot;13&quot; &quot;14&quot;
@@ -739,26 +738,26 @@ df</code></pre>
 <pre class="r"><code>df$year&lt;-1901:1920
 df</code></pre>
 <pre><code>##    id color      score year
-## 1   1   red 0.23958913 1901
-## 2   2   red 0.77077153 1902
-## 3   3   red 0.35589774 1903
-## 4   4 green 0.53559704 1904
-## 5   5 green 0.09308813 1905
-## 6   6 green 0.16980304 1906
-## 7   7 green 0.89983245 1907
-## 8   8 green 0.42263761 1908
-## 9   9 green 0.74774647 1909
-## 10 10 green 0.82265258 1910
-## 11 11 green 0.95465365 1911
-## 12 12 green 0.68544451 1912
-## 13 13 green 0.50050323 1913
-## 14 14  blue 0.27548386 1914
-## 15 15  blue 0.22890394 1915
-## 16 16  blue 0.01443391 1916
-## 17 17  blue 0.72896456 1917
-## 18 18  blue 0.24988047 1918
-## 19 19  blue 0.16118328 1919
-## 20 20  blue 0.01704265 1920</code></pre>
+## 1   1   red 0.78219328 1901
+## 2   2   red 0.42919882 1902
+## 3   3   red 0.92727397 1903
+## 4   4 green 0.77324322 1904
+## 5   5 green 0.25968125 1905
+## 6   6 green 0.32122467 1906
+## 7   7 green 0.06019516 1907
+## 8   8 green 0.04345645 1908
+## 9   9 green 0.05505382 1909
+## 10 10 green 0.62554280 1910
+## 11 11 green 0.96447029 1911
+## 12 12 green 0.82730287 1912
+## 13 13 green 0.31502824 1913
+## 14 14  blue 0.21302545 1914
+## 15 15  blue 0.73249612 1915
+## 16 16  blue 0.49924102 1916
+## 17 17  blue 0.72977197 1917
+## 18 18  blue 0.08033604 1918
+## 19 19  blue 0.43553048 1919
+## 20 20  blue 0.23658045 1920</code></pre>
 <pre class="r"><code>df[22,]&lt;-list(21, &quot;green&quot;, 0.4, 1921)</code></pre>
 <p>Note that we had to use a list for adding a row because there are different types.</p>
 </div>
@@ -767,13 +766,13 @@ df</code></pre>
 <p>You can use the <code>View</code> function to open a spreadsheet-style view of a matrix or data frame. Use the <code>View</code> function, or double-click on the name of the object in the Environment tab in the upper right window in RStudio.</p>
 <p>You can also use the <code>head</code> function to see the first 6 (by default) rows of a matrix or data frame:</p>
 <pre class="r"><code>head(df)</code></pre>
-<pre><code>##   id color      score year
-## 1  1   red 0.23958913 1901
-## 2  2   red 0.77077153 1902
-## 3  3   red 0.35589774 1903
-## 4  4 green 0.53559704 1904
-## 5  5 green 0.09308813 1905
-## 6  6 green 0.16980304 1906</code></pre>
+<pre><code>##   id color     score year
+## 1  1   red 0.7821933 1901
+## 2  2   red 0.4291988 1902
+## 3  3   red 0.9272740 1903
+## 4  4 green 0.7732432 1904
+## 5  5 green 0.2596812 1905
+## 6  6 green 0.3212247 1906</code></pre>
 <p>You can get dimensions with:</p>
 <pre class="r"><code>dim(y)</code></pre>
 <pre><code>## [1] 5 5</code></pre>
@@ -794,12 +793,16 @@ df</code></pre>
 <h1>Workspace Management</h1>
 <p>List objects in your workspace</p>
 <pre class="r"><code>ls()</code></pre>
-<pre><code>##  [1] &quot;babynames&quot;      &quot;color&quot;          &quot;colors&quot;         &quot;df&quot;            
-##  [5] &quot;fahr_to_kelvin&quot; &quot;i&quot;              &quot;id&quot;             &quot;increment&quot;     
-##  [9] &quot;j&quot;              &quot;l1&quot;             &quot;l2&quot;             &quot;mydata&quot;        
-## [13] &quot;myVariable&quot;     &quot;notes&quot;          &quot;output_vector&quot;  &quot;params&quot;        
-## [17] &quot;schooldata&quot;     &quot;score&quot;          &quot;temp_output&quot;    &quot;tmp&quot;           
-## [21] &quot;w&quot;              &quot;x&quot;              &quot;y&quot;              &quot;z&quot;</code></pre>
+<pre><code>##  [1] &quot;babynames&quot;          &quot;cbPalette&quot;          &quot;color&quot;             
+##  [4] &quot;colors&quot;             &quot;df&quot;                 &quot;fahr_to_kelvin&quot;    
+##  [7] &quot;gapminder&quot;          &quot;i&quot;                  &quot;id&quot;                
+## [10] &quot;increment&quot;          &quot;initial_props&quot;      &quot;initial_props_2000&quot;
+## [13] &quot;j&quot;                  &quot;l1&quot;                 &quot;l2&quot;                
+## [16] &quot;mydata&quot;             &quot;myVariable&quot;         &quot;notes&quot;             
+## [19] &quot;output_vector&quot;      &quot;params&quot;             &quot;reg1&quot;              
+## [22] &quot;schooldata&quot;         &quot;score&quot;              &quot;temp_output&quot;       
+## [25] &quot;tmp&quot;                &quot;vals&quot;               &quot;w&quot;                 
+## [28] &quot;x&quot;                  &quot;y&quot;                  &quot;z&quot;</code></pre>
 <p>Or look in the Environment window in the upper right in RStudio.</p>
 <p>You can remove objects from your workspace:</p>
 <pre class="r"><code>myVariable &lt;- 1:10
@@ -905,9 +908,10 @@ getwd()</code></pre>
 
 if (x &gt;= 10) {
   print(&quot;x is greater than or equal to 10&quot;)
-}
-x</code></pre>
-<pre><code>## [1] 8</code></pre>
+}</code></pre>
+<pre><code>## [1] &quot;x is greater than or equal to 10&quot;</code></pre>
+<pre class="r"><code>x</code></pre>
+<pre><code>## [1] 10</code></pre>
 <p>Some of you may have gotten different answers. Try executing the code again.</p>
 <p>We can avoid the randomness (useful in finding errors in our code and making the code reproducible) by setting the random seed</p>
 <pre class="r"><code>set.seed(10)
@@ -1474,8 +1478,8 @@ group_by(schooldata, title) %&gt;%
   summarize(avg_grade=mean(grade)) %&gt;% 
   arrange(desc(avg_grade)) %&gt;% 
   datatable(rownames=FALSE)</code></pre>
-<div id="htmlwidget-29047c1acd5aef3e7931" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-29047c1acd5aef3e7931">{"x":{"filter":"none","data":[["Methods, Standards and Work Design","Systems Project Management","Organizational Behavior","Quality Improvement by Experimental Design","Principles of Entrepreneurship","Statistical Methods for Quality Improvement","Engineering Entrepreneurship","Service Operations Management","Probability","Industrial Engineering Design","Systems Management","Introduction to Financial Engineering","Operations Research","Industrial Engineering Design Project","Economics and Finance for Engineers","Deterministic Methods and Optimization","Supply-Chain Modeling and Analysis","Discrete-Event Systems Simulation","Social Networks Analysis","Statistical Methods for Data Mining","Decision Analysis","Introduction to Health Systems Engineering","Production Planning and Scheduling","Stochastic Models and Simulation","Statistics","Field Project Methods","Introduction to Statistics"],[2.971875,2.825,2.75,2.69354838709677,2.69333333333333,2.69333333333333,2.6675,2.655,2.65263157894737,2.648,2.64594594594595,2.63714285714286,2.61860465116279,2.58928571428571,2.58684210526316,2.58,2.58,2.56896551724138,2.55952380952381,2.5375,2.53333333333333,2.52962962962963,2.5,2.48965517241379,2.42083333333333,2.41538461538462,2.34722222222222]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>title<\/th>\n      <th>avg_grade<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-38a25adbf3e30bc43a50" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-38a25adbf3e30bc43a50">{"x":{"filter":"none","data":[["Methods, Standards and Work Design","Systems Project Management","Organizational Behavior","Quality Improvement by Experimental Design","Principles of Entrepreneurship","Statistical Methods for Quality Improvement","Engineering Entrepreneurship","Service Operations Management","Probability","Industrial Engineering Design","Systems Management","Introduction to Financial Engineering","Operations Research","Industrial Engineering Design Project","Economics and Finance for Engineers","Deterministic Methods and Optimization","Supply-Chain Modeling and Analysis","Discrete-Event Systems Simulation","Social Networks Analysis","Statistical Methods for Data Mining","Decision Analysis","Introduction to Health Systems Engineering","Production Planning and Scheduling","Stochastic Models and Simulation","Statistics","Field Project Methods","Introduction to Statistics"],[2.971875,2.825,2.75,2.69354838709677,2.69333333333333,2.69333333333333,2.6675,2.655,2.65263157894737,2.648,2.64594594594595,2.63714285714286,2.61860465116279,2.58928571428571,2.58684210526316,2.58,2.58,2.56896551724138,2.55952380952381,2.5375,2.53333333333333,2.52962962962963,2.5,2.48965517241379,2.42083333333333,2.41538461538462,2.34722222222222]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>title<\/th>\n      <th>avg_grade<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 <p>What else can we look for? What about average grade by student?</p>
 <pre class="r"><code>sort(tapply(schooldata$grade, schooldata$studentid, mean), decreasing=TRUE)</code></pre>
 <pre><code>##       62       14       97       12       91        4       35       42 
@@ -1509,8 +1513,8 @@ group_by(schooldata, title) %&gt;%
   summarize(avg_grade=mean(grade)) %&gt;% 
   arrange(desc(avg_grade)) %&gt;% 
   datatable(rownames=FALSE)</code></pre>
-<div id="htmlwidget-9575776681081d7865d5" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9575776681081d7865d5">{"x":{"filter":"none","data":[[62,14,97,12,91,4,35,42,67,2,75,29,41,3,48,44,6,34,77,92,33,85,90,81,40,20,72,84,1,22,23,26,43,57,94,50,39,37,32,60,53,71,63,9,69,15,38,89,59,7,28,46,56,73,98,51,65,21,74,66,82,83,47,55,36,19,78,86,88,5,96,27,52,70,0,17,58,76,30,68,80,87,64,93,95,8,54,31,16,13,49,10,25,18,24,11,45,61,79],[3.42857142857143,3.4,3.36,3.32,3.17142857142857,3.14545454545455,3.04615384615385,3.04285714285714,3.03333333333333,3,2.98888888888889,2.96666666666667,2.925,2.92222222222222,2.92142857142857,2.91666666666667,2.9125,2.88571428571429,2.88571428571429,2.8625,2.85714285714286,2.85714285714286,2.85,2.8375,2.83333333333333,2.81666666666667,2.8,2.79090909090909,2.77142857142857,2.76666666666667,2.76666666666667,2.76428571428571,2.76363636363636,2.76,2.74444444444444,2.74285714285714,2.7375,2.73333333333333,2.73,2.72222222222222,2.71,2.70833333333333,2.7,2.68571428571429,2.68,2.675,2.66666666666667,2.66666666666667,2.65,2.625,2.625,2.62,2.6,2.6,2.6,2.59166666666667,2.59,2.58888888888889,2.57777777777778,2.57272727272727,2.56,2.54444444444444,2.53846153846154,2.5375,2.53571428571429,2.52222222222222,2.51666666666667,2.5,2.5,2.46666666666667,2.425,2.42222222222222,2.42222222222222,2.42,2.41818181818182,2.41111111111111,2.40909090909091,2.40909090909091,2.4,2.4,2.4,2.36,2.32,2.32,2.23333333333333,2.225,2.21428571428571,2.21111111111111,2.13333333333333,2.12222222222222,2.12,2.10833333333333,2.05,2.02222222222222,1.98333333333333,1.96666666666667,1.88,1.875,1.8]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>studentid<\/th>\n      <th>avg_grade<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-48b6dc1b8ca53c13ec25" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-48b6dc1b8ca53c13ec25">{"x":{"filter":"none","data":[[62,14,97,12,91,4,35,42,67,2,75,29,41,3,48,44,6,34,77,92,33,85,90,81,40,20,72,84,1,22,23,26,43,57,94,50,39,37,32,60,53,71,63,9,69,15,38,89,59,7,28,46,56,73,98,51,65,21,74,66,82,83,47,55,36,19,78,86,88,5,96,27,52,70,0,17,58,76,30,68,80,87,64,93,95,8,54,31,16,13,49,10,25,18,24,11,45,61,79],[3.42857142857143,3.4,3.36,3.32,3.17142857142857,3.14545454545455,3.04615384615385,3.04285714285714,3.03333333333333,3,2.98888888888889,2.96666666666667,2.925,2.92222222222222,2.92142857142857,2.91666666666667,2.9125,2.88571428571429,2.88571428571429,2.8625,2.85714285714286,2.85714285714286,2.85,2.8375,2.83333333333333,2.81666666666667,2.8,2.79090909090909,2.77142857142857,2.76666666666667,2.76666666666667,2.76428571428571,2.76363636363636,2.76,2.74444444444444,2.74285714285714,2.7375,2.73333333333333,2.73,2.72222222222222,2.71,2.70833333333333,2.7,2.68571428571429,2.68,2.675,2.66666666666667,2.66666666666667,2.65,2.625,2.625,2.62,2.6,2.6,2.6,2.59166666666667,2.59,2.58888888888889,2.57777777777778,2.57272727272727,2.56,2.54444444444444,2.53846153846154,2.5375,2.53571428571429,2.52222222222222,2.51666666666667,2.5,2.5,2.46666666666667,2.425,2.42222222222222,2.42222222222222,2.42,2.41818181818182,2.41111111111111,2.40909090909091,2.40909090909091,2.4,2.4,2.4,2.36,2.32,2.32,2.23333333333333,2.225,2.21428571428571,2.21111111111111,2.13333333333333,2.12222222222222,2.12,2.10833333333333,2.05,2.02222222222222,1.98333333333333,1.96666666666667,1.88,1.875,1.8]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>studentid<\/th>\n      <th>avg_grade<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[0,1]}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 </div>
 <div id="t-test" class="section level2">
 <h2>T-test</h2>
