@@ -1,0 +1,1533 @@
+---
+title: "Intro to R"
+author: "Christina Maimone"
+date: "`r Sys.Date()`"
+always_allow_html: yes
+params:
+  notes: no
+---
+
+<!--
+To Knit the file:
+rm(list=ls())
+rmarkdown::render('script1.Rmd',
+                  output_format="html_document",
+                  output_options=list(toc=TRUE,toc_float=TRUE),
+                  output_file = 'code.html')
+rmarkdown::render('script1.Rmd',
+                  output_format="html_document",
+                  output_options=list(toc=FALSE,toc_float=FALSE),
+                  output_file = 'codewnotes.html',
+                  params = list(notes=TRUE))
+--->
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+notes<-params$notes
+```
+
+# Some Basics
+
+A good reference for R Basics is the [Base R Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf).
+
+## Arithmetic 
+```{r}
+2+2
+5%%2
+3.452*6
+2^4
+```
+
+You can use `?Arithmetic` to pull up the help for arithmetic operators.
+
+```{asis, echo=notes}
+_If you type an incomplete command, R will wait for you to finish it.  You can spread commands over multiple lines as long as you break the code so that a line isn't a complete command.  The + sign at the beginning of the line in the console indicates a continued command._
+```
+
+## A few functions
+
+Functions are called with `functionName(parameters)`.  Multiple paramters are comma-separated.  Paramters can be named. 
+
+```{r}
+log(10)
+log(16, base=2)
+log10(10)
+sqrt(10)
+exp(10)
+sin(1)
+```
+
+## Comparisons
+
+```{r}
+1 < 2
+TRUE == FALSE
+'a' == "Boy"
+```
+
+Note that character vectors/strings can use single or double quotes.
+
+## Variables
+
+Use the `<-` operator to assign values to variables.  `=` also works but is bad practice and less common.
+
+The right hand side of the assignment can be any valid R expression. The right hand side is fully evaluated before the assignment occurs.
+
+Variable names can contain letters, numbers, underscores and periods. They cannot start with a number; they should not start with an underscore or period in regular use.  They cannot contain spaces. Different people use different conventions for long variable names, these include
+
+- periods.between.words
+- underscores_between_words
+- camelCaseToSeparateWords
+
+
+```{r}
+x <- 4
+x
+y <- 3/10
+y
+x + y
+myVariable <- x <- 3 + 4 + 7
+```
+
+```{asis, echo=notes}
+_When you create a variable, it shows up in the environment window._
+```
+
+## Comments
+
+The comment character is `#`.  It can be used anywhere on a line to comment out the rest of the line.  In this document, `##` in a white cell denotes an output cell, not commented commands.
+
+## Vectors
+
+Vectors are also called arrays.  You can create a vector with the `c()` function.
+
+```{r}
+1:5
+x<-1:5
+x<-c(1,2,3,4,5)
+```
+
+Functions and arithmetic operators can apply to vectors as well:
+
+```{r}
+x
+x+1
+x*2
+x*x
+log(x)
+x < 5
+```
+
+Some functions will apply to each element of a vector, but others take a vector as a parameter:
+
+```{r}
+sum(x)
+var(x)
+```
+
+Vectors are one-dimensional and can't be nested:
+
+```{r}
+c(c(1,2,3), 4, 5)
+```
+
+Vector indexes (and all other indexes in R) start with 1, not 0:
+
+```{r}
+x<-c('a', 'b', 'c', 'd', 'e')
+x[1]
+```
+
+You can take slices of vectors
+
+```{r}
+x[1:3]
+```
+
+Or exclude values with a negative sign:
+
+```{r}
+x[-1]
+```
+
+You can use a vector of integers or booleans to select from a vector as well:
+
+```{r}
+x[x<'c']
+x[c(1,3,5)]
+```
+
+Get the length of a vector with `length`
+
+```{r}
+length(x)
+```
+
+You can also name the elements of a vector
+
+```{r}
+x<-1:5
+names(x)<-c("Ohio","Illinois","Indiana","Michigan","Wisconsin")
+x
+```
+
+Which allows you to select values from the vector using the names:
+
+```{r}
+x["Ohio"]
+x[c("Illinois", "Indiana")]
+```
+
+
+Vectors can only have one type of values in them.  The order depends on what types can be converted to other types.  If there's multiple types, everything in a vector will be converted to the type of the lowest in this list:
+
+* logical
+* integer
+* double
+* complex
+* character
+
+```{r}
+x<-c(TRUE, 2, 4.3)
+x
+x<-c(4, "alpha", TRUE)
+x
+```
+
+
+## Missing Data (`NA`)
+
+Missing data in R is encoded as `NA`.  You can test for `NA` (`is.na`).  Some functions will ignore `NA` when doing computations.  Others will ignore missing values if you tell them to.  Others will process `NA` and give you a result of `NA`.  
+
+```{r}
+tmp<-c(1,2,5,NA,6,NA,2,5,1,1,NA,5)
+is.na(tmp)
+```
+
+Or you can get the index location of the missing observations within the vector (useful for later selecting observations in your dataset)
+
+```{r}
+which(is.na(tmp))
+```
+
+
+It can also be useful to count `NA` in a vector:
+
+```{r}
+sum(is.na(tmp))
+```
+
+Why does this work?  How can you sum logical values?  This takes advantage of the trick that TRUE=1 and FALSE=0.  The function call tries to convert the logicals to numeric, and this is how the conversion works:
+
+```{r}
+as.numeric(c(TRUE, FALSE))
+```
+
+You can also see which observations are missing:
+
+```{r}
+which(is.na(tmp))
+```
+
+This gives the indices of the `NA` values in the vector.  
+
+Remember that different functions treat `NA` differently:
+
+```{r}
+mean(tmp)
+```
+
+`mean` results in `NA`.  It has an option to exclude missing:
+
+```{r}
+mean(tmp, na.rm=TRUE)
+```
+
+`table` behaves differently:
+
+```{r}
+table(tmp)
+```
+
+It excludes `NA` by default.  You have to tell it to include `NA`:
+
+```{r}
+table(tmp, useNA = "ifany")
+```
+
+
+
+## Other Special Values
+
+### NULL
+
+`NULL` is another special type. `NULL` is usually used to mean undefined.  You might get it when a function can't compute a result.  `NULL` is a single value and can't be in a vector.  (`NA`s can be in vectors and data.frames.)  
+
+```{r}
+c()
+c(NULL, NULL)
+```
+
+The above somewhat surprisingly gives a single `NULL` because of the restrictions on how it's used.  
+
+`NULL` should not be used for missing data.
+
+### `NaN`, `Inf`
+
+`NaN` is not a number.
+
+```{r}
+0/0
+```
+
+`Inf` and `-Inf` are infinity and negative infinity
+
+```{r}
+1/0
+-1/0
+```
+
+
+## Factors {#factors}
+
+Factors are a special type of vector can be used for categorical variables.  
+
+```{r}
+colors<-c("red", "blue", "green", "red", "red", "blue")
+colors<-factor(colors)
+```
+
+Factors have a limited set of values they can take.  The set of acceptable values are the levels:
+
+```{r}
+colors[1]<-"pink"
+```
+
+This gives an error because "pink" wasn't one of the levels for the factor.  To fix this:
+
+```{r}
+colors<-factor(colors, levels=c(levels(colors), "pink")) # re-make the factor with a pink level, even though none of the observations are pink
+colors
+colors[1]<-"pink"  ## now you can set pink as a value
+```
+
+OR
+
+```{r}
+colors<-as.character(colors)  ## un-factor it
+colors[1]<-"pink" ## set the value
+colors<-factor(colors) ## refactor: all unique values will become a level by default
+```
+
+Factors can be ordered.  Ordering factors can help with setting the display order in plots, tables, statistical output, etc.
+
+Factors are stored as integers:
+
+```{r}
+typeof(colors[1])
+```
+
+Even if you don't plan to use categorical data, you should know that factors exist because when reading data into R, text strings can be loaded as factors.
+
+```{asis, echo=notes}
+<h2 style="background-color:#ffff00">Go to Exercises</h2>
+```
+
+
+# Data Structures
+
+How to represent data sets
+
+## Lists
+
+Lists are a bit like complex vectors.  An element of a list can hold any other object, including another list.  You can keep multi-dimensional and ragged data in R using lists.  
+
+```{r}
+l1 <- list(1, "a", TRUE, 1+4i)
+l1
+```
+
+```{r}
+l2 <- list(title = "Research Bazaar", numbers = 1:10, data = TRUE )
+l2
+```
+
+Indexing lists is a little different.  ``[[1]]`` is the first element of the list as whatever type it was.  ``[1]`` is a subset of the list -- the first element of the list as a list.  You can also access list elements by name.
+
+```{r}
+l2$numbers
+l2[[2]]
+l2[2]
+```
+
+
+## Matrices
+
+Matrices in R are two-dimensional arrays.  All values of a matrix must be of the same type.
+
+```{r}
+matrix(c('a', 'b', 'c', 'd'), nrow=2)
+y<-matrix(1:25, nrow=5, byrow=TRUE)
+y
+```
+
+Matrices are used sparingly in R, primarly for numerical calculations or explicit matrix manipulation.
+
+You can attach names to rows and columns.
+
+Matrix algebra functions are available:
+
+```{r}
+y%*%y
+x<-1:5
+y%*%x
+y^-1 # matrix inversion
+y * -1
+```
+
+Elements in a matrix are indexed like `mat[row, col]`.  Omitting a value for row or column will give you the entire column or row, respectively.
+
+```{r}
+y[1,1]
+y[1,]
+y[,1]
+y[1:2,3:4]
+y[,c(1,4)]
+```
+
+Using just a single index will get the element from the specified position, if the matrix were turned into a vector first:
+
+```{r}
+w<-matrix(5:29, nrow=5)
+w[7]
+c(w)[7]
+```
+
+
+## Data Frames
+
+Data frames are the core data structure in R.  A data frame is a list of named vectors with the same length.  Columns are typically variables and rows are observations.  Different columns can have different types of data:
+
+```{r}
+id<-1:20
+id
+color<-c(rep("red", 3), rep("green",10), rep("blue", 7))
+color
+score<-runif(20)
+score
+df<-data.frame(id, color, score)
+df
+```
+
+Instead of making individual objects first, we could do it all together:
+
+```{r}
+df<-data.frame(id=1:20, 
+               color=c(rep("red", 3), rep("green",10), rep("blue", 7)),
+               score=runif(20))
+```
+
+
+Data frames can be indexed like matrices to retrieve the values.  
+
+```{r}
+df[2,2]
+df[1,]
+df[,3]
+```
+
+You can use negative values when indexing to exclude values:
+
+```{r}
+df[,-2]
+df[-1:-10,]
+```
+
+You can also use the names of the columns after a `$` or in the indexing:  
+
+```{r}
+df$color
+```
+
+Indexing into a data frame with a single integer or name of the column will give you the column(s) specified as a new data frame.
+
+```{r}
+df['color']
+df[2:3]
+```
+
+Instead of index numbers or names, you can also select values by using logical statements.  This is usually done with selecting rows. 
+
+```{r}
+df[df$color=="green",]
+df[df$score>.5,]
+```
+
+
+You can assign names to the rows of a data frame as well as to the columns, and then use those names for indexing and selecting data.
+
+```{r}
+rownames(df)
+```
+
+You can add columns or rows simply by assigning values to them.  There are also `rbind` and `cbind` (for row bind and column bind) functions that can be useful.
+
+```{r}
+df$year<-1901:1920
+df
+```
+
+```{r}
+df[22,]<-list(21, "green", 0.4, 1921)
+```
+
+Note that we had to use a list for adding a row because there are different types.
+
+
+## Viewing Matrices and Data Frames
+
+You can use the `View` function to open a spreadsheet-style view of a matrix or data frame.  Use the `View` function, or double-click on the name of the object in the Environment tab in the upper right window in RStudio.
+
+You can also use the `head` function to see the first 6 (by default) rows of a matrix or data frame:
+
+```{r}
+head(df)
+```
+
+You can get dimensions with:
+
+```{r}
+dim(y)
+dim(df)
+nrow(y)
+ncol(df)
+```
+
+The `length` of a matrix is the number of elements.  The `length` of a data frame is the number of columns:
+
+```{r}
+length(y)
+length(df)
+```
+
+
+```{asis, echo=notes}
+<h2 style="background-color:#ffff00">Go to Exercises</h2>
+```
+
+# Workspace Management
+
+List objects in your workspace
+
+```{r, eval=FALSE}
+ls()
+```
+
+Or look in the Environment window in the upper right in RStudio.
+
+You can remove objects from your workspace:
+
+```{r}
+myVariable <- 1:10
+rm(myVariable)
+```
+
+Or clear your entire workspace (can't be undone):
+
+```{r, eval=FALSE}
+rm(list = ls())
+```
+
+You can also clear your workspace by clicking on the broom in the Environment window in RStudio.
+
+You can save an image of your entire workspace to pick up where you left off in another session of R (this is what R asks you if you want to do when you quit).  Workspace files are saved with the extension .RData.
+
+```{r, eval=FALSE}
+save.image("20170112.RData")
+```
+
+You can load this file later with the `load` function
+
+```{r, eval=FALSE}
+load("20170112.RData")
+```
+
+Note that `load` will overwrite any objects already in your workspace that have the same names as objects in the file you are loading.
+
+
+# Packages
+
+Much of R's power comes from contributed packages.  You can install and manage packages using the Packages tab in the bottom right window in RStudio.  Or you can install packages with a command:
+
+```{r, eval=FALSE}
+install.packages("dplyr")
+```
+
+CRAN (Comprehensive R Archive Network) is the name of the package repository.  There are [mirrors](https://cran.r-project.org/mirrors.html) around the world.
+
+If you have trouble or get errors when trying to install a package, you might need to specify the repository mirror to download from:
+
+```{r, eval=FALSE}
+install.packages("ggplot2", repos="http://cran.wustl.edu/")
+```
+
+
+
+
+# Reading and Writing Data
+
+Before reading or writing files, it's often useful to set the working directory first so that you don't have specify complete file paths.  
+
+You can go to the Files tab in the bottom right window in RStudio and find the directory you want.  Then under the More menu, there is an option to set the current directory as the working directory.  Or you can use the `setwd` command like:
+
+```{r, eval=FALSE}
+setwd("~/training/intror")
+getwd()
+```
+
+
+## Reading
+
+### Basics
+
+Read in a csv file and save it as a data frame with a name.  The example uses a url, but you can use a local file the same way by specifying a relative or absolute path.
+
+```{r}
+schooldata<-read.csv("https://goo.gl/quHW49")
+```
+
+You could also use the Import Dataset option in the Environment tab in the top right window in RStudio.
+
+Looking at the help for `read.csv`, there are a number of different options and different function calls.  `read.table`, `read.csv`, and `read.delim` all work in the same basic way and take the same set of arguments, but they have different defaults.  They will all read in a plain text, delimited file into a data frame though.  Key options to pay attention to include:
+
+* `header`: whether the first row of the file has the names of the columns
+* `sep`: the separator used (comma, tab (enter as `\t`), etc) in the file
+* `na.strings`: how is missing data encoded in your file?  "NA" are treated as missing by default; blanks are treated as missing by default in everything but character data.
+* `stringsAsFactors`: should strings (text data) be converted to factors or kept as is?  Example of this below.
+
+### Text Data
+
+The `stringsAsFactors` option, by default, will convert text data columns to factors.  Sometimes you don't want this.  Look at the structure of your data frame by looking at the object in the Environment view in the upper right corner of RStudio, or type:
+
+```{r}
+str(schooldata)
+```
+
+The instructor names were made into factors.  This doesn't make much sense, especially because names are split across two columns.  And it can introduce problems like those noted in the (factors section)[#factors] above.
+
+Make text not be treated as factors with an option to `read.csv` called `stringsAsFactors`.  The option `strip.white` will clean off extra white space from the names if there is any.  
+
+So a new read command:
+
+```{r}
+schooldata<-read.csv("https://goo.gl/quHW49", 
+                     stringsAsFactors=FALSE, 
+                     strip.white=TRUE, 
+                     na.strings=c("NA", ""))
+```
+
+The option `na.strings` is needed now because while blanks are treated as missing by default in numeric fields (which includes factors), they aren't by default missing for character data.
+
+### `readr` Package
+
+Does all of the above seem annoying or unnecessarily complicated?  Others have thought so too.
+
+Look at the `readr` package, which attempts to smooth over some of the annoyances of reading in file in R.  The main source of potential problems when using `readr` functions is that it guesses variable types from a subset of the observations, so if you have a strange value further down in your dataset, you might get an error or an unexpected value conversion.
+
+
+```{asis, echo=notes}
+<h2 style="background-color:#ffff00">Go to Exercises</h2>
+```
+
+## Writing
+
+You will often want to save your work in R as well.  There are a few different ways to save:
+
+### Writing a data file
+
+The best method for making your workflow and analysis reproducible is to write any data sets you create to plain text files.
+
+To write a CSV, there are equivalent `write.csv` and `write.table` functions to the read.  The one trick is that you usually want to NOT write row.names.  You also may need to be careful about quotes: for the gapminder data, there any complicated strings (text), so there's no need to quote them.
+
+```{r, eval=FALSE}
+write.csv(schooldata, file="schooldatacopy.csv", 
+          row.names=FALSE, quote=FALSE)
+```
+
+
+### Saving R objects
+
+You can use the `save` function to save multiple objects together in a file.  The standard file extension to use is `.RData`.  Example:
+
+```{r, eval=FALSE}
+save(df, schooldata, 
+     file = "workshopobjects.RData")
+```
+
+To later load in saved data, use the `load` function: 
+
+```{r, eval=FALSE}
+load("workshopobjects.RData")
+```
+
+This can be useful if you're working with multiple objects and want to be able to pick up your work easily later.  But`.RData` files generally aren't portable to other programs, so think of them only as internal R working files -- not the format you want to keep data in long-term.
+
+# Loops and Conditionals
+
+Two tools for manipulating data are conditional statements and loops.  Conditional if/then/else statements let us take different actions based on the value of variables.
+
+## If/then/else
+
+As an example, sample a random number from a Poisson distribution with a mean (lambda) of 8.  Print a message if it's greater than or equal to 10.
+
+```{r}
+x <- rpois(1, lambda=8)
+
+if (x >= 10) {
+  print("x is greater than or equal to 10")
+}
+x
+```
+
+Some of you may have gotten different answers.  Try executing the code again.  
+
+We can avoid the randomness (useful in finding errors in our code and making the code reproducible) by setting the random seed
+
+```{r}
+set.seed(10)
+x <- rpois(1, lambda=8)
+
+if (x >= 10) {
+  print("x is greater than or equal to 10")
+} else if (x > 5) {
+  print("x is greater than 5")
+} else {
+  print("x is less than 5")
+}
+x
+```
+
+Now everyone should get the same answer.
+
+One point with if...else that trips some people up is that you can't the conditional test in `if()` is a single value -- not a vector.  The following gives a warning and unexpected output:
+
+```{r, warnings=TRUE, errors=TRUE}
+y<-1:10
+if (y < 5) {
+  print(paste(y, "is less than 5"))
+} else {
+  print(paste(y, "is >= 5"))
+}
+```
+
+The warning message "the condition has length > 1 and only the first element will be used" comes from using y, which is a vector, in the if statement.  `y < 5` produces a vector of TRUE and FALSE values: `r y<5`.  The warning message is telling you that only the first value of that vector matters, which in this case is TRUE.  Because it is TRUE, we're in the first part of the if statement with `print(paste(y, "is less than 5"))`.  The `paste` function concatenates two pieces of text.  It allows vectors as input.  So in this case, it takes the entire y vector (all of the values in it), and pastes each value with "is less than 5", leading to the output you see above.  To have the if statement evaluated for each value of the y vector, you'd need to put it inside a loop, which we'll get to next.
+
+There is, however, a shorthand `ifelse` function that does work on vectors and is useful for recoding data.  
+
+```{r}
+mydata<-data.frame(val=1:10)
+mydata$category<-ifelse(mydata$val<4, "low", "not low")
+mydata
+```
+
+This example created a new variable, but you can save the results back to the same variable if you're trying to change values in place.  
+
+We can nest the `ifelse` statements too
+
+```{r}
+mydata$category<-ifelse(mydata$val<4, "low", 
+                        ifelse(mydata$val<8, "medium", "high"))
+mydata
+```
+
+And, an example fixing the broken example above:
+
+```{r}
+ifelse(y < 5, paste(y, "is less than 5"), paste(y, "is >= 5"))
+```
+
+
+## Loops
+
+We can also repeat the same thing multiple times for different values:
+
+```{r}
+for(i in 1:10){
+  print(i)
+}
+```
+
+```{r}
+for(i in c(2,3,5,7,11)) {
+  cat(i,"is prime!\n") 
+}
+```
+
+`cat` is like `print(paste())` but it doesn't automatically print a new line.
+
+We can nest for loops:
+
+```{r}
+for(i in 1:5){
+  for(j in c('a', 'b', 'c', 'd', 'e')){
+    print(paste(i,j))
+  }
+}
+```
+
+Rather than printing the results, we could write the loop output to a new object.
+
+```{r}
+output_vector <- c()
+for(i in 1:5){
+  for(j in c('a', 'b', 'c', 'd', 'e')){
+    temp_output <- paste(i, j)
+    output_vector <- c(output_vector, temp_output)
+  }
+}
+output_vector
+```
+
+There are also `while` loops
+
+```{r}
+z <- 1
+while(z > 0.1){
+  z <- runif(1)
+  print(z)
+}
+```
+
+And let's fix the example that gave us warnings above in the if...else section:
+
+```{r}
+y<-1:10
+for (val in y) {
+  if (val < 5) {
+    print(paste(val, "is less than 5"))
+  } else {
+    print(paste(val, "is >= 5"))
+  }
+}
+```
+
+Or
+
+```{r}
+y<-1:10
+for (i in 1:length(y)) {
+  if (y[i] < 5) {
+    print(paste(y[i], "is less than 5"))
+  } else {
+    print(paste(y[i], "is >= 5"))
+  }
+}
+```
+
+
+
+```{asis, echo=notes}
+<h2 style="background-color:#ffff00">Go to Exercises</h2>
+```
+
+# Writing Functions
+
+You can define your own functions
+
+```{r}
+fahr_to_kelvin <- function(temp) {
+  kelvin <- ((temp - 32) * (5 / 9)) + 273.15
+  return(kelvin)
+}
+```
+
+```{r}
+fahr_to_kelvin(32)
+```
+
+You can define default values for parameters:
+
+```{r}
+increment <- function(a, step=1) {
+  return(a+step)
+}
+```
+
+```{r}
+increment(3)
+increment(3, 2)
+```
+
+
+You might want to have a separate file with functions in it, and then source in that file:
+
+```{r, eval=FALSE}
+source("myfunctions.R")
+```
+
+The all of the functions (and any other objects you've defined) in the file you source will be available in your environment.
+
+
+# Tidyverse 
+
+Hadley Wickham, a prolific R developer, and his colleagues have made a number of R packages that try to make common tasks easier.  The use of these packages is becoming standard for some applications.  In the data manipulation sections that follow, options using these "tidyverse" functions are shown along with options using base R functionality.  
+
+To install, use the Packages tab in the lower right window in RStudio, or command:
+
+```{r, eval=FALSE}
+install.packages(c("tidyverse", "lubridate"))
+```
+
+"tidyverse" is a convenience package that loads a bunch of related packages
+
+Then load them:
+
+```{r, message=FALSE, results='hide'}
+library(tidyverse)
+library(lubridate)
+```
+
+
+# Data Manipulation
+
+The `dplyr` package adds a new type of command: `%>%`.  This is like a pipe `|` from the command line environment of a computer.  It takes the output of the thing on the left of the pipe and sends it as the first parameter to the command on the right of the pipe.  You can string multiple commands together this way.  `dplyr` has a variety of "verbs" -- ways to manipulate data.  For example, `select`, `filter`, `arrange`, `mutate`, and `summarize`.  The first argument to each of these functions is a `data.frame`.
+
+You don't have to use `dplyr`, but you should know it exists and recognize commands in it.
+
+Know that `dplyr` functions always operate on a `data.frame` and return a `data.frame` (or a `tibble`, which is a `tidyverse` `data.frame` that attempts to fix some of the annoyances with standard `data.frame`s).
+
+Examples below show the same procedures using base R methods and `dplyr`.  
+
+Let's use data on babynames from SSA:
+
+```{r}
+babynames<-read.csv("https://goo.gl/akxxYv")
+head(babynames)
+```
+
+## Selecting Rows and Columns
+
+In `dplyr` `filter` let's you select rows based on criteria, and `select` let's you choose which columns to keep.  Let's select the observations for the name Mary before 1900, keeping all columns except `prop`:
+
+Without `dplyr` (a few choices):
+
+```{r, eval=FALSE}
+babynames[babynames$name=='Mary' & babynames$year < 1900,-5]
+babynames[babynames$name=='Mary' & babynames$year < 1900, 1:4]
+babynames[babynames$name=='Mary' & babynames$year < 1900, c("year", "sex", "name","n")]
+```
+
+With `dplyr`.  Note that you can use the column names without the `data.frame` name within the functions.
+
+```{r}
+filter(babynames, name=='Mary' & year < 1900) %>% 
+  select(-prop)
+```
+
+You will often see a string of `dplyr` commands start with just the name of the data set, like:
+
+```{r, eval=FALSE}
+babynames %>%
+  filter(name=='Mary' & year < 1900) %>%
+  select(-prop)
+```
+
+You can split the series of `dplyr` commands across multiple lines, as long as where you end a line doesn't complete an expression (otherwise R will evaluate, because it doesn't expect more).  So the above examples work, and you could also split a line within a ().  But the following won't work:
+
+```{r, eval=FALSE}
+filter(babynames, name=='Mary' & year < 1900) 
+%>% select(-prop)
+```
+
+The first line above is a complete command by itself, and the second line will then give an error because you can't start with `%>%`.  
+
+## Make new variables
+
+The `dplyr mutate` function will make a new variable (column on the `data.frame`).  The new variable is ephemeral unless you save the result back to the same object or make a new one.  You can reference variables created with mutate in later `dplyr` functions in the same command string though.   
+
+Make a new variable that is the length (number of letters) of the name.  `name` is a factor, so make a character vector first.
+
+```{r, eval=FALSE}
+babynames$length <- nchar(as.character(babynames$name))
+```
+
+
+```{r}
+babynames <- mutate(babynames, length=nchar(as.character(name)))
+```
+
+Note that with `dplyr` we are saving back the entire `data.frame` because that is what `mutate` returns.  Above, we're just creating a new column on the `data.frame`.  
+
+
+## Grouping and Summarizing
+
+Summarizing variables may be useful without grouping them, but grouping isn't of much good without them computing some summary measure on the groups.  First, some summarizing.  Yearly average proportion of girls with the name Mary:
+
+```{r, eval=FALSE}
+mean(babynames[babynames$name=="Mary" & babynames$sex=="F","prop"])
+```
+
+```{r}
+babynames %>% 
+  filter(name=="Mary" & sex=="F") %>%
+  summarize(meanprop=mean(prop))
+```
+
+You can easily add additional functions too:
+
+```{r}
+babynames %>% 
+  filter(name=="Mary" & sex=="F") %>%
+  summarize(meanprop=mean(prop),
+            medianprop=median(prop),
+            maxprop=max(prop),
+            minprop=min(prop))
+```
+
+Now do this for all names and sexes using grouping (but realize years with less than 5 babies for the name are missing, so measures are skewed).  Without dplyr, use the `aggregate` function to group by multiple functions:
+
+```{r, eval=FALSE}
+aggregate(babynames$prop, by=list(babynames$name, babynames$sex), FUN=mean)
+```
+
+when grouping by a single variable, you can use `tapply`:
+
+```{r, eval=FALSE}
+tapply(babynames$n, babynames$year, sum)
+```
+
+with `dplyr`:
+
+```{r}
+babynames %>%
+  group_by(name, sex) %>%
+  summarize(meanprop=mean(prop),
+            medianprop=median(prop))
+```
+
+Let's make a new data set with the proportion of names that start with each letter by `sex` and `year`.  
+
+```{r}
+initial_props <- mutate(babynames, initial=substr(name, 1, 1)) %>%
+  group_by(year, sex, initial) %>% 
+  summarize(count=sum(n), totalprop=sum(prop)) %>%
+  ungroup()
+```
+
+`ungroup` at the end just removes the grouping information that is stored with the `tibble`.  Most of the time you'd be fine without it, but leaving the grouping information in can sometimes produce extra messages/warnings.
+
+Without `dplyr`, if you prefer:
+
+```{r, eval=FALSE}
+initial_props <- aggregate(babynames[,c("n","prop")], 
+                           by=list(babynames$year, babynames$sex, substr(babynames$name, 1, 1)), sum)
+names(initial_props)<- c("year", "sex", "initial", "count", "totalprop")
+```
+
+Above we set the names explicitly because `aggregate` doesn't keep as nice of names as `dplyr`.
+
+## Sorting
+
+Without `dplyr`, we can sort individual vectors (not super useful), or get ordering information from an individual vector that we can then apply to sort a `data.frame`.
+
+Sort 10 random numbers:
+
+```{r}
+sort(rnorm(10))
+sort(rnorm(10), decreasing=TRUE)
+```
+
+Sorting a whole `data.frame` by a column.  First let's just grab a specific year from `intitial_props`:
+
+```{r}
+initial_props_2000 <- initial_props[initial_props$year==2000,]
+```
+
+`order` retruns the indexes of values in sorted order, so we can use it to order rows in a `data.frame`:
+
+```{r}
+order(initial_props_2000$count)
+initial_props_2000[order(initial_props_2000$count, decreasing = TRUE),]
+```
+
+With `dplyr`, we can do this all together, and use `arrange`:
+
+```{r}
+initial_props %>%
+  filter(year==2000) %>%
+  arrange(desc(count))
+```
+
+
+
+```{asis, echo=notes}
+<h2 style="background-color:#ffff00">Go to Exercises</h2>
+```
+
+
+# Exploring Data: an example
+
+Here's an example of exploring and cleaning up some data using the `schooldata data.frame` loaded above.
+
+## Mutating Data
+
+In `schooldata` the instructors' names were split into multiple columns, and we have a date column.  Make these easier to work with by combining the instructor names into a single column and making the date into a `Date` type:
+
+```{r}
+schooldata$instructorname <- paste(schooldata$instructorfirst, schooldata$instructorlast)
+```
+
+The equivalent command using `dplyr` instead is:
+
+```{r, eval=FALSE}
+schooldata<-mutate(schooldata, instructorname=paste(instructorfirst, instructorlast))
+```
+
+Currently the startdate variable is a character vector:
+
+```{r}
+typeof(schooldata$startdate)
+```
+
+This isn't very easy to work with.  Make the date column a `Date` type.  
+
+```{r}
+schooldata$startdate<-as.Date(schooldata$startdate)
+```
+
+Converting to a date will make plotting easier, and you can do arithmatic and logic with the date if needed.
+
+The above worked because the date was nicely formatted in YYYY-MM-DD format.  What about other formats of dates?  The `lubridate` package makes working with them easy. It has a series of functions like `ymd` and `dmy` that specify the order that our date fields are in, and then it figures out how to parse them correctly.  It can also handle time.  In this case, we could use `ymd`:
+
+```{r}
+schooldata$startdate<-ymd(schooldata$startdate)
+```
+
+## Summarizing
+
+
+One useful function is `summary`:
+
+```{r}
+summary(schooldata)
+```
+
+Or from the `psych` package, `describe`:
+
+```{r, eval=FALSE}
+install.packages("psych")
+```
+
+
+```{r}
+library(psych)
+describe(schooldata)
+```
+
+Note that describe tries to treat all of the variables as numeric. (The package is primarly for examining numeric data.)
+
+Consider the summary of `age`.  The summary of the age in this case isn't very helpful because there are multiple observations for each student:
+
+```{r}
+table(schooldata$studentid)
+```
+
+Use `unique` to get a summary of age with just one observation per student.  
+
+```{r}
+summary(unique(schooldata[,c("studentid", "age")])$age)
+```
+
+or the `dplyr` way:
+
+```{r}
+schooldata %>%
+  select(studentid, age) %>% 
+  distinct() %>% 
+  select(age) %>% 
+  summary()
+```
+
+Taking just one observation per student gives a slightly different result.  
+
+Make a few tables:
+
+```{r}
+table(schooldata$gender, useNA="ifany")
+table(schooldata$instructorname, useNA="ifany")
+```
+
+Hmm...for instructors, it looks like there is as "TBD" that should perhaps be missing.  You could read in the data again specifying "TBD" as a missing string, or recode the value.  You could fix the individual first and last name columns, or just the new combined one created above.  Just fix the combined one for now.
+
+```{r}
+schooldata$instructorname[schooldata$instructorname=="TBD TBD"]<-NA
+```
+
+How can you get average grade by class?
+
+The `tapply` function is an option.  It applies a function (`mean` below) to a vector (`schooldata$grade` below) based on the values of another vector (`schooldata$title` below):
+
+```{r}
+tapply(schooldata$grade, schooldata$title, mean)
+```
+
+Sort the result:
+
+```{r}
+sort(tapply(schooldata$grade, schooldata$title, mean), decreasing=TRUE)
+```
+
+or we could use `dplyr`:
+
+```{r}
+group_by(schooldata, title) %>% 
+  summarize(avg_grade=mean(grade)) %>% 
+  arrange(desc(avg_grade)) 
+```
+
+Another useful package is called `DT` for datatable (which is different from the `data.table` package, which is particularly useful for large data sets).  It displays data in a nice widget that we can see in the bottom right window in RStudio:
+
+```{r, eval=FALSE}
+install.packages("DT")
+```
+
+```{r}
+library(DT)
+group_by(schooldata, title) %>% 
+  summarize(avg_grade=mean(grade)) %>% 
+  arrange(desc(avg_grade)) %>% 
+  datatable(rownames=FALSE)
+```
+
+What else can we look for? What about average grade by student?
+
+```{r}
+sort(tapply(schooldata$grade, schooldata$studentid, mean), decreasing=TRUE)
+```
+
+or
+
+```{r}
+group_by(schooldata, studentid) %>% 
+  summarize(avg_grade=mean(grade)) %>% 
+  arrange(desc(avg_grade)) %>% 
+  datatable(rownames=FALSE)
+```
+
+## T-test
+
+Is the average grade of males different from females?  Use a t-test:
+
+```{r}
+t.test(schooldata$grade[schooldata$gender=='M'], 
+       schooldata$grade[schooldata$gender=='F'])
+```
+
+In this case we can't reject the null hypothesis at the 95% level, which we know because the t statistic is small, p-value is high (we want it < .05 for 95%), and the 95% confidence interval includes 0.  
+
+## Regression
+
+Do older students get better grades? (admittedly, this isn't a great question or regression model, but just to show how one is run).
+
+The linear regression function is `lm`.  The syntax for the formula is dependent variable `~` independent variable 1 + independent variable 2.  
+
+```{r}
+lm(grade~title+age, data=schooldata)
+```
+
+Factors (characters are converted to factors) are automatically converted to category dummy/indicator variables (one category is choosen as the base).
+
+All you get by default are the coefficients.  Use `summary` to get more information.  We'll also add a -1 to avoid having one course selected as the base/default category and instead get an estimate for each class:
+
+```{r}
+reg1<-lm(grade~-1 + title + age, data=schooldata)
+summary(reg1)
+```
+
+# Plotting
+
+There are a few different ways to make plots in R.  There are built in plotting functions in base R, there is a package called `ggplot2`, and there is another package called `lattice`.  Examples below primarily use `ggplot2` because it's become very common and gives the most flexibility.  It takes a little bit more to get the hang of, but once you know the basics, you can make more complicated plots easier than in the other systems.
+
+There's a cheatsheet that can help to see what functions correspond to different options: see the visuazliation cheatsheet at https://www.rstudio.com/resources/cheatsheets/
+
+## Histogram
+
+Plot a histogram of the grades:
+
+```{r}
+hist(schooldata$grade)
+```
+
+```{r}
+ggplot(schooldata, aes(grade)) + geom_histogram()
+```
+
+`ggplot2` works by adding up components of the graph.  It starts with a call to `ggplot` specifying which data to use.  The first parameter is the name of the data frame, and then in the `aes` function specifies the variables to use.  For a histogram, there is just one variable, so you don't have to specify whether it's x or y.  Then you add on the type of plot you want.  In this case, `geom_histogram`.
+
+The call to ``ggplot` gave a message that it was using 30 "bins" -- this is the number of histogram bars.  You can change this:
+
+```{r}
+hist(schooldata$grade, breaks=20)
+```
+
+```{r}
+ggplot(schooldata, aes(grade)) + geom_histogram(bins=20)
+```
+
+`ggplot` and `hist` both created 20 bins, but how the data is divided is differently in each.
+
+Changing the number of bins (and the cut-offs) makes the pattern in the data look a bit different.  Something to be aware of.  You can also set the binwidth -- say every quarter point here.  You can also set the limits of the plot: `NA` in a limit tells ggplot to calculate the upper limit.
+
+```{r}
+ggplot(schooldata, aes(grade)) + 
+  geom_histogram(binwidth=.25) + 
+  xlim(0, NA)
+```
+
+In the above plot, you can more clearly see that there are a lot of half and whole grades (1.5, 2, 2.5, 3, etc.).  `ggplot` created the bins centered around a whole number (integer) by default.
+
+Setting the bin width isn't as easy with `hist`.  You have to specify all of the break points (which can be done with a sequence).  To mimic the `ggplot` behavior:
+
+```{r}
+hist(schooldata$grade, breaks=seq(.875, 4.125, .25), xlim=c(0,4))
+```
+
+You can also change the axis labels and add a title:
+
+```{r}
+ggplot(schooldata, aes(grade)) + 
+  geom_histogram(binwidth=.25) + 
+  xlim(0,NA) + 
+  xlab("Grade") + 
+  ylab("Count") + 
+  ggtitle("Grade Distribution")
+```
+
+```{r}
+hist(schooldata$grade, 
+     breaks=seq(.875, 4.125, .25), xlim=c(0,4), 
+     main="Grade Distribution", ylab="Count", xlab="Grade")
+```
+
+NOTE: like with `dplyr`, if you're splitting `ggplot2` commands onto multiple lines, make sure to put the line break after the `+` so that the console knows that more commands are coming that are part of the same plot.
+
+What if you want to see the grade distribution by gender?  Add facet grid usign `ggplot`:
+
+```{r}
+ggplot(schooldata, aes(grade)) + 
+  geom_histogram(binwidth=.25) + 
+  xlim(0,NA) + 
+  xlab("Grade") + 
+  ylab("Count") + 
+  ggtitle("Grade Distribution") + 
+  facet_grid(gender~.)
+```
+
+It's possible to do something similar using `hist` and base R graphics, but it's not simple.  Use `ggplot` if this is what you want to do.
+
+Remove the missing category and change the labels by altering the data being plotted.  `facet_grid` makes a factor, so change the levels and labels of the factor.  For the missing data, exclude it using `dplyr` functions up front:
+
+```{r}
+filter(schooldata, !is.na(gender)) %>% 
+  mutate(gender=factor(gender, levels=c("M", "F"), labels=c("Male","Female"))) %>% 
+  ggplot(aes(grade)) + 
+  geom_histogram(binwidth=.25) + 
+  xlim(0,NA) + 
+  xlab("Grade") + 
+  ylab("Count") + 
+  ggtitle("Grade Distribution") + 
+  facet_grid(gender~.)
+```
+
+Without `dplyr`, you could make a new data.frame ahead of time and create the factor.  Then run the plot.
+
+## Scatter Plot
+
+How about a scatter plot?  Use the `gapminder` data.  Look at `gdpPercap` (GDP per capita) vs. `lifeExp` (life expectancy) across countries for the year 2002.  First select the data, then send it to the plot:
+
+```{r}
+gapminder<-read.csv("https://goo.gl/IFCKAm")
+filter(gapminder, year==2002) %>% 
+  ggplot(aes(x=gdpPercap, y=lifeExp)) + geom_point() 
+```
+
+or do this without `dplyr`:
+
+```{r, eval=FALSE}
+ggplot(gapminder[gapminder$year==2002,], aes(x=gdpPercap, y=lifeExp)) + 
+  geom_point() 
+```
+
+or without `ggplot`:
+
+```{r}
+plot(gapminder$gdpPercap[gapminder$year==2002], 
+     gapminder$lifeExp[gapminder$year==2002])
+```
+
+This looks like a logarithmic relationship.  Change the axis (look at the cheatsheet for reference):
+
+```{r}
+filter(gapminder, year==2002) %>% 
+  ggplot(aes(x=gdpPercap, y=lifeExp)) + 
+  geom_point() + scale_x_log10() 
+```
+
+Now it looks more like a linear relationship.  
+
+Color the points by continent.  Specify the color in the `aes` call (it goes in the `aes` call because you're plotting a variable using color, much as you are plotting other variables using x and y position):
+
+```{r}
+filter(gapminder, year==2002) %>% 
+  ggplot(aes(x=gdpPercap, y=lifeExp, color=continent)) + 
+  geom_point() + 
+  scale_x_log10() 
+```
+
+Instead of using the default colors, you can specify a color palette.  Define the set of colors to use first (here using hex color codes), and then set the palette:
+
+```{r}
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", 
+               "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
+filter(gapminder, year==2002) %>% 
+  ggplot(aes(x=gdpPercap, y=lifeExp, color=continent)) + 
+  geom_point() + 
+  scale_x_log10() + 
+  scale_colour_manual(values=cbPalette)
+```
+
+The example palette above is a color-blind friendly palette from http://jfly.iam.u-tokyo.ac.jp/color/ (using color-blind friendly colors for publications is a good idea even if you yourself aren't color blind).
+
+Or use a pre-defined palette:
+
+```{r}
+filter(gapminder, year==2002) %>% 
+  ggplot(aes(x=gdpPercap, y=lifeExp, color=continent)) + 
+  geom_point() + 
+  scale_x_log10() + 
+  scale_colour_brewer(palette = "Set1")
+```
+
+How to save the plot?  There's an export button in the plot window, or use the `ggsave` command to save the last plot we made.  It will take the file type from the file name.
+
+```{r, eval=FALSE}
+ggsave("p1.pdf", width=6, height=4)
+```
+
+
+# Probability Distributions
+
+R knows about a lot of probability distributions:
+
+```{r, eval=FALSE}
+help(Distributions)
+```
+
+For each distribution, there are 4 function: dxxx, pxxx, qxxx and rxxx, where xxx is the name for the distribution. Take the normal distribution as an example.
+
+By default, the normal distribution functions use the distribution with mean=0 and standard deviation (sd)=1.  You can change these for different variations on the distribution.
+
+## `dnorm`
+
+First, there is a function to get the density of the probability distribution (the [PDF](https://en.wikipedia.org/wiki/Probability_density_function)):
+
+```{r}
+vals<-seq(-4, 4, .2) # this makes a vector with a sequence of numbers from -4 to 4 in it
+data.frame(vals=vals, pdf=dnorm(vals))
+```
+
+Looking at the data, the pdf peaks at 0 (the mean), and decreases symetrically away from 0. Plot this:
+
+```{r}
+plot(dnorm(vals) ~ vals, type="l")
+```
+
+It looks like what you expect for the normal distribution.  `dnorm` is mostly commonly used for drawing the distribution -- you don't usually need to compute the value of the PDF at a specific point otherwise.
+
+## `pnorm`
+
+`pnorm` tells us how likely it is (the probability) that a random draw from the distribution would be a value less than or equal to the number supplied -- this is the area under the PDF curve.  The return value will range between 0 and 1:
+
+```{r}
+vals<-seq(-3,3,.2)
+data.frame(vals=vals, prob=pnorm(vals))
+```
+
+It's always increasing (since as you move right on the number line you're always increasing the probability that a random draw would be less than or equal to the value), and `pnorm(0)` is 0.5 -- since there's a 50/50 chance that a random draw would be to the left of the mean.  If you plot the results of `pnorm`, you get the [CDF](https://en.wikipedia.org/wiki/Cumulative_distribution_function):
+
+```{r}
+plot(pnorm(vals)~vals, type="l")
+```
+
+You would use pnorm when looking up the probability of getting a particular value (such as a test statistic that follows a normal distribution).  You can get the probability of a random draw being to the right of the specified value instead with `lower.tail`:
+
+```{r, results="hold"}
+pnorm(1.6)
+pnorm(1.6, lower.tail=FALSE)
+```
+
+## `qnorm`
+
+`qnorm` is the opposite of `pnorm` -- it tells you what value you need such that you have the supplied probability of a random draw being less than or equal to (to the left of) that value from the distribution.  For example, if you want to know what value you need such that there's a 95% chance that a random draw would be less than or equal to the number:
+
+```{r}
+qnorm(0.95)
+```
+
+You need a value of 1.64.  Random draws from a normal distribution with mean=0 and standard deviation=1 will be less than or equal to 1.64 95% of the time.
+
+The value you supply to `qnorm` must be between 0 and 1.  There's no limit on the range of the return value.
+
+Again, `pnorm` and `qnorm` are opposites:
+
+```{r, results='hold'}
+qnorm(pnorm(2))
+pnorm(qnorm(.8))
+```
+
+## `rnorm`
+
+The last function is to generate random draws from the distribution.  Tell it how many random draws you want:
+
+```{r}
+rnorm(10)
+```
+
+If you want to make sure we get the same sequence of random numbers each time (or as someone else), you can set the seed with any integer value:
+
+```{r}
+set.seed(12345)
+rnorm(10)
+```
+
+This is useful for running simulations when you need to sample from a distribution.
+
+
+
+
+
+# Resources
+
+[R-Stata Comparison Slides](http://www.princeton.edu/~otorres/RStata.pdf) from Oscar Torres-Reyna (a little dated, but the basics remain the same)
+
+*R for Stata Users*: Book available online through the library (this is a little dated, so it will lack some of the newer R packages, but should be a good reference for the fundamentals)
+
+Software Carpentry: [R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder): course material for introductory R workshop
+
+[R for Data Science](http://r4ds.had.co.nz/): free online book
+
+[RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/)
+
+[DataCamp](http://datacamp.com): Intro to R course is free
+
+[Swirl](http://swirlstats.com/): Interactive tutorials that you run in R
+
+[UCLA Institute for Digital Research and Education](http://www.ats.ucla.edu/stat/dae/): statistical analysis examples in various statistical software programs, including R
+
+[Quick R](http://www.statmethods.net/index.html): code snippets covering commonly used functions and tasks
+
+[Stack Overflow](http://stackoverflow.com/): great for searching for issues; most questions you have will have already been asked by someone else
+
