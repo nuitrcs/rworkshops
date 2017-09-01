@@ -1,0 +1,889 @@
+courseid,title,startdate,grade,instructorid,instructorfirst,instructorlast,instructortitle,studentid,gender,age,admissionyear
+304,Statistical Methods for Data Mining,2015-9-20,3.3,16,Adam,Terry,Senior Associate Dean,4,F,17,2010
+304,Statistical Methods for Data Mining,2015-9-20,2.3,16,Adam,Terry,Senior Associate Dean,5,,21,2010
+304,Statistical Methods for Data Mining,2015-9-20,1.6,16,Adam,Terry,Senior Associate Dean,6,,16,2011
+304,Statistical Methods for Data Mining,2015-9-20,3,16,Adam,Terry,Senior Associate Dean,7,F,18,2011
+304,Statistical Methods for Data Mining,2015-9-20,1.3,16,Adam,Terry,Senior Associate Dean,13,F,18,2010
+304,Statistical Methods for Data Mining,2015-9-20,2.2,16,Adam,Terry,Senior Associate Dean,19,F,21,2010
+304,Statistical Methods for Data Mining,2015-9-20,2.4,16,Adam,Terry,Senior Associate Dean,21,M,22,2008
+304,Statistical Methods for Data Mining,2015-9-20,2.5,16,Adam,Terry,Senior Associate Dean,23,F,20,2009
+304,Statistical Methods for Data Mining,2015-9-20,1.6,16,Adam,Terry,Senior Associate Dean,30,F,21,2010
+304,Statistical Methods for Data Mining,2015-9-20,1.8,16,Adam,Terry,Senior Associate Dean,33,F,21,2010
+304,Statistical Methods for Data Mining,2015-9-20,3.2,16,Adam,Terry,Senior Associate Dean,34,F,22,2009
+304,Statistical Methods for Data Mining,2015-9-20,3.4,16,Adam,Terry,Senior Associate Dean,35,F,21,2008
+304,Statistical Methods for Data Mining,2015-9-20,1.5,16,Adam,Terry,Senior Associate Dean,36,M,20,2009
+304,Statistical Methods for Data Mining,2015-9-20,3.8,16,Adam,Terry,Senior Associate Dean,41,M,17,2011
+304,Statistical Methods for Data Mining,2015-9-20,1.4,16,Adam,Terry,Senior Associate Dean,45,M,18,2011
+304,Statistical Methods for Data Mining,2015-9-20,1.9,16,Adam,Terry,Senior Associate Dean,47,F,16,2011
+304,Statistical Methods for Data Mining,2015-9-20,3.3,16,Adam,Terry,Senior Associate Dean,51,F,17,2011
+304,Statistical Methods for Data Mining,2015-9-20,3.9,16,Adam,Terry,Senior Associate Dean,56,M,20,2009
+304,Statistical Methods for Data Mining,2015-9-20,1.2,16,Adam,Terry,Senior Associate Dean,57,,18,2011
+304,Statistical Methods for Data Mining,2015-9-20,2.8,16,Adam,Terry,Senior Associate Dean,59,F,18,2009
+304,Statistical Methods for Data Mining,2015-9-20,3.1,16,Adam,Terry,Senior Associate Dean,62,M,19,2009
+304,Statistical Methods for Data Mining,2015-9-20,2.9,16,Adam,Terry,Senior Associate Dean,65,F,20,2008
+304,Statistical Methods for Data Mining,2015-9-20,3.9,16,Adam,Terry,Senior Associate Dean,67,F,18,2011
+304,Statistical Methods for Data Mining,2015-9-20,1.4,16,Adam,Terry,Senior Associate Dean,68,F,18,2010
+304,Statistical Methods for Data Mining,2015-9-20,1.9,16,Adam,Terry,Senior Associate Dean,70,F,23,2008
+304,Statistical Methods for Data Mining,2015-9-20,1.4,16,Adam,Terry,Senior Associate Dean,71,F,20,2010
+304,Statistical Methods for Data Mining,2015-9-20,2.2,16,Adam,Terry,Senior Associate Dean,75,M,19,2008
+304,Statistical Methods for Data Mining,2015-9-20,2.1,16,Adam,Terry,Senior Associate Dean,76,F,19,2008
+304,Statistical Methods for Data Mining,2015-9-20,3.5,16,Adam,Terry,Senior Associate Dean,81,F,20,2009
+304,Statistical Methods for Data Mining,2015-9-20,3,16,Adam,Terry,Senior Associate Dean,85,M,20,2010
+304,Statistical Methods for Data Mining,2015-9-20,3.7,16,Adam,Terry,Senior Associate Dean,90,F,22,2007
+304,Statistical Methods for Data Mining,2015-9-20,3.7,16,Adam,Terry,Senior Associate Dean,91,F,18,2009
+313,Deterministic Methods and Optimization,2015-3-16,2.9,18,Amy,Watson,Associate Professor,5,,21,2010
+313,Deterministic Methods and Optimization,2015-3-16,3.5,18,Amy,Watson,Associate Professor,6,,16,2011
+313,Deterministic Methods and Optimization,2015-3-16,2.5,18,Amy,Watson,Associate Professor,7,F,18,2011
+313,Deterministic Methods and Optimization,2015-3-16,1.5,18,Amy,Watson,Associate Professor,8,F,18,2011
+313,Deterministic Methods and Optimization,2015-3-16,2.4,18,Amy,Watson,Associate Professor,12,M,19,2011
+313,Deterministic Methods and Optimization,2015-3-16,1.5,18,Amy,Watson,Associate Professor,15,M,18,2009
+313,Deterministic Methods and Optimization,2015-3-16,1.2,18,Amy,Watson,Associate Professor,16,M,17,2011
+313,Deterministic Methods and Optimization,2015-3-16,3,18,Amy,Watson,Associate Professor,20,F,18,2010
+313,Deterministic Methods and Optimization,2015-3-16,1.8,18,Amy,Watson,Associate Professor,26,F,16,2011
+313,Deterministic Methods and Optimization,2015-3-16,1.3,18,Amy,Watson,Associate Professor,27,M,20,2010
+313,Deterministic Methods and Optimization,2015-3-16,4,18,Amy,Watson,Associate Professor,29,F,20,2008
+313,Deterministic Methods and Optimization,2015-3-16,2.2,18,Amy,Watson,Associate Professor,36,M,20,2009
+313,Deterministic Methods and Optimization,2015-3-16,2.3,18,Amy,Watson,Associate Professor,41,M,17,2011
+313,Deterministic Methods and Optimization,2015-3-16,2.4,18,Amy,Watson,Associate Professor,43,M,17,2011
+313,Deterministic Methods and Optimization,2015-3-16,2.9,18,Amy,Watson,Associate Professor,46,F,22,2008
+313,Deterministic Methods and Optimization,2015-3-16,3.9,18,Amy,Watson,Associate Professor,48,M,22,2009
+313,Deterministic Methods and Optimization,2015-3-16,3.2,18,Amy,Watson,Associate Professor,50,F,18,2009
+313,Deterministic Methods and Optimization,2015-3-16,3.9,18,Amy,Watson,Associate Professor,51,F,17,2011
+313,Deterministic Methods and Optimization,2015-3-16,3.4,18,Amy,Watson,Associate Professor,53,F,19,2009
+313,Deterministic Methods and Optimization,2015-3-16,4,18,Amy,Watson,Associate Professor,65,F,20,2008
+313,Deterministic Methods and Optimization,2015-3-16,3.2,18,Amy,Watson,Associate Professor,68,F,18,2010
+313,Deterministic Methods and Optimization,2015-3-16,3,18,Amy,Watson,Associate Professor,69,F,17,2011
+313,Deterministic Methods and Optimization,2015-3-16,3.6,18,Amy,Watson,Associate Professor,78,M,22,2008
+313,Deterministic Methods and Optimization,2015-3-16,1.4,18,Amy,Watson,Associate Professor,86,M,22,2007
+313,Deterministic Methods and Optimization,2015-3-16,2.3,18,Amy,Watson,Associate Professor,87,M,20,2007
+313,Deterministic Methods and Optimization,2015-3-16,1.4,18,Amy,Watson,Associate Professor,89,F,18,2011
+313,Deterministic Methods and Optimization,2015-3-16,1.2,18,Amy,Watson,Associate Professor,90,F,22,2007
+313,Deterministic Methods and Optimization,2015-3-16,2.7,18,Amy,Watson,Associate Professor,91,F,18,2009
+313,Deterministic Methods and Optimization,2015-3-16,3.6,18,Amy,Watson,Associate Professor,93,M,18,2009
+313,Deterministic Methods and Optimization,2015-3-16,1.2,18,Amy,Watson,Associate Professor,96,M,22,2008
+326,Economics and Finance for Engineers,2015-1-5,2.6,3,Benjamin,Allen,Assistant Professor,0,F,19,2011
+326,Economics and Finance for Engineers,2015-1-5,3.2,3,Benjamin,Allen,Assistant Professor,1,M,17,2011
+326,Economics and Finance for Engineers,2015-1-5,3,3,Benjamin,Allen,Assistant Professor,2,F,20,2009
+326,Economics and Finance for Engineers,2015-1-5,2.9,3,Benjamin,Allen,Assistant Professor,4,F,17,2010
+326,Economics and Finance for Engineers,2015-1-5,3.1,3,Benjamin,Allen,Assistant Professor,8,F,18,2011
+326,Economics and Finance for Engineers,2015-1-5,3.2,3,Benjamin,Allen,Assistant Professor,10,M,21,2009
+326,Economics and Finance for Engineers,2015-1-5,1,3,Benjamin,Allen,Assistant Professor,11,F,24,2007
+326,Economics and Finance for Engineers,2015-1-5,3.4,3,Benjamin,Allen,Assistant Professor,14,F,20,2008
+326,Economics and Finance for Engineers,2015-1-5,3.9,3,Benjamin,Allen,Assistant Professor,15,M,18,2009
+326,Economics and Finance for Engineers,2015-1-5,2,3,Benjamin,Allen,Assistant Professor,17,F,20,2011
+326,Economics and Finance for Engineers,2015-1-5,1.3,3,Benjamin,Allen,Assistant Professor,18,M,20,2011
+326,Economics and Finance for Engineers,2015-1-5,1.1,3,Benjamin,Allen,Assistant Professor,25,F,20,2008
+326,Economics and Finance for Engineers,2015-1-5,2.3,3,Benjamin,Allen,Assistant Professor,26,F,16,2011
+326,Economics and Finance for Engineers,2015-1-5,2.3,3,Benjamin,Allen,Assistant Professor,27,M,20,2010
+326,Economics and Finance for Engineers,2015-1-5,2.6,3,Benjamin,Allen,Assistant Professor,32,F,17,2011
+326,Economics and Finance for Engineers,2015-1-5,3,3,Benjamin,Allen,Assistant Professor,36,M,20,2009
+326,Economics and Finance for Engineers,2015-1-5,3.3,3,Benjamin,Allen,Assistant Professor,38,M,23,2008
+326,Economics and Finance for Engineers,2015-1-5,3,3,Benjamin,Allen,Assistant Professor,39,M,21,2010
+326,Economics and Finance for Engineers,2015-1-5,3.5,3,Benjamin,Allen,Assistant Professor,43,M,17,2011
+326,Economics and Finance for Engineers,2015-1-5,3.9,3,Benjamin,Allen,Assistant Professor,44,F,21,2010
+326,Economics and Finance for Engineers,2015-1-5,2.5,3,Benjamin,Allen,Assistant Professor,47,F,16,2011
+326,Economics and Finance for Engineers,2015-1-5,3.2,3,Benjamin,Allen,Assistant Professor,48,M,22,2009
+326,Economics and Finance for Engineers,2015-1-5,1.3,3,Benjamin,Allen,Assistant Professor,51,F,17,2011
+326,Economics and Finance for Engineers,2015-1-5,1.7,3,Benjamin,Allen,Assistant Professor,52,M,18,2010
+326,Economics and Finance for Engineers,2015-1-5,1.3,3,Benjamin,Allen,Assistant Professor,55,F,21,2010
+326,Economics and Finance for Engineers,2015-1-5,2.2,3,Benjamin,Allen,Assistant Professor,56,M,20,2009
+326,Economics and Finance for Engineers,2015-1-5,1,3,Benjamin,Allen,Assistant Professor,61,F,19,2010
+326,Economics and Finance for Engineers,2015-1-5,1.2,3,Benjamin,Allen,Assistant Professor,63,M,21,2007
+326,Economics and Finance for Engineers,2015-1-5,3.8,3,Benjamin,Allen,Assistant Professor,67,F,18,2011
+326,Economics and Finance for Engineers,2015-1-5,1.7,3,Benjamin,Allen,Assistant Professor,69,F,17,2011
+326,Economics and Finance for Engineers,2015-1-5,2.7,3,Benjamin,Allen,Assistant Professor,70,F,23,2008
+326,Economics and Finance for Engineers,2015-1-5,4,3,Benjamin,Allen,Assistant Professor,71,F,20,2010
+326,Economics and Finance for Engineers,2015-1-5,3.4,3,Benjamin,Allen,Assistant Professor,72,M,19,2010
+326,Economics and Finance for Engineers,2015-1-5,3.6,3,Benjamin,Allen,Assistant Professor,76,F,19,2008
+326,Economics and Finance for Engineers,2015-1-5,1.1,3,Benjamin,Allen,Assistant Professor,84,M,19,2009
+326,Economics and Finance for Engineers,2015-1-5,2.4,3,Benjamin,Allen,Assistant Professor,89,F,18,2011
+326,Economics and Finance for Engineers,2015-1-5,2.9,3,Benjamin,Allen,Assistant Professor,94,F,17,2011
+326,Economics and Finance for Engineers,2015-1-5,3.7,3,Benjamin,Allen,Assistant Professor,97,,20,2009
+201,Introduction to Statistics,2015-1-5,3.6,1,Bruce,Banner,Associate Professor,0,F,19,2011
+201,Introduction to Statistics,2015-1-5,1,1,Bruce,Banner,Associate Professor,8,F,18,2011
+201,Introduction to Statistics,2015-1-5,4,1,Bruce,Banner,Associate Professor,9,F,21,2007
+303,Statistics,2015-9-20,1.3,1,Bruce,Banner,Associate Professor,9,F,21,2007
+303,Statistics,2015-9-20,3.5,1,Bruce,Banner,Associate Professor,10,M,21,2009
+201,Introduction to Statistics,2015-1-5,1.3,1,Bruce,Banner,Associate Professor,11,F,24,2007
+303,Statistics,2015-9-20,3.1,1,Bruce,Banner,Associate Professor,11,F,24,2007
+201,Introduction to Statistics,2015-1-5,3,1,Bruce,Banner,Associate Professor,14,F,20,2008
+303,Statistics,2015-9-20,2.9,1,Bruce,Banner,Associate Professor,14,F,20,2008
+201,Introduction to Statistics,2015-1-5,1.1,1,Bruce,Banner,Associate Professor,15,M,18,2009
+303,Statistics,2015-9-20,1.2,1,Bruce,Banner,Associate Professor,15,M,18,2009
+201,Introduction to Statistics,2015-1-5,2.5,1,Bruce,Banner,Associate Professor,19,F,21,2010
+303,Statistics,2015-9-20,1.1,1,Bruce,Banner,Associate Professor,21,M,22,2008
+201,Introduction to Statistics,2015-1-5,3.7,1,Bruce,Banner,Associate Professor,22,F,16,2011
+201,Introduction to Statistics,2015-1-5,1.1,1,Bruce,Banner,Associate Professor,25,F,20,2008
+201,Introduction to Statistics,2015-1-5,1.7,1,Bruce,Banner,Associate Professor,26,F,16,2011
+201,Introduction to Statistics,2015-1-5,2.4,1,Bruce,Banner,Associate Professor,27,M,20,2010
+303,Statistics,2015-9-20,2.9,1,Bruce,Banner,Associate Professor,27,M,20,2010
+201,Introduction to Statistics,2015-1-5,1.1,1,Bruce,Banner,Associate Professor,28,M,21,2007
+303,Statistics,2015-9-20,2.2,1,Bruce,Banner,Associate Professor,29,F,20,2008
+201,Introduction to Statistics,2015-1-5,2.2,1,Bruce,Banner,Associate Professor,30,F,21,2010
+303,Statistics,2015-9-20,2.8,1,Bruce,Banner,Associate Professor,30,F,21,2010
+201,Introduction to Statistics,2015-1-5,3.7,1,Bruce,Banner,Associate Professor,31,F,21,2007
+201,Introduction to Statistics,2015-1-5,2.3,1,Bruce,Banner,Associate Professor,35,F,21,2008
+201,Introduction to Statistics,2015-1-5,1.4,1,Bruce,Banner,Associate Professor,36,M,20,2009
+303,Statistics,2015-9-20,1.5,1,Bruce,Banner,Associate Professor,38,M,23,2008
+201,Introduction to Statistics,2015-1-5,1.6,1,Bruce,Banner,Associate Professor,39,M,21,2010
+201,Introduction to Statistics,2015-1-5,3.4,1,Bruce,Banner,Associate Professor,40,M,18,2010
+201,Introduction to Statistics,2015-1-5,1.3,1,Bruce,Banner,Associate Professor,46,F,22,2008
+303,Statistics,2015-9-20,1.9,1,Bruce,Banner,Associate Professor,46,F,22,2008
+303,Statistics,2015-9-20,3.4,1,Bruce,Banner,Associate Professor,50,F,18,2009
+303,Statistics,2015-9-20,2.2,1,Bruce,Banner,Associate Professor,53,F,19,2009
+201,Introduction to Statistics,2015-1-5,3.9,1,Bruce,Banner,Associate Professor,55,F,21,2010
+201,Introduction to Statistics,2015-1-5,3.7,1,Bruce,Banner,Associate Professor,57,,18,2011
+201,Introduction to Statistics,2015-1-5,3.2,1,Bruce,Banner,Associate Professor,58,F,21,2010
+303,Statistics,2015-9-20,3.4,1,Bruce,Banner,Associate Professor,58,F,21,2010
+201,Introduction to Statistics,2015-1-5,1.8,1,Bruce,Banner,Associate Professor,59,F,18,2009
+303,Statistics,2015-9-20,2.1,1,Bruce,Banner,Associate Professor,59,F,18,2009
+201,Introduction to Statistics,2015-1-5,2.8,1,Bruce,Banner,Associate Professor,63,M,21,2007
+201,Introduction to Statistics,2015-1-5,1.4,1,Bruce,Banner,Associate Professor,64,F,16,2011
+201,Introduction to Statistics,2015-1-5,2,1,Bruce,Banner,Associate Professor,65,F,20,2008
+201,Introduction to Statistics,2015-1-5,1.5,1,Bruce,Banner,Associate Professor,66,F,20,2010
+201,Introduction to Statistics,2015-1-5,3.9,1,Bruce,Banner,Associate Professor,68,F,18,2010
+303,Statistics,2015-9-20,1.1,1,Bruce,Banner,Associate Professor,74,F,22,2009
+201,Introduction to Statistics,2015-1-5,1.9,1,Bruce,Banner,Associate Professor,76,F,19,2008
+303,Statistics,2015-9-20,2.6,1,Bruce,Banner,Associate Professor,76,F,19,2008
+201,Introduction to Statistics,2015-1-5,3.9,1,Bruce,Banner,Associate Professor,77,F,18,2010
+303,Statistics,2015-9-20,2.1,1,Bruce,Banner,Associate Professor,78,M,22,2008
+201,Introduction to Statistics,2015-1-5,1.5,1,Bruce,Banner,Associate Professor,79,F,22,2007
+303,Statistics,2015-9-20,3.1,1,Bruce,Banner,Associate Professor,79,F,22,2007
+201,Introduction to Statistics,2015-1-5,3.7,1,Bruce,Banner,Associate Professor,81,F,20,2009
+303,Statistics,2015-9-20,3,1,Bruce,Banner,Associate Professor,83,M,,2009
+201,Introduction to Statistics,2015-1-5,1.6,1,Bruce,Banner,Associate Professor,84,M,19,2009
+201,Introduction to Statistics,2015-1-5,1.1,1,Bruce,Banner,Associate Professor,85,M,20,2010
+303,Statistics,2015-9-20,3.7,1,Bruce,Banner,Associate Professor,86,M,22,2007
+201,Introduction to Statistics,2015-1-5,2.9,1,Bruce,Banner,Associate Professor,89,F,18,2011
+303,Statistics,2015-9-20,3.4,1,Bruce,Banner,Associate Professor,89,F,18,2011
+303,Statistics,2015-9-20,1.2,1,Bruce,Banner,Associate Professor,93,M,18,2009
+303,Statistics,2015-9-20,2.4,1,Bruce,Banner,Associate Professor,94,F,17,2011
+201,Introduction to Statistics,2015-1-5,1.3,1,Bruce,Banner,Associate Professor,95,M,23,2008
+340,Field Project Methods,2015-1-5,2.3,17,Charles,Johnson,Professor,0,F,19,2011
+392,Systems Project Management,2016-3-9,1.9,17,Charles,Johnson,Professor,1,M,17,2011
+392,Systems Project Management,2016-3-9,3,17,Charles,Johnson,Professor,2,F,20,2009
+340,Field Project Methods,2015-1-5,1.9,17,Charles,Johnson,Professor,3,F,22,2009
+390,Systems Management,2015-1-7,2.6,17,Charles,Johnson,Professor,3,F,22,2009
+392,Systems Project Management,2016-3-9,3.7,17,Charles,Johnson,Professor,4,F,17,2010
+340,Field Project Methods,2015-1-5,1.2,17,Charles,Johnson,Professor,5,,21,2010
+392,Systems Project Management,2016-3-9,3.8,17,Charles,Johnson,Professor,5,,21,2010
+390,Systems Management,2015-1-7,3.2,17,Charles,Johnson,Professor,6,,16,2011
+340,Field Project Methods,2015-1-5,2.8,17,Charles,Johnson,Professor,8,F,18,2011
+392,Systems Project Management,2016-3-9,3.5,17,Charles,Johnson,Professor,8,F,18,2011
+340,Field Project Methods,2015-1-5,1.6,17,Charles,Johnson,Professor,10,M,21,2009
+390,Systems Management,2015-1-7,1.1,17,Charles,Johnson,Professor,10,M,21,2009
+392,Systems Project Management,2016-3-9,1.5,17,Charles,Johnson,Professor,10,M,21,2009
+390,Systems Management,2015-1-7,3.5,17,Charles,Johnson,Professor,12,M,19,2011
+392,Systems Project Management,2016-3-9,3.3,17,Charles,Johnson,Professor,13,F,18,2010
+390,Systems Management,2015-1-7,2.6,17,Charles,Johnson,Professor,15,M,18,2009
+390,Systems Management,2015-1-7,2.2,17,Charles,Johnson,Professor,16,M,17,2011
+390,Systems Management,2015-1-7,1.7,17,Charles,Johnson,Professor,17,F,20,2011
+340,Field Project Methods,2015-1-5,1.8,17,Charles,Johnson,Professor,18,M,20,2011
+390,Systems Management,2015-1-7,1.3,17,Charles,Johnson,Professor,18,M,20,2011
+392,Systems Project Management,2016-3-9,3.9,17,Charles,Johnson,Professor,19,F,21,2010
+340,Field Project Methods,2015-1-5,3.5,17,Charles,Johnson,Professor,20,F,18,2010
+390,Systems Management,2015-1-7,2,17,Charles,Johnson,Professor,22,F,16,2011
+392,Systems Project Management,2016-3-9,2.5,17,Charles,Johnson,Professor,22,F,16,2011
+340,Field Project Methods,2015-1-5,3.6,17,Charles,Johnson,Professor,23,F,20,2009
+390,Systems Management,2015-1-7,3.4,17,Charles,Johnson,Professor,25,F,20,2008
+340,Field Project Methods,2015-1-5,3.7,17,Charles,Johnson,Professor,26,F,16,2011
+340,Field Project Methods,2015-1-5,1.1,17,Charles,Johnson,Professor,31,F,21,2007
+390,Systems Management,2015-1-7,2.1,17,Charles,Johnson,Professor,31,F,21,2007
+392,Systems Project Management,2016-3-9,3.8,17,Charles,Johnson,Professor,34,F,22,2009
+390,Systems Management,2015-1-7,1.8,17,Charles,Johnson,Professor,35,F,21,2008
+392,Systems Project Management,2016-3-9,3.9,17,Charles,Johnson,Professor,35,F,21,2008
+392,Systems Project Management,2016-3-9,3.3,17,Charles,Johnson,Professor,36,M,20,2009
+390,Systems Management,2015-1-7,3.9,17,Charles,Johnson,Professor,37,F,23,2007
+340,Field Project Methods,2015-1-5,1.4,17,Charles,Johnson,Professor,38,M,23,2008
+390,Systems Management,2015-1-7,2.9,17,Charles,Johnson,Professor,38,M,23,2008
+392,Systems Project Management,2016-3-9,2.3,17,Charles,Johnson,Professor,38,M,23,2008
+392,Systems Project Management,2016-3-9,3.1,17,Charles,Johnson,Professor,39,M,21,2010
+390,Systems Management,2015-1-7,3.6,17,Charles,Johnson,Professor,40,M,18,2010
+392,Systems Project Management,2016-3-9,3,17,Charles,Johnson,Professor,41,M,17,2011
+392,Systems Project Management,2016-3-9,3.7,17,Charles,Johnson,Professor,42,F,,2011
+392,Systems Project Management,2016-3-9,3.8,17,Charles,Johnson,Professor,44,F,21,2010
+390,Systems Management,2015-1-7,1.9,17,Charles,Johnson,Professor,45,M,18,2011
+392,Systems Project Management,2016-3-9,2.3,17,Charles,Johnson,Professor,45,M,18,2011
+392,Systems Project Management,2016-3-9,1.8,17,Charles,Johnson,Professor,46,F,22,2008
+340,Field Project Methods,2015-1-5,1.7,17,Charles,Johnson,Professor,47,F,16,2011
+390,Systems Management,2015-1-7,2,17,Charles,Johnson,Professor,47,F,16,2011
+340,Field Project Methods,2015-1-5,3.7,17,Charles,Johnson,Professor,48,M,22,2009
+340,Field Project Methods,2015-1-5,1.9,17,Charles,Johnson,Professor,49,M,22,2008
+390,Systems Management,2015-1-7,2.1,17,Charles,Johnson,Professor,52,M,18,2010
+392,Systems Project Management,2016-3-9,3.1,17,Charles,Johnson,Professor,52,M,18,2010
+390,Systems Management,2015-1-7,2.3,17,Charles,Johnson,Professor,53,F,19,2009
+340,Field Project Methods,2015-1-5,1.6,17,Charles,Johnson,Professor,54,F,17,2011
+340,Field Project Methods,2015-1-5,3.4,17,Charles,Johnson,Professor,55,F,21,2010
+390,Systems Management,2015-1-7,2.4,17,Charles,Johnson,Professor,56,M,20,2009
+392,Systems Project Management,2016-3-9,2.9,17,Charles,Johnson,Professor,56,M,20,2009
+340,Field Project Methods,2015-1-5,1.7,17,Charles,Johnson,Professor,57,,18,2011
+340,Field Project Methods,2015-1-5,1.5,17,Charles,Johnson,Professor,58,F,21,2010
+390,Systems Management,2015-1-7,2.2,17,Charles,Johnson,Professor,59,F,18,2009
+392,Systems Project Management,2016-3-9,3.1,17,Charles,Johnson,Professor,59,F,18,2009
+390,Systems Management,2015-1-7,3.8,17,Charles,Johnson,Professor,60,F,18,2010
+390,Systems Management,2015-1-7,1.4,17,Charles,Johnson,Professor,61,F,19,2010
+390,Systems Management,2015-1-7,1.9,17,Charles,Johnson,Professor,62,M,19,2009
+340,Field Project Methods,2015-1-5,2.2,17,Charles,Johnson,Professor,64,F,16,2011
+390,Systems Management,2015-1-7,2.7,17,Charles,Johnson,Professor,64,F,16,2011
+390,Systems Management,2015-1-7,2.5,17,Charles,Johnson,Professor,65,F,20,2008
+392,Systems Project Management,2016-3-9,2.2,17,Charles,Johnson,Professor,66,F,20,2010
+390,Systems Management,2015-1-7,3.3,17,Charles,Johnson,Professor,67,F,18,2011
+390,Systems Management,2015-1-7,3.4,17,Charles,Johnson,Professor,68,F,18,2010
+390,Systems Management,2015-1-7,3.2,17,Charles,Johnson,Professor,69,F,17,2011
+340,Field Project Methods,2015-1-5,1.4,17,Charles,Johnson,Professor,71,F,20,2010
+340,Field Project Methods,2015-1-5,4,17,Charles,Johnson,Professor,73,M,22,2007
+390,Systems Management,2015-1-7,2.7,17,Charles,Johnson,Professor,73,M,22,2007
+392,Systems Project Management,2016-3-9,2.7,17,Charles,Johnson,Professor,75,M,19,2008
+340,Field Project Methods,2015-1-5,3,17,Charles,Johnson,Professor,76,F,19,2008
+392,Systems Project Management,2016-3-9,2,17,Charles,Johnson,Professor,78,M,22,2008
+390,Systems Management,2015-1-7,2.4,17,Charles,Johnson,Professor,80,M,20,2011
+392,Systems Project Management,2016-3-9,1.9,17,Charles,Johnson,Professor,80,M,20,2011
+390,Systems Management,2015-1-7,3.5,17,Charles,Johnson,Professor,81,F,20,2009
+392,Systems Project Management,2016-3-9,2,17,Charles,Johnson,Professor,81,F,20,2009
+340,Field Project Methods,2015-1-5,3.4,17,Charles,Johnson,Professor,83,M,,2009
+392,Systems Project Management,2016-3-9,1.1,17,Charles,Johnson,Professor,83,M,,2009
+390,Systems Management,2015-1-7,4,17,Charles,Johnson,Professor,84,M,19,2009
+390,Systems Management,2015-1-7,2.1,17,Charles,Johnson,Professor,89,F,18,2011
+340,Field Project Methods,2015-1-5,3.2,17,Charles,Johnson,Professor,91,F,18,2009
+390,Systems Management,2015-1-7,3.8,17,Charles,Johnson,Professor,91,F,18,2009
+340,Field Project Methods,2015-1-5,3.2,17,Charles,Johnson,Professor,93,M,18,2009
+340,Field Project Methods,2015-1-5,2,17,Charles,Johnson,Professor,94,F,17,2011
+390,Systems Management,2015-1-7,3.4,17,Charles,Johnson,Professor,95,M,23,2008
+390,Systems Management,2015-1-7,3,17,Charles,Johnson,Professor,97,,20,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,1.4,2,Daniel,Ahmadpour,Associate Professor,0,F,19,2011
+305,Statistical Methods for Quality Improvement,2016-1-6,3.4,2,Daniel,Ahmadpour,Associate Professor,3,F,22,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,1.4,2,Daniel,Ahmadpour,Associate Professor,5,,21,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,3.4,2,Daniel,Ahmadpour,Associate Professor,7,F,18,2011
+305,Statistical Methods for Quality Improvement,2016-1-6,2.5,2,Daniel,Ahmadpour,Associate Professor,9,F,21,2007
+305,Statistical Methods for Quality Improvement,2016-1-6,2.6,2,Daniel,Ahmadpour,Associate Professor,11,F,24,2007
+305,Statistical Methods for Quality Improvement,2016-1-6,1.8,2,Daniel,Ahmadpour,Associate Professor,13,F,18,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,3.8,2,Daniel,Ahmadpour,Associate Professor,14,F,20,2008
+305,Statistical Methods for Quality Improvement,2016-1-6,3,2,Daniel,Ahmadpour,Associate Professor,15,M,18,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,2.8,2,Daniel,Ahmadpour,Associate Professor,17,F,20,2011
+305,Statistical Methods for Quality Improvement,2016-1-6,3.9,2,Daniel,Ahmadpour,Associate Professor,18,M,20,2011
+305,Statistical Methods for Quality Improvement,2016-1-6,3.3,2,Daniel,Ahmadpour,Associate Professor,21,M,22,2008
+305,Statistical Methods for Quality Improvement,2016-1-6,2.6,2,Daniel,Ahmadpour,Associate Professor,27,M,20,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,4,2,Daniel,Ahmadpour,Associate Professor,33,F,21,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,2.5,2,Daniel,Ahmadpour,Associate Professor,36,M,20,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,3.8,2,Daniel,Ahmadpour,Associate Professor,53,F,19,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,1.9,2,Daniel,Ahmadpour,Associate Professor,60,F,18,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,3.1,2,Daniel,Ahmadpour,Associate Professor,63,M,21,2007
+305,Statistical Methods for Quality Improvement,2016-1-6,2.2,2,Daniel,Ahmadpour,Associate Professor,65,F,20,2008
+305,Statistical Methods for Quality Improvement,2016-1-6,3.4,2,Daniel,Ahmadpour,Associate Professor,67,F,18,2011
+305,Statistical Methods for Quality Improvement,2016-1-6,1.8,2,Daniel,Ahmadpour,Associate Professor,68,F,18,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,2.3,2,Daniel,Ahmadpour,Associate Professor,71,F,20,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,2,2,Daniel,Ahmadpour,Associate Professor,73,M,22,2007
+305,Statistical Methods for Quality Improvement,2016-1-6,2.5,2,Daniel,Ahmadpour,Associate Professor,74,F,22,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,3.3,2,Daniel,Ahmadpour,Associate Professor,85,M,20,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,1.3,2,Daniel,Ahmadpour,Associate Professor,91,F,18,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,2.9,2,Daniel,Ahmadpour,Associate Professor,92,M,20,2010
+305,Statistical Methods for Quality Improvement,2016-1-6,1.2,2,Daniel,Ahmadpour,Associate Professor,93,M,18,2009
+305,Statistical Methods for Quality Improvement,2016-1-6,2.7,2,Daniel,Ahmadpour,Associate Professor,96,M,22,2008
+305,Statistical Methods for Quality Improvement,2016-1-6,4,2,Daniel,Ahmadpour,Associate Professor,97,,20,2009
+391,Industrial Engineering Design,2016-3-9,2.9,8,Diego,Fernandez,Associate Professor,0,F,19,2011
+391,Industrial Engineering Design,2016-3-9,1.5,8,Diego,Fernandez,Associate Professor,2,F,20,2009
+391,Industrial Engineering Design,2016-3-9,3.6,8,Diego,Fernandez,Associate Professor,7,F,18,2011
+391,Industrial Engineering Design,2016-3-9,2.4,8,Diego,Fernandez,Associate Professor,9,F,21,2007
+391,Industrial Engineering Design,2016-3-9,1.2,8,Diego,Fernandez,Associate Professor,13,F,18,2010
+391,Industrial Engineering Design,2016-3-9,2.5,8,Diego,Fernandez,Associate Professor,30,F,21,2010
+391,Industrial Engineering Design,2016-3-9,2.9,8,Diego,Fernandez,Associate Professor,32,F,17,2011
+391,Industrial Engineering Design,2016-3-9,3.9,8,Diego,Fernandez,Associate Professor,35,F,21,2008
+391,Industrial Engineering Design,2016-3-9,3.2,8,Diego,Fernandez,Associate Professor,42,F,,2011
+391,Industrial Engineering Design,2016-3-9,3.6,8,Diego,Fernandez,Associate Professor,47,F,16,2011
+391,Industrial Engineering Design,2016-3-9,3.6,8,Diego,Fernandez,Associate Professor,48,M,22,2009
+391,Industrial Engineering Design,2016-3-9,1.7,8,Diego,Fernandez,Associate Professor,52,M,18,2010
+391,Industrial Engineering Design,2016-3-9,3.2,8,Diego,Fernandez,Associate Professor,57,,18,2011
+391,Industrial Engineering Design,2016-3-9,1.5,8,Diego,Fernandez,Associate Professor,59,F,18,2009
+391,Industrial Engineering Design,2016-3-9,4,8,Diego,Fernandez,Associate Professor,62,M,19,2009
+391,Industrial Engineering Design,2016-3-9,2,8,Diego,Fernandez,Associate Professor,67,F,18,2011
+391,Industrial Engineering Design,2016-3-9,1.6,8,Diego,Fernandez,Associate Professor,68,F,18,2010
+391,Industrial Engineering Design,2016-3-9,3.3,8,Diego,Fernandez,Associate Professor,69,F,17,2011
+391,Industrial Engineering Design,2016-3-9,2.1,8,Diego,Fernandez,Associate Professor,71,F,20,2010
+391,Industrial Engineering Design,2016-3-9,2.7,8,Diego,Fernandez,Associate Professor,77,F,18,2010
+391,Industrial Engineering Design,2016-3-9,3,8,Diego,Fernandez,Associate Professor,80,M,20,2011
+391,Industrial Engineering Design,2016-3-9,1.7,8,Diego,Fernandez,Associate Professor,81,F,20,2009
+391,Industrial Engineering Design,2016-3-9,2.5,8,Diego,Fernandez,Associate Professor,83,M,,2009
+391,Industrial Engineering Design,2016-3-9,2.2,8,Diego,Fernandez,Associate Professor,89,F,18,2011
+391,Industrial Engineering Design,2016-3-9,3.4,8,Diego,Fernandez,Associate Professor,92,M,20,2010
+202,Probability,2015-3-15,1.5,6,Gordon,Howie,Professor,1,M,17,2011
+306,Decision Analysis,2014-1-10,3,6,Gordon,Howie,Professor,4,F,17,2010
+202,Probability,2015-3-15,1,6,Gordon,Howie,Professor,5,,21,2010
+202,Probability,2015-3-15,1.6,6,Gordon,Howie,Professor,8,F,18,2011
+202,Probability,2015-3-15,1.4,6,Gordon,Howie,Professor,9,F,21,2007
+306,Decision Analysis,2014-1-10,2.6,6,Gordon,Howie,Professor,10,M,21,2009
+306,Decision Analysis,2014-1-10,2,6,Gordon,Howie,Professor,11,F,24,2007
+306,Decision Analysis,2014-1-10,1.9,6,Gordon,Howie,Professor,13,F,18,2010
+202,Probability,2015-3-15,3.8,6,Gordon,Howie,Professor,15,M,18,2009
+202,Probability,2015-3-15,1,6,Gordon,Howie,Professor,16,M,17,2011
+202,Probability,2015-3-15,1.8,6,Gordon,Howie,Professor,19,F,21,2010
+202,Probability,2015-3-15,3.7,6,Gordon,Howie,Professor,20,F,18,2010
+202,Probability,2015-3-15,1.8,6,Gordon,Howie,Professor,21,M,22,2008
+306,Decision Analysis,2014-1-10,1.1,6,Gordon,Howie,Professor,24,F,21,2010
+202,Probability,2015-3-15,2.4,6,Gordon,Howie,Professor,25,F,20,2008
+202,Probability,2015-3-15,2,6,Gordon,Howie,Professor,26,F,16,2011
+202,Probability,2015-3-15,3.9,6,Gordon,Howie,Professor,27,M,20,2010
+202,Probability,2015-3-15,3.5,6,Gordon,Howie,Professor,28,M,21,2007
+306,Decision Analysis,2014-1-10,3.9,6,Gordon,Howie,Professor,28,M,21,2007
+202,Probability,2015-3-15,2,6,Gordon,Howie,Professor,29,F,20,2008
+306,Decision Analysis,2014-1-10,3.1,6,Gordon,Howie,Professor,29,F,20,2008
+306,Decision Analysis,2014-1-10,3.9,6,Gordon,Howie,Professor,30,F,21,2010
+306,Decision Analysis,2014-1-10,1.6,6,Gordon,Howie,Professor,31,F,21,2007
+306,Decision Analysis,2014-1-10,2.8,6,Gordon,Howie,Professor,34,F,22,2009
+202,Probability,2015-3-15,3.7,6,Gordon,Howie,Professor,35,F,21,2008
+306,Decision Analysis,2014-1-10,2.5,6,Gordon,Howie,Professor,35,F,21,2008
+306,Decision Analysis,2014-1-10,1.9,6,Gordon,Howie,Professor,36,M,20,2009
+202,Probability,2015-3-15,3.6,6,Gordon,Howie,Professor,38,M,23,2008
+202,Probability,2015-3-15,3.2,6,Gordon,Howie,Professor,39,M,21,2010
+202,Probability,2015-3-15,1.3,6,Gordon,Howie,Professor,40,M,18,2010
+306,Decision Analysis,2014-1-10,3.2,6,Gordon,Howie,Professor,40,M,18,2010
+202,Probability,2015-3-15,4,6,Gordon,Howie,Professor,41,M,17,2011
+306,Decision Analysis,2014-1-10,1.3,6,Gordon,Howie,Professor,41,M,17,2011
+202,Probability,2015-3-15,1.6,6,Gordon,Howie,Professor,42,F,,2011
+306,Decision Analysis,2014-1-10,3.8,6,Gordon,Howie,Professor,43,M,17,2011
+202,Probability,2015-3-15,1.6,6,Gordon,Howie,Professor,45,M,18,2011
+306,Decision Analysis,2014-1-10,3.6,6,Gordon,Howie,Professor,45,M,18,2011
+202,Probability,2015-3-15,3.3,6,Gordon,Howie,Professor,46,F,22,2008
+202,Probability,2015-3-15,3.7,6,Gordon,Howie,Professor,48,M,22,2009
+306,Decision Analysis,2014-1-10,1.4,6,Gordon,Howie,Professor,48,M,22,2009
+306,Decision Analysis,2014-1-10,1.8,6,Gordon,Howie,Professor,49,M,22,2008
+202,Probability,2015-3-15,2.5,6,Gordon,Howie,Professor,51,F,17,2011
+306,Decision Analysis,2014-1-10,3.7,6,Gordon,Howie,Professor,52,M,18,2010
+202,Probability,2015-3-15,2.2,6,Gordon,Howie,Professor,54,F,17,2011
+306,Decision Analysis,2014-1-10,2,6,Gordon,Howie,Professor,54,F,17,2011
+306,Decision Analysis,2014-1-10,1.4,6,Gordon,Howie,Professor,56,M,20,2009
+306,Decision Analysis,2014-1-10,2.3,6,Gordon,Howie,Professor,57,,18,2011
+202,Probability,2015-3-15,3.9,6,Gordon,Howie,Professor,58,F,21,2010
+306,Decision Analysis,2014-1-10,3.6,6,Gordon,Howie,Professor,58,F,21,2010
+306,Decision Analysis,2014-1-10,2.2,6,Gordon,Howie,Professor,59,F,18,2009
+202,Probability,2015-3-15,1.3,6,Gordon,Howie,Professor,61,F,19,2010
+202,Probability,2015-3-15,4,6,Gordon,Howie,Professor,62,M,19,2009
+202,Probability,2015-3-15,3.4,6,Gordon,Howie,Professor,66,F,20,2010
+306,Decision Analysis,2014-1-10,3,6,Gordon,Howie,Professor,66,F,20,2010
+202,Probability,2015-3-15,3.9,6,Gordon,Howie,Professor,71,F,20,2010
+306,Decision Analysis,2014-1-10,2.9,6,Gordon,Howie,Professor,74,F,22,2009
+306,Decision Analysis,2014-1-10,1.8,6,Gordon,Howie,Professor,75,M,19,2008
+306,Decision Analysis,2014-1-10,1.8,6,Gordon,Howie,Professor,76,F,19,2008
+306,Decision Analysis,2014-1-10,2.4,6,Gordon,Howie,Professor,77,F,18,2010
+202,Probability,2015-3-15,4,6,Gordon,Howie,Professor,78,M,22,2008
+306,Decision Analysis,2014-1-10,2.3,6,Gordon,Howie,Professor,79,F,22,2007
+202,Probability,2015-3-15,3.4,6,Gordon,Howie,Professor,81,F,20,2009
+306,Decision Analysis,2014-1-10,3.2,6,Gordon,Howie,Professor,82,F,23,2008
+306,Decision Analysis,2014-1-10,2.1,6,Gordon,Howie,Professor,83,M,,2009
+306,Decision Analysis,2014-1-10,3.5,6,Gordon,Howie,Professor,88,F,17,2011
+202,Probability,2015-3-15,2.7,6,Gordon,Howie,Professor,89,F,18,2011
+202,Probability,2015-3-15,3.6,6,Gordon,Howie,Professor,91,F,18,2009
+202,Probability,2015-3-15,3.6,6,Gordon,Howie,Professor,92,M,20,2010
+202,Probability,2015-3-15,1,6,Gordon,Howie,Professor,95,M,23,2008
+202,Probability,2015-3-15,1.6,6,Gordon,Howie,Professor,96,M,22,2008
+202,Probability,2015-3-15,2.3,6,Gordon,Howie,Professor,97,,20,2009
+317,Discrete-Event Systems Simulation,2014-9-15,3.5,15,Jeremy,Sessions,Associate Professor,0,F,19,2011
+317,Discrete-Event Systems Simulation,2014-9-15,3.7,15,Jeremy,Sessions,Associate Professor,1,M,17,2011
+317,Discrete-Event Systems Simulation,2014-9-15,1.1,15,Jeremy,Sessions,Associate Professor,10,M,21,2009
+317,Discrete-Event Systems Simulation,2014-9-15,3.4,15,Jeremy,Sessions,Associate Professor,15,M,18,2009
+317,Discrete-Event Systems Simulation,2014-9-15,1.1,15,Jeremy,Sessions,Associate Professor,16,M,17,2011
+317,Discrete-Event Systems Simulation,2014-9-15,3.1,15,Jeremy,Sessions,Associate Professor,20,F,18,2010
+317,Discrete-Event Systems Simulation,2014-9-15,3.9,15,Jeremy,Sessions,Associate Professor,33,F,21,2010
+317,Discrete-Event Systems Simulation,2014-9-15,4,15,Jeremy,Sessions,Associate Professor,37,F,23,2007
+317,Discrete-Event Systems Simulation,2014-9-15,2,15,Jeremy,Sessions,Associate Professor,40,M,18,2010
+317,Discrete-Event Systems Simulation,2014-9-15,2.5,15,Jeremy,Sessions,Associate Professor,41,M,17,2011
+317,Discrete-Event Systems Simulation,2014-9-15,1.6,15,Jeremy,Sessions,Associate Professor,49,M,22,2008
+317,Discrete-Event Systems Simulation,2014-9-15,1.7,15,Jeremy,Sessions,Associate Professor,50,F,18,2009
+317,Discrete-Event Systems Simulation,2014-9-15,1.2,15,Jeremy,Sessions,Associate Professor,51,F,17,2011
+317,Discrete-Event Systems Simulation,2014-9-15,3.2,15,Jeremy,Sessions,Associate Professor,53,F,19,2009
+317,Discrete-Event Systems Simulation,2014-9-15,3.2,15,Jeremy,Sessions,Associate Professor,54,F,17,2011
+317,Discrete-Event Systems Simulation,2014-9-15,1.6,15,Jeremy,Sessions,Associate Professor,55,F,21,2010
+317,Discrete-Event Systems Simulation,2014-9-15,3.7,15,Jeremy,Sessions,Associate Professor,62,M,19,2009
+317,Discrete-Event Systems Simulation,2014-9-15,3.1,15,Jeremy,Sessions,Associate Professor,64,F,16,2011
+317,Discrete-Event Systems Simulation,2014-9-15,3.2,15,Jeremy,Sessions,Associate Professor,65,F,20,2008
+317,Discrete-Event Systems Simulation,2014-9-15,3.3,15,Jeremy,Sessions,Associate Professor,71,F,20,2010
+317,Discrete-Event Systems Simulation,2014-9-15,2.7,15,Jeremy,Sessions,Associate Professor,76,F,19,2008
+317,Discrete-Event Systems Simulation,2014-9-15,2.1,15,Jeremy,Sessions,Associate Professor,77,F,18,2010
+317,Discrete-Event Systems Simulation,2014-9-15,2,15,Jeremy,Sessions,Associate Professor,79,F,22,2007
+317,Discrete-Event Systems Simulation,2014-9-15,2.2,15,Jeremy,Sessions,Associate Professor,80,M,20,2011
+317,Discrete-Event Systems Simulation,2014-9-15,2.5,15,Jeremy,Sessions,Associate Professor,87,M,20,2007
+317,Discrete-Event Systems Simulation,2014-9-15,2.4,15,Jeremy,Sessions,Associate Professor,89,F,18,2011
+317,Discrete-Event Systems Simulation,2014-9-15,1.4,15,Jeremy,Sessions,Associate Professor,92,M,20,2010
+317,Discrete-Event Systems Simulation,2014-9-15,3.8,15,Jeremy,Sessions,Associate Professor,97,,20,2009
+317,Discrete-Event Systems Simulation,2014-9-15,1.3,15,Jeremy,Sessions,Associate Professor,98,M,21,2007
+310,Operations Research,2015-3-16,3.9,21,Jane,Wilson,Clinical Associate Professor,3,F,22,2009
+310,Operations Research,2015-3-16,3.5,21,Jane,Wilson,Clinical Associate Professor,4,F,17,2010
+310,Operations Research,2015-3-16,3,21,Jane,Wilson,Clinical Associate Professor,6,,16,2011
+310,Operations Research,2015-3-16,1.9,21,Jane,Wilson,Clinical Associate Professor,7,F,18,2011
+310,Operations Research,2015-3-16,2.1,21,Jane,Wilson,Clinical Associate Professor,8,F,18,2011
+310,Operations Research,2015-3-16,1.7,21,Jane,Wilson,Clinical Associate Professor,10,M,21,2009
+310,Operations Research,2015-3-16,1.7,21,Jane,Wilson,Clinical Associate Professor,11,F,24,2007
+310,Operations Research,2015-3-16,2.8,21,Jane,Wilson,Clinical Associate Professor,15,M,18,2009
+310,Operations Research,2015-3-16,2.1,21,Jane,Wilson,Clinical Associate Professor,16,M,17,2011
+310,Operations Research,2015-3-16,1.4,21,Jane,Wilson,Clinical Associate Professor,17,F,20,2011
+310,Operations Research,2015-3-16,1.9,21,Jane,Wilson,Clinical Associate Professor,20,F,18,2010
+310,Operations Research,2015-3-16,3.7,21,Jane,Wilson,Clinical Associate Professor,23,F,20,2009
+310,Operations Research,2015-3-16,2.9,21,Jane,Wilson,Clinical Associate Professor,24,F,21,2010
+310,Operations Research,2015-3-16,2.4,21,Jane,Wilson,Clinical Associate Professor,25,F,20,2008
+310,Operations Research,2015-3-16,3.8,21,Jane,Wilson,Clinical Associate Professor,26,F,16,2011
+310,Operations Research,2015-3-16,3.4,21,Jane,Wilson,Clinical Associate Professor,27,M,20,2010
+310,Operations Research,2015-3-16,1.3,21,Jane,Wilson,Clinical Associate Professor,30,F,21,2010
+310,Operations Research,2015-3-16,1.1,21,Jane,Wilson,Clinical Associate Professor,31,F,21,2007
+310,Operations Research,2015-3-16,3.4,21,Jane,Wilson,Clinical Associate Professor,36,M,20,2009
+310,Operations Research,2015-3-16,1.6,21,Jane,Wilson,Clinical Associate Professor,38,M,23,2008
+310,Operations Research,2015-3-16,3,21,Jane,Wilson,Clinical Associate Professor,44,F,21,2010
+310,Operations Research,2015-3-16,3.1,21,Jane,Wilson,Clinical Associate Professor,46,F,22,2008
+310,Operations Research,2015-3-16,2.8,21,Jane,Wilson,Clinical Associate Professor,47,F,16,2011
+310,Operations Research,2015-3-16,3.8,21,Jane,Wilson,Clinical Associate Professor,51,F,17,2011
+310,Operations Research,2015-3-16,2.1,21,Jane,Wilson,Clinical Associate Professor,52,M,18,2010
+310,Operations Research,2015-3-16,3.8,21,Jane,Wilson,Clinical Associate Professor,56,M,20,2009
+310,Operations Research,2015-3-16,3.9,21,Jane,Wilson,Clinical Associate Professor,57,,18,2011
+310,Operations Research,2015-3-16,1.5,21,Jane,Wilson,Clinical Associate Professor,58,F,21,2010
+310,Operations Research,2015-3-16,1.3,21,Jane,Wilson,Clinical Associate Professor,60,F,18,2010
+310,Operations Research,2015-3-16,2.4,21,Jane,Wilson,Clinical Associate Professor,63,M,21,2007
+310,Operations Research,2015-3-16,2.7,21,Jane,Wilson,Clinical Associate Professor,64,F,16,2011
+310,Operations Research,2015-3-16,3.8,21,Jane,Wilson,Clinical Associate Professor,66,F,20,2010
+310,Operations Research,2015-3-16,1.2,21,Jane,Wilson,Clinical Associate Professor,68,F,18,2010
+310,Operations Research,2015-3-16,3.4,21,Jane,Wilson,Clinical Associate Professor,69,F,17,2011
+310,Operations Research,2015-3-16,2.7,21,Jane,Wilson,Clinical Associate Professor,70,F,23,2008
+310,Operations Research,2015-3-16,2,21,Jane,Wilson,Clinical Associate Professor,71,F,20,2010
+310,Operations Research,2015-3-16,3.6,21,Jane,Wilson,Clinical Associate Professor,75,M,19,2008
+310,Operations Research,2015-3-16,3.1,21,Jane,Wilson,Clinical Associate Professor,78,M,22,2008
+310,Operations Research,2015-3-16,3.4,21,Jane,Wilson,Clinical Associate Professor,86,M,22,2007
+310,Operations Research,2015-3-16,2.8,21,Jane,Wilson,Clinical Associate Professor,89,F,18,2011
+310,Operations Research,2015-3-16,3.2,21,Jane,Wilson,Clinical Associate Professor,90,F,22,2007
+310,Operations Research,2015-3-16,1.8,21,Jane,Wilson,Clinical Associate Professor,93,M,18,2009
+310,Operations Research,2015-3-16,1.6,21,Jane,Wilson,Clinical Associate Professor,96,M,22,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.8,14,Karen,Stenowitz,Associate Professor,3,F,22,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.5,14,Karen,Stenowitz,Associate Professor,4,F,17,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.9,14,Karen,Stenowitz,Associate Professor,5,,21,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.6,14,Karen,Stenowitz,Associate Professor,13,F,18,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.2,14,Karen,Stenowitz,Associate Professor,18,M,20,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.2,14,Karen,Stenowitz,Associate Professor,19,F,21,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.4,14,Karen,Stenowitz,Associate Professor,23,F,20,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.9,14,Karen,Stenowitz,Associate Professor,25,F,20,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.9,14,Karen,Stenowitz,Associate Professor,26,F,16,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.9,14,Karen,Stenowitz,Associate Professor,35,F,21,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.7,14,Karen,Stenowitz,Associate Professor,36,M,20,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.8,14,Karen,Stenowitz,Associate Professor,38,M,23,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.9,14,Karen,Stenowitz,Associate Professor,43,M,17,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.3,14,Karen,Stenowitz,Associate Professor,47,F,16,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.2,14,Karen,Stenowitz,Associate Professor,48,M,22,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.9,14,Karen,Stenowitz,Associate Professor,49,M,22,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.3,14,Karen,Stenowitz,Associate Professor,51,F,17,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.7,14,Karen,Stenowitz,Associate Professor,58,F,21,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.2,14,Karen,Stenowitz,Associate Professor,60,F,18,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.1,14,Karen,Stenowitz,Associate Professor,61,F,19,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.6,14,Karen,Stenowitz,Associate Professor,62,M,19,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.3,14,Karen,Stenowitz,Associate Professor,64,F,16,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.1,14,Karen,Stenowitz,Associate Professor,69,F,17,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.1,14,Karen,Stenowitz,Associate Professor,74,F,22,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.8,14,Karen,Stenowitz,Associate Professor,75,M,19,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.5,14,Karen,Stenowitz,Associate Professor,82,F,23,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.2,14,Karen,Stenowitz,Associate Professor,84,M,19,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.4,14,Karen,Stenowitz,Associate Professor,85,M,20,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.2,14,Karen,Stenowitz,Associate Professor,86,M,22,2007
+381,Supply-Chain Modeling and Analysis,2014-1-7,1.9,14,Karen,Stenowitz,Associate Professor,87,M,20,2007
+381,Supply-Chain Modeling and Analysis,2014-1-7,3,14,Karen,Stenowitz,Associate Professor,92,M,20,2010
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.5,14,Karen,Stenowitz,Associate Professor,93,M,18,2009
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.3,14,Karen,Stenowitz,Associate Professor,94,F,17,2011
+381,Supply-Chain Modeling and Analysis,2014-1-7,2.6,14,Karen,Stenowitz,Associate Professor,95,M,23,2008
+381,Supply-Chain Modeling and Analysis,2014-1-7,3.4,14,Karen,Stenowitz,Associate Professor,96,M,22,2008
+393,Industrial Engineering Design Project,2016-3-9,2.9,19,Mark,Warren,Clinical Associate Professor,0,F,19,2011
+393,Industrial Engineering Design Project,2016-3-9,3,19,Mark,Warren,Clinical Associate Professor,1,M,17,2011
+393,Industrial Engineering Design Project,2016-3-9,2.9,19,Mark,Warren,Clinical Associate Professor,2,F,20,2009
+393,Industrial Engineering Design Project,2016-3-9,2.8,19,Mark,Warren,Clinical Associate Professor,6,,16,2011
+393,Industrial Engineering Design Project,2016-3-9,1.9,19,Mark,Warren,Clinical Associate Professor,10,M,21,2009
+393,Industrial Engineering Design Project,2016-3-9,1.1,19,Mark,Warren,Clinical Associate Professor,16,M,17,2011
+393,Industrial Engineering Design Project,2016-3-9,3.5,19,Mark,Warren,Clinical Associate Professor,22,F,16,2011
+393,Industrial Engineering Design Project,2016-3-9,3.8,19,Mark,Warren,Clinical Associate Professor,31,F,21,2007
+393,Industrial Engineering Design Project,2016-3-9,1.6,19,Mark,Warren,Clinical Associate Professor,32,F,17,2011
+393,Industrial Engineering Design Project,2016-3-9,1.2,19,Mark,Warren,Clinical Associate Professor,33,F,21,2010
+393,Industrial Engineering Design Project,2016-3-9,4,19,Mark,Warren,Clinical Associate Professor,38,M,23,2008
+393,Industrial Engineering Design Project,2016-3-9,3.7,19,Mark,Warren,Clinical Associate Professor,40,M,18,2010
+393,Industrial Engineering Design Project,2016-3-9,1.1,19,Mark,Warren,Clinical Associate Professor,45,M,18,2011
+393,Industrial Engineering Design Project,2016-3-9,2.9,19,Mark,Warren,Clinical Associate Professor,46,F,22,2008
+393,Industrial Engineering Design Project,2016-3-9,1.2,19,Mark,Warren,Clinical Associate Professor,48,M,22,2009
+393,Industrial Engineering Design Project,2016-3-9,2.5,19,Mark,Warren,Clinical Associate Professor,50,F,18,2009
+393,Industrial Engineering Design Project,2016-3-9,2.4,19,Mark,Warren,Clinical Associate Professor,58,F,21,2010
+393,Industrial Engineering Design Project,2016-3-9,3.9,19,Mark,Warren,Clinical Associate Professor,59,F,18,2009
+393,Industrial Engineering Design Project,2016-3-9,2.8,19,Mark,Warren,Clinical Associate Professor,65,F,20,2008
+393,Industrial Engineering Design Project,2016-3-9,2.7,19,Mark,Warren,Clinical Associate Professor,66,F,20,2010
+393,Industrial Engineering Design Project,2016-3-9,1.8,19,Mark,Warren,Clinical Associate Professor,73,M,22,2007
+393,Industrial Engineering Design Project,2016-3-9,3.6,19,Mark,Warren,Clinical Associate Professor,77,F,18,2010
+393,Industrial Engineering Design Project,2016-3-9,1.4,19,Mark,Warren,Clinical Associate Professor,80,M,20,2011
+393,Industrial Engineering Design Project,2016-3-9,2,19,Mark,Warren,Clinical Associate Professor,82,F,23,2008
+393,Industrial Engineering Design Project,2016-3-9,2.4,19,Mark,Warren,Clinical Associate Professor,88,F,17,2011
+393,Industrial Engineering Design Project,2016-3-9,3.3,19,Mark,Warren,Clinical Associate Professor,89,F,18,2011
+393,Industrial Engineering Design Project,2016-3-9,3.5,19,Mark,Warren,Clinical Associate Professor,93,M,18,2009
+393,Industrial Engineering Design Project,2016-3-9,2.6,19,Mark,Warren,Clinical Associate Professor,95,M,23,2008
+325,Engineering Entrepreneurship,2014-9-15,3.3,11,Mike,Marion,Clinical Professor,1,M,17,2011
+325,Engineering Entrepreneurship,2014-9-15,1.7,11,Mike,Marion,Clinical Professor,3,F,22,2009
+325,Engineering Entrepreneurship,2014-9-15,1.5,11,Mike,Marion,Clinical Professor,8,F,18,2011
+325,Engineering Entrepreneurship,2014-9-15,2.2,11,Mike,Marion,Clinical Professor,13,F,18,2010
+325,Engineering Entrepreneurship,2014-9-15,3.7,11,Mike,Marion,Clinical Professor,15,M,18,2009
+325,Engineering Entrepreneurship,2014-9-15,2.4,11,Mike,Marion,Clinical Professor,16,M,17,2011
+325,Engineering Entrepreneurship,2014-9-15,2.4,11,Mike,Marion,Clinical Professor,17,F,20,2011
+325,Engineering Entrepreneurship,2014-9-15,3,11,Mike,Marion,Clinical Professor,26,F,16,2011
+325,Engineering Entrepreneurship,2014-9-15,1.2,11,Mike,Marion,Clinical Professor,27,M,20,2010
+325,Engineering Entrepreneurship,2014-9-15,2.5,11,Mike,Marion,Clinical Professor,28,M,21,2007
+325,Engineering Entrepreneurship,2014-9-15,2.9,11,Mike,Marion,Clinical Professor,29,F,20,2008
+325,Engineering Entrepreneurship,2014-9-15,1.2,11,Mike,Marion,Clinical Professor,31,F,21,2007
+325,Engineering Entrepreneurship,2014-9-15,2.1,11,Mike,Marion,Clinical Professor,32,F,17,2011
+325,Engineering Entrepreneurship,2014-9-15,1.7,11,Mike,Marion,Clinical Professor,34,F,22,2009
+325,Engineering Entrepreneurship,2014-9-15,1.8,11,Mike,Marion,Clinical Professor,36,M,20,2009
+325,Engineering Entrepreneurship,2014-9-15,3.2,11,Mike,Marion,Clinical Professor,38,M,23,2008
+325,Engineering Entrepreneurship,2014-9-15,3.7,11,Mike,Marion,Clinical Professor,43,M,17,2011
+325,Engineering Entrepreneurship,2014-9-15,1.1,11,Mike,Marion,Clinical Professor,45,M,18,2011
+325,Engineering Entrepreneurship,2014-9-15,3.2,11,Mike,Marion,Clinical Professor,46,F,22,2008
+325,Engineering Entrepreneurship,2014-9-15,3.6,11,Mike,Marion,Clinical Professor,50,F,18,2009
+325,Engineering Entrepreneurship,2014-9-15,3.9,11,Mike,Marion,Clinical Professor,52,M,18,2010
+325,Engineering Entrepreneurship,2014-9-15,2.2,11,Mike,Marion,Clinical Professor,60,F,18,2010
+325,Engineering Entrepreneurship,2014-9-15,3.3,11,Mike,Marion,Clinical Professor,63,M,21,2007
+325,Engineering Entrepreneurship,2014-9-15,2.7,11,Mike,Marion,Clinical Professor,64,F,16,2011
+325,Engineering Entrepreneurship,2014-9-15,3.2,11,Mike,Marion,Clinical Professor,65,F,20,2008
+325,Engineering Entrepreneurship,2014-9-15,1.1,11,Mike,Marion,Clinical Professor,66,F,20,2010
+325,Engineering Entrepreneurship,2014-9-15,1.3,11,Mike,Marion,Clinical Professor,66,F,20,2010
+325,Engineering Entrepreneurship,2014-9-15,3.4,11,Mike,Marion,Clinical Professor,67,F,18,2011
+325,Engineering Entrepreneurship,2014-9-15,3.8,11,Mike,Marion,Clinical Professor,71,F,20,2010
+325,Engineering Entrepreneurship,2014-9-15,3.4,11,Mike,Marion,Clinical Professor,74,F,22,2009
+325,Engineering Entrepreneurship,2014-9-15,4,11,Mike,Marion,Clinical Professor,75,M,19,2008
+325,Engineering Entrepreneurship,2014-9-15,2.5,11,Mike,Marion,Clinical Professor,78,M,22,2008
+325,Engineering Entrepreneurship,2014-9-15,1.7,11,Mike,Marion,Clinical Professor,79,F,22,2007
+325,Engineering Entrepreneurship,2014-9-15,2.6,11,Mike,Marion,Clinical Professor,80,M,20,2011
+325,Engineering Entrepreneurship,2014-9-15,2.4,11,Mike,Marion,Clinical Professor,81,F,20,2009
+325,Engineering Entrepreneurship,2014-9-15,3.2,11,Mike,Marion,Clinical Professor,84,M,19,2009
+325,Engineering Entrepreneurship,2014-9-15,3.8,11,Mike,Marion,Clinical Professor,85,M,20,2010
+325,Engineering Entrepreneurship,2014-9-15,3.9,11,Mike,Marion,Clinical Professor,90,F,22,2007
+325,Engineering Entrepreneurship,2014-9-15,2.4,11,Mike,Marion,Clinical Professor,92,M,20,2010
+325,Engineering Entrepreneurship,2014-9-15,3.5,11,Mike,Marion,Clinical Professor,94,F,17,2011
+341,Social Networks Analysis,2015-3-12,1.6,4,Hassan,Caliban,Professor,0,F,19,2011
+341,Social Networks Analysis,2015-3-12,2.8,4,Hassan,Caliban,Professor,1,M,17,2011
+341,Social Networks Analysis,2015-3-12,1.8,4,Hassan,Caliban,Professor,7,F,18,2011
+341,Social Networks Analysis,2015-3-12,3.5,4,Hassan,Caliban,Professor,9,F,21,2007
+341,Social Networks Analysis,2015-3-12,3.8,4,Hassan,Caliban,Professor,12,M,19,2011
+341,Social Networks Analysis,2015-3-12,1,4,Hassan,Caliban,Professor,13,F,18,2010
+341,Social Networks Analysis,2015-3-12,2.8,4,Hassan,Caliban,Professor,16,M,17,2011
+341,Social Networks Analysis,2015-3-12,1.4,4,Hassan,Caliban,Professor,17,F,20,2011
+341,Social Networks Analysis,2015-3-12,1.6,4,Hassan,Caliban,Professor,18,M,20,2011
+341,Social Networks Analysis,2015-3-12,3.7,4,Hassan,Caliban,Professor,19,F,21,2010
+341,Social Networks Analysis,2015-3-12,3.1,4,Hassan,Caliban,Professor,21,M,22,2008
+341,Social Networks Analysis,2015-3-12,1,4,Hassan,Caliban,Professor,22,F,16,2011
+341,Social Networks Analysis,2015-3-12,3,4,Hassan,Caliban,Professor,23,F,20,2009
+341,Social Networks Analysis,2015-3-12,3.4,4,Hassan,Caliban,Professor,34,F,22,2009
+341,Social Networks Analysis,2015-3-12,3.5,4,Hassan,Caliban,Professor,37,F,23,2007
+341,Social Networks Analysis,2015-3-12,2.8,4,Hassan,Caliban,Professor,38,M,23,2008
+341,Social Networks Analysis,2015-3-12,2.7,4,Hassan,Caliban,Professor,39,M,21,2010
+341,Social Networks Analysis,2015-3-12,3.5,4,Hassan,Caliban,Professor,40,M,18,2010
+341,Social Networks Analysis,2015-3-12,3.1,4,Hassan,Caliban,Professor,42,F,,2011
+341,Social Networks Analysis,2015-3-12,1.1,4,Hassan,Caliban,Professor,43,M,17,2011
+341,Social Networks Analysis,2015-3-12,2.5,4,Hassan,Caliban,Professor,47,F,16,2011
+341,Social Networks Analysis,2015-3-12,2.3,4,Hassan,Caliban,Professor,50,F,18,2009
+341,Social Networks Analysis,2015-3-12,1.1,4,Hassan,Caliban,Professor,52,M,18,2010
+341,Social Networks Analysis,2015-3-12,1.8,4,Hassan,Caliban,Professor,53,F,19,2009
+341,Social Networks Analysis,2015-3-12,2.7,4,Hassan,Caliban,Professor,54,F,17,2011
+341,Social Networks Analysis,2015-3-12,2.8,4,Hassan,Caliban,Professor,55,F,21,2010
+341,Social Networks Analysis,2015-3-12,3.8,4,Hassan,Caliban,Professor,57,,18,2011
+341,Social Networks Analysis,2015-3-12,3.7,4,Hassan,Caliban,Professor,59,F,18,2009
+341,Social Networks Analysis,2015-3-12,3.6,4,Hassan,Caliban,Professor,60,F,18,2010
+341,Social Networks Analysis,2015-3-12,2.8,4,Hassan,Caliban,Professor,63,M,21,2007
+341,Social Networks Analysis,2015-3-12,2.6,4,Hassan,Caliban,Professor,69,F,17,2011
+341,Social Networks Analysis,2015-3-12,3.3,4,Hassan,Caliban,Professor,71,F,20,2010
+341,Social Networks Analysis,2015-3-12,3.6,4,Hassan,Caliban,Professor,73,M,22,2007
+341,Social Networks Analysis,2015-3-12,1.5,4,Hassan,Caliban,Professor,76,F,19,2008
+341,Social Networks Analysis,2015-3-12,1.7,4,Hassan,Caliban,Professor,79,F,22,2007
+341,Social Networks Analysis,2015-3-12,1.1,4,Hassan,Caliban,Professor,82,F,23,2008
+341,Social Networks Analysis,2015-3-12,2.4,4,Hassan,Caliban,Professor,83,M,,2009
+341,Social Networks Analysis,2015-3-12,4,4,Hassan,Caliban,Professor,88,F,17,2011
+341,Social Networks Analysis,2015-3-12,2.2,4,Hassan,Caliban,Professor,89,F,18,2011
+341,Social Networks Analysis,2015-3-12,2.7,4,Hassan,Caliban,Professor,90,F,22,2007
+341,Social Networks Analysis,2015-3-12,1.6,4,Hassan,Caliban,Professor,94,F,17,2011
+341,Social Networks Analysis,2015-3-12,2.5,4,Hassan,Caliban,Professor,95,M,23,2008
+315,Stochastic Models and Simulation,2015-9-20,2.7,13,Ohad,Peterson,Assistant Professor,3,F,22,2009
+315,Stochastic Models and Simulation,2015-9-20,3.8,13,Ohad,Peterson,Assistant Professor,13,F,18,2010
+315,Stochastic Models and Simulation,2015-9-20,3.7,13,Ohad,Peterson,Assistant Professor,16,M,17,2011
+315,Stochastic Models and Simulation,2015-9-20,2.7,13,Ohad,Peterson,Assistant Professor,17,F,20,2011
+315,Stochastic Models and Simulation,2015-9-20,1.5,13,Ohad,Peterson,Assistant Professor,19,F,21,2010
+315,Stochastic Models and Simulation,2015-9-20,3,13,Ohad,Peterson,Assistant Professor,30,F,21,2010
+315,Stochastic Models and Simulation,2015-9-20,3.8,13,Ohad,Peterson,Assistant Professor,32,F,17,2011
+315,Stochastic Models and Simulation,2015-9-20,2.6,13,Ohad,Peterson,Assistant Professor,41,M,17,2011
+315,Stochastic Models and Simulation,2015-9-20,1.9,13,Ohad,Peterson,Assistant Professor,44,F,21,2010
+315,Stochastic Models and Simulation,2015-9-20,2.9,13,Ohad,Peterson,Assistant Professor,45,M,18,2011
+315,Stochastic Models and Simulation,2015-9-20,2,13,Ohad,Peterson,Assistant Professor,47,F,16,2011
+315,Stochastic Models and Simulation,2015-9-20,1.3,13,Ohad,Peterson,Assistant Professor,48,M,22,2009
+315,Stochastic Models and Simulation,2015-9-20,2.6,13,Ohad,Peterson,Assistant Professor,53,F,19,2009
+315,Stochastic Models and Simulation,2015-9-20,1.6,13,Ohad,Peterson,Assistant Professor,56,M,20,2009
+315,Stochastic Models and Simulation,2015-9-20,2,13,Ohad,Peterson,Assistant Professor,57,,18,2011
+315,Stochastic Models and Simulation,2015-9-20,2.4,13,Ohad,Peterson,Assistant Professor,60,F,18,2010
+315,Stochastic Models and Simulation,2015-9-20,2.8,13,Ohad,Peterson,Assistant Professor,64,F,16,2011
+315,Stochastic Models and Simulation,2015-9-20,1.6,13,Ohad,Peterson,Assistant Professor,69,F,17,2011
+315,Stochastic Models and Simulation,2015-9-20,2.5,13,Ohad,Peterson,Assistant Professor,71,F,20,2010
+315,Stochastic Models and Simulation,2015-9-20,3.8,13,Ohad,Peterson,Assistant Professor,72,M,19,2010
+315,Stochastic Models and Simulation,2015-9-20,1.8,13,Ohad,Peterson,Assistant Professor,77,F,18,2010
+315,Stochastic Models and Simulation,2015-9-20,2.5,13,Ohad,Peterson,Assistant Professor,80,M,20,2011
+315,Stochastic Models and Simulation,2015-9-20,2.2,13,Ohad,Peterson,Assistant Professor,84,M,19,2009
+315,Stochastic Models and Simulation,2015-9-20,3.3,13,Ohad,Peterson,Assistant Professor,85,M,20,2010
+315,Stochastic Models and Simulation,2015-9-20,1.4,13,Ohad,Peterson,Assistant Professor,86,M,22,2007
+315,Stochastic Models and Simulation,2015-9-20,2.5,13,Ohad,Peterson,Assistant Professor,87,M,20,2007
+315,Stochastic Models and Simulation,2015-9-20,1.2,13,Ohad,Peterson,Assistant Professor,88,F,17,2011
+315,Stochastic Models and Simulation,2015-9-20,3.2,13,Ohad,Peterson,Assistant Professor,89,F,18,2011
+315,Stochastic Models and Simulation,2015-9-20,2.9,13,Ohad,Peterson,Assistant Professor,98,M,21,2007
+385,Introduction to Health Systems Engineering,2015-1-7,3.9,12,Neil,Mehrotra,Professor,3,F,22,2009
+385,Introduction to Health Systems Engineering,2015-1-7,1.3,12,Neil,Mehrotra,Professor,10,M,21,2009
+385,Introduction to Health Systems Engineering,2015-1-7,1,12,Neil,Mehrotra,Professor,11,F,24,2007
+385,Introduction to Health Systems Engineering,2015-1-7,1.7,12,Neil,Mehrotra,Professor,18,M,20,2011
+385,Introduction to Health Systems Engineering,2015-1-7,3.3,12,Neil,Mehrotra,Professor,21,M,22,2008
+385,Introduction to Health Systems Engineering,2015-1-7,3,12,Neil,Mehrotra,Professor,26,F,16,2011
+385,Introduction to Health Systems Engineering,2015-1-7,1.9,12,Neil,Mehrotra,Professor,28,M,21,2007
+385,Introduction to Health Systems Engineering,2015-1-7,1.9,12,Neil,Mehrotra,Professor,30,F,21,2010
+385,Introduction to Health Systems Engineering,2015-1-7,3.7,12,Neil,Mehrotra,Professor,32,F,17,2011
+385,Introduction to Health Systems Engineering,2015-1-7,3.1,12,Neil,Mehrotra,Professor,33,F,21,2010
+385,Introduction to Health Systems Engineering,2015-1-7,1.6,12,Neil,Mehrotra,Professor,34,F,22,2009
+385,Introduction to Health Systems Engineering,2015-1-7,3.4,12,Neil,Mehrotra,Professor,39,M,21,2010
+385,Introduction to Health Systems Engineering,2015-1-7,3.7,12,Neil,Mehrotra,Professor,40,M,18,2010
+385,Introduction to Health Systems Engineering,2015-1-7,2.1,12,Neil,Mehrotra,Professor,43,M,17,2011
+385,Introduction to Health Systems Engineering,2015-1-7,2.3,12,Neil,Mehrotra,Professor,51,F,17,2011
+385,Introduction to Health Systems Engineering,2015-1-7,2.9,12,Neil,Mehrotra,Professor,55,F,21,2010
+385,Introduction to Health Systems Engineering,2015-1-7,1.6,12,Neil,Mehrotra,Professor,58,F,21,2010
+385,Introduction to Health Systems Engineering,2015-1-7,2.9,12,Neil,Mehrotra,Professor,61,F,19,2010
+385,Introduction to Health Systems Engineering,2015-1-7,2.5,12,Neil,Mehrotra,Professor,64,F,16,2011
+385,Introduction to Health Systems Engineering,2015-1-7,3.3,12,Neil,Mehrotra,Professor,66,F,20,2010
+385,Introduction to Health Systems Engineering,2015-1-7,1.4,12,Neil,Mehrotra,Professor,67,F,18,2011
+385,Introduction to Health Systems Engineering,2015-1-7,2.7,12,Neil,Mehrotra,Professor,75,M,19,2008
+385,Introduction to Health Systems Engineering,2015-1-7,3.1,12,Neil,Mehrotra,Professor,78,M,22,2008
+385,Introduction to Health Systems Engineering,2015-1-7,2.2,12,Neil,Mehrotra,Professor,85,M,20,2010
+385,Introduction to Health Systems Engineering,2015-1-7,2.8,12,Neil,Mehrotra,Professor,90,F,22,2007
+385,Introduction to Health Systems Engineering,2015-1-7,2,12,Neil,Mehrotra,Professor,96,M,22,2008
+385,Introduction to Health Systems Engineering,2015-1-7,3,12,Neil,Mehrotra,Professor,98,M,21,2007
+382,Production Planning and Scheduling,2014-3-12,2.8,7,Ali,Iravani,Professor,0,F,19,2011
+383,Service Operations Management,2014-3-12,1,7,Ali,Iravani,Professor,0,F,19,2011
+383,Service Operations Management,2014-3-12,2.8,7,Ali,Iravani,Professor,2,F,20,2009
+382,Production Planning and Scheduling,2014-3-12,3.6,7,Ali,Iravani,Professor,6,,16,2011
+382,Production Planning and Scheduling,2014-3-12,1.1,7,Ali,Iravani,Professor,8,F,18,2011
+383,Service Operations Management,2014-3-12,3,7,Ali,Iravani,Professor,8,F,18,2011
+382,Production Planning and Scheduling,2014-3-12,3.6,7,Ali,Iravani,Professor,10,M,21,2009
+383,Service Operations Management,2014-3-12,2.2,7,Ali,Iravani,Professor,10,M,21,2009
+383,Service Operations Management,2014-3-12,1.1,7,Ali,Iravani,Professor,11,F,24,2007
+383,Service Operations Management,2014-3-12,3.9,7,Ali,Iravani,Professor,14,F,20,2008
+382,Production Planning and Scheduling,2014-3-12,1.8,7,Ali,Iravani,Professor,15,M,18,2009
+383,Service Operations Management,2014-3-12,2.2,7,Ali,Iravani,Professor,16,M,17,2011
+383,Service Operations Management,2014-3-12,3.5,7,Ali,Iravani,Professor,17,F,20,2011
+382,Production Planning and Scheduling,2014-3-12,2.1,7,Ali,Iravani,Professor,19,F,21,2010
+382,Production Planning and Scheduling,2014-3-12,1.7,7,Ali,Iravani,Professor,21,M,22,2008
+383,Service Operations Management,2014-3-12,4,7,Ali,Iravani,Professor,21,M,22,2008
+383,Service Operations Management,2014-3-12,2.4,7,Ali,Iravani,Professor,23,F,20,2009
+382,Production Planning and Scheduling,2014-3-12,2,7,Ali,Iravani,Professor,24,F,21,2010
+383,Service Operations Management,2014-3-12,3.4,7,Ali,Iravani,Professor,28,M,21,2007
+382,Production Planning and Scheduling,2014-3-12,3.7,7,Ali,Iravani,Professor,29,F,20,2008
+383,Service Operations Management,2014-3-12,1.3,7,Ali,Iravani,Professor,29,F,20,2008
+382,Production Planning and Scheduling,2014-3-12,2.1,7,Ali,Iravani,Professor,35,F,21,2008
+383,Service Operations Management,2014-3-12,3.8,7,Ali,Iravani,Professor,35,F,21,2008
+382,Production Planning and Scheduling,2014-3-12,1.7,7,Ali,Iravani,Professor,36,M,20,2009
+383,Service Operations Management,2014-3-12,3,7,Ali,Iravani,Professor,36,M,20,2009
+382,Production Planning and Scheduling,2014-3-12,1.6,7,Ali,Iravani,Professor,37,F,23,2007
+382,Production Planning and Scheduling,2014-3-12,3.6,7,Ali,Iravani,Professor,40,M,18,2010
+382,Production Planning and Scheduling,2014-3-12,2.5,7,Ali,Iravani,Professor,42,F,,2011
+383,Service Operations Management,2014-3-12,4,7,Ali,Iravani,Professor,43,M,17,2011
+382,Production Planning and Scheduling,2014-3-12,3.2,7,Ali,Iravani,Professor,44,F,21,2010
+383,Service Operations Management,2014-3-12,1.8,7,Ali,Iravani,Professor,45,M,18,2011
+382,Production Planning and Scheduling,2014-3-12,2.1,7,Ali,Iravani,Professor,47,F,16,2011
+383,Service Operations Management,2014-3-12,2.6,7,Ali,Iravani,Professor,47,F,16,2011
+382,Production Planning and Scheduling,2014-3-12,1.6,7,Ali,Iravani,Professor,48,M,22,2009
+383,Service Operations Management,2014-3-12,1.4,7,Ali,Iravani,Professor,49,M,22,2008
+383,Service Operations Management,2014-3-12,3.3,7,Ali,Iravani,Professor,51,F,17,2011
+382,Production Planning and Scheduling,2014-3-12,2.4,7,Ali,Iravani,Professor,52,M,18,2010
+383,Service Operations Management,2014-3-12,1.5,7,Ali,Iravani,Professor,53,F,19,2009
+382,Production Planning and Scheduling,2014-3-12,1.9,7,Ali,Iravani,Professor,54,F,17,2011
+383,Service Operations Management,2014-3-12,3.8,7,Ali,Iravani,Professor,56,M,20,2009
+383,Service Operations Management,2014-3-12,3.8,7,Ali,Iravani,Professor,57,,18,2011
+382,Production Planning and Scheduling,2014-3-12,2.1,7,Ali,Iravani,Professor,58,F,21,2010
+383,Service Operations Management,2014-3-12,3.2,7,Ali,Iravani,Professor,59,F,18,2009
+382,Production Planning and Scheduling,2014-3-12,3,7,Ali,Iravani,Professor,60,F,18,2010
+383,Service Operations Management,2014-3-12,2.2,7,Ali,Iravani,Professor,61,F,19,2010
+382,Production Planning and Scheduling,2014-3-12,2.4,7,Ali,Iravani,Professor,63,M,21,2007
+383,Service Operations Management,2014-3-12,3,7,Ali,Iravani,Professor,63,M,21,2007
+383,Service Operations Management,2014-3-12,2.3,7,Ali,Iravani,Professor,66,F,20,2010
+383,Service Operations Management,2014-3-12,2.8,7,Ali,Iravani,Professor,67,F,18,2011
+382,Production Planning and Scheduling,2014-3-12,3.5,7,Ali,Iravani,Professor,68,F,18,2010
+382,Production Planning and Scheduling,2014-3-12,3.9,7,Ali,Iravani,Professor,69,F,17,2011
+383,Service Operations Management,2014-3-12,3,7,Ali,Iravani,Professor,69,F,17,2011
+383,Service Operations Management,2014-3-12,2.7,7,Ali,Iravani,Professor,72,M,19,2010
+382,Production Planning and Scheduling,2014-3-12,2.7,7,Ali,Iravani,Professor,74,F,22,2009
+383,Service Operations Management,2014-3-12,2.2,7,Ali,Iravani,Professor,75,M,19,2008
+382,Production Planning and Scheduling,2014-3-12,1.6,7,Ali,Iravani,Professor,76,F,19,2008
+383,Service Operations Management,2014-3-12,3.4,7,Ali,Iravani,Professor,76,F,19,2008
+382,Production Planning and Scheduling,2014-3-12,2.9,7,Ali,Iravani,Professor,78,M,22,2008
+383,Service Operations Management,2014-3-12,1.4,7,Ali,Iravani,Professor,78,M,22,2008
+382,Production Planning and Scheduling,2014-3-12,1.2,7,Ali,Iravani,Professor,79,F,22,2007
+383,Service Operations Management,2014-3-12,2.5,7,Ali,Iravani,Professor,81,F,20,2009
+382,Production Planning and Scheduling,2014-3-12,3.6,7,Ali,Iravani,Professor,83,M,,2009
+383,Service Operations Management,2014-3-12,2.6,7,Ali,Iravani,Professor,83,M,,2009
+383,Service Operations Management,2014-3-12,3.9,7,Ali,Iravani,Professor,84,M,19,2009
+382,Production Planning and Scheduling,2014-3-12,3.6,7,Ali,Iravani,Professor,85,M,20,2010
+383,Service Operations Management,2014-3-12,1.4,7,Ali,Iravani,Professor,85,M,20,2010
+382,Production Planning and Scheduling,2014-3-12,1.2,7,Ali,Iravani,Professor,88,F,17,2011
+383,Service Operations Management,2014-3-12,3,7,Ali,Iravani,Professor,88,F,17,2011
+383,Service Operations Management,2014-3-12,1.2,7,Ali,Iravani,Professor,90,F,22,2007
+382,Production Planning and Scheduling,2014-3-12,1.5,7,Ali,Iravani,Professor,93,M,18,2009
+383,Service Operations Management,2014-3-12,1.7,7,Ali,Iravani,Professor,93,M,18,2009
+382,Production Planning and Scheduling,2014-3-12,3.5,7,Ali,Iravani,Professor,94,F,17,2011
+382,Production Planning and Scheduling,2014-3-12,3.2,7,Ali,Iravani,Professor,96,M,22,2008
+383,Service Operations Management,2014-3-12,3.9,7,Ali,Iravani,Professor,98,M,21,2007
+210,"Methods, Standards and Work Design",,3.8,0,TBD,TBD,TBD,2,F,20,2009
+307,Quality Improvement by Experimental Design,2014-1-10,4,0,TBD,TBD,TBD,2,F,20,2009
+210,"Methods, Standards and Work Design",,3.4,0,TBD,TBD,TBD,3,F,22,2009
+210,"Methods, Standards and Work Design",,3.3,0,TBD,TBD,TBD,4,F,17,2010
+225,Principles of Entrepreneurship,2016-1-6,3.6,0,TBD,TBD,TBD,4,F,17,2010
+307,Quality Improvement by Experimental Design,2014-1-10,3.8,0,TBD,TBD,TBD,4,F,17,2010
+210,"Methods, Standards and Work Design",,3.6,0,TBD,TBD,TBD,6,,16,2011
+225,Principles of Entrepreneurship,2016-1-6,3.8,0,TBD,TBD,TBD,8,F,18,2011
+210,"Methods, Standards and Work Design",,3.7,0,TBD,TBD,TBD,9,F,21,2007
+210,"Methods, Standards and Work Design",,3.9,0,TBD,TBD,TBD,11,F,24,2007
+225,Principles of Entrepreneurship,2016-1-6,4,0,TBD,TBD,TBD,12,M,19,2011
+210,"Methods, Standards and Work Design",,3.3,0,TBD,TBD,TBD,15,M,18,2009
+225,Principles of Entrepreneurship,2016-1-6,2,0,TBD,TBD,TBD,16,M,17,2011
+225,Principles of Entrepreneurship,2016-1-6,1.8,0,TBD,TBD,TBD,18,M,20,2011
+307,Quality Improvement by Experimental Design,2014-1-10,2.8,0,TBD,TBD,TBD,19,F,21,2010
+225,Principles of Entrepreneurship,2016-1-6,1.7,0,TBD,TBD,TBD,20,F,18,2010
+210,"Methods, Standards and Work Design",,1.4,0,TBD,TBD,TBD,24,F,21,2010
+225,Principles of Entrepreneurship,2016-1-6,2.5,0,TBD,TBD,TBD,24,F,21,2010
+307,Quality Improvement by Experimental Design,2014-1-10,2,0,TBD,TBD,TBD,24,F,21,2010
+210,"Methods, Standards and Work Design",,3.6,0,TBD,TBD,TBD,26,F,16,2011
+225,Principles of Entrepreneurship,2016-1-6,2.3,0,TBD,TBD,TBD,26,F,16,2011
+307,Quality Improvement by Experimental Design,2014-1-10,3.9,0,TBD,TBD,TBD,26,F,16,2011
+225,Principles of Entrepreneurship,2016-1-6,2.8,0,TBD,TBD,TBD,28,M,21,2007
+307,Quality Improvement by Experimental Design,2014-1-10,1.9,0,TBD,TBD,TBD,28,M,21,2007
+210,"Methods, Standards and Work Design",,2.4,0,TBD,TBD,TBD,30,F,21,2010
+210,"Methods, Standards and Work Design",,1.5,0,TBD,TBD,TBD,31,F,21,2007
+210,"Methods, Standards and Work Design",,2.3,0,TBD,TBD,TBD,32,F,17,2011
+307,Quality Improvement by Experimental Design,2014-1-10,2.9,0,TBD,TBD,TBD,32,F,17,2011
+225,Principles of Entrepreneurship,2016-1-6,3.7,0,TBD,TBD,TBD,33,F,21,2010
+307,Quality Improvement by Experimental Design,2014-1-10,3.7,0,TBD,TBD,TBD,34,F,22,2009
+210,"Methods, Standards and Work Design",,1.9,0,TBD,TBD,TBD,35,F,21,2008
+225,Principles of Entrepreneurship,2016-1-6,3.9,0,TBD,TBD,TBD,35,F,21,2008
+307,Quality Improvement by Experimental Design,2014-1-10,3.4,0,TBD,TBD,TBD,36,M,20,2009
+210,"Methods, Standards and Work Design",,3.6,0,TBD,TBD,TBD,39,M,21,2010
+307,Quality Improvement by Experimental Design,2014-1-10,1.3,0,TBD,TBD,TBD,39,M,21,2010
+225,Principles of Entrepreneurship,2016-1-6,1.1,0,TBD,TBD,TBD,40,M,18,2010
+307,Quality Improvement by Experimental Design,2014-1-10,2.4,0,TBD,TBD,TBD,40,M,18,2010
+210,"Methods, Standards and Work Design",,3.9,0,TBD,TBD,TBD,41,M,17,2011
+225,Principles of Entrepreneurship,2016-1-6,3.8,0,TBD,TBD,TBD,42,F,,2011
+307,Quality Improvement by Experimental Design,2014-1-10,3.4,0,TBD,TBD,TBD,42,F,,2011
+225,Principles of Entrepreneurship,2016-1-6,1.7,0,TBD,TBD,TBD,44,F,21,2010
+225,Principles of Entrepreneurship,2016-1-6,1.1,0,TBD,TBD,TBD,45,M,18,2011
+307,Quality Improvement by Experimental Design,2014-1-10,3.8,0,TBD,TBD,TBD,46,F,22,2008
+225,Principles of Entrepreneurship,2016-1-6,3.5,0,TBD,TBD,TBD,47,F,16,2011
+210,"Methods, Standards and Work Design",,3.9,0,TBD,TBD,TBD,48,M,22,2009
+225,Principles of Entrepreneurship,2016-1-6,3.5,0,TBD,TBD,TBD,48,M,22,2009
+307,Quality Improvement by Experimental Design,2014-1-10,3.1,0,TBD,TBD,TBD,48,M,22,2009
+210,"Methods, Standards and Work Design",,3.6,0,TBD,TBD,TBD,51,F,17,2011
+225,Principles of Entrepreneurship,2016-1-6,2.8,0,TBD,TBD,TBD,53,F,19,2009
+210,"Methods, Standards and Work Design",,2.8,0,TBD,TBD,TBD,55,F,21,2010
+307,Quality Improvement by Experimental Design,2014-1-10,1.6,0,TBD,TBD,TBD,55,F,21,2010
+210,"Methods, Standards and Work Design",,3.1,0,TBD,TBD,TBD,56,M,20,2009
+225,Principles of Entrepreneurship,2016-1-6,1.2,0,TBD,TBD,TBD,56,M,20,2009
+307,Quality Improvement by Experimental Design,2014-1-10,1.8,0,TBD,TBD,TBD,56,M,20,2009
+307,Quality Improvement by Experimental Design,2014-1-10,2.4,0,TBD,TBD,TBD,56,M,20,2009
+225,Principles of Entrepreneurship,2016-1-6,2,0,TBD,TBD,TBD,57,,18,2011
+210,"Methods, Standards and Work Design",,3.1,0,TBD,TBD,TBD,60,F,18,2010
+307,Quality Improvement by Experimental Design,2014-1-10,1.8,0,TBD,TBD,TBD,61,F,19,2010
+210,"Methods, Standards and Work Design",,3.7,0,TBD,TBD,TBD,62,M,19,2009
+225,Principles of Entrepreneurship,2016-1-6,3.4,0,TBD,TBD,TBD,63,M,21,2007
+307,Quality Improvement by Experimental Design,2014-1-10,2,0,TBD,TBD,TBD,63,M,21,2007
+307,Quality Improvement by Experimental Design,2014-1-10,1.8,0,TBD,TBD,TBD,64,F,16,2011
+225,Principles of Entrepreneurship,2016-1-6,1.4,0,TBD,TBD,TBD,65,F,20,2008
+210,"Methods, Standards and Work Design",,3.7,0,TBD,TBD,TBD,66,F,20,2010
+210,"Methods, Standards and Work Design",,1.1,0,TBD,TBD,TBD,68,F,18,2010
+307,Quality Improvement by Experimental Design,2014-1-10,2.9,0,TBD,TBD,TBD,68,F,18,2010
+307,Quality Improvement by Experimental Design,2014-1-10,1.7,0,TBD,TBD,TBD,72,M,19,2010
+225,Principles of Entrepreneurship,2016-1-6,2,0,TBD,TBD,TBD,73,M,22,2007
+210,"Methods, Standards and Work Design",,2.8,0,TBD,TBD,TBD,74,F,22,2009
+225,Principles of Entrepreneurship,2016-1-6,2.3,0,TBD,TBD,TBD,74,F,22,2009
+307,Quality Improvement by Experimental Design,2014-1-10,3.9,0,TBD,TBD,TBD,75,M,19,2008
+210,"Methods, Standards and Work Design",,1.5,0,TBD,TBD,TBD,78,M,22,2008
+307,Quality Improvement by Experimental Design,2014-1-10,1.5,0,TBD,TBD,TBD,79,F,22,2007
+307,Quality Improvement by Experimental Design,2014-1-10,3.2,0,TBD,TBD,TBD,80,M,20,2011
+307,Quality Improvement by Experimental Design,2014-1-10,2.2,0,TBD,TBD,TBD,83,M,,2009
+210,"Methods, Standards and Work Design",,3.4,0,TBD,TBD,TBD,84,M,19,2009
+225,Principles of Entrepreneurship,2016-1-6,3.7,0,TBD,TBD,TBD,84,M,19,2009
+307,Quality Improvement by Experimental Design,2014-1-10,2.4,0,TBD,TBD,TBD,84,M,19,2009
+210,"Methods, Standards and Work Design",,3.9,0,TBD,TBD,TBD,85,M,20,2010
+225,Principles of Entrepreneurship,2016-1-6,4,0,TBD,TBD,TBD,85,M,20,2010
+307,Quality Improvement by Experimental Design,2014-1-10,2.8,0,TBD,TBD,TBD,85,M,20,2010
+210,"Methods, Standards and Work Design",,2.3,0,TBD,TBD,TBD,86,M,22,2007
+225,Principles of Entrepreneurship,2016-1-6,3.6,0,TBD,TBD,TBD,86,M,22,2007
+210,"Methods, Standards and Work Design",,2.6,0,TBD,TBD,TBD,87,M,20,2007
+225,Principles of Entrepreneurship,2016-1-6,2.5,0,TBD,TBD,TBD,89,F,18,2011
+210,"Methods, Standards and Work Design",,3,0,TBD,TBD,TBD,90,F,22,2007
+307,Quality Improvement by Experimental Design,2014-1-10,3,0,TBD,TBD,TBD,90,F,22,2007
+225,Principles of Entrepreneurship,2016-1-6,3.1,0,TBD,TBD,TBD,92,M,20,2010
+307,Quality Improvement by Experimental Design,2014-1-10,3.1,0,TBD,TBD,TBD,92,M,20,2010
+225,Principles of Entrepreneurship,2016-1-6,2,0,TBD,TBD,TBD,93,M,18,2009
+210,"Methods, Standards and Work Design",,3.5,0,TBD,TBD,TBD,94,F,17,2011
+210,"Methods, Standards and Work Design",,1.5,0,TBD,TBD,TBD,98,M,21,2007
+307,Quality Improvement by Experimental Design,2014-1-10,3,0,TBD,TBD,TBD,98,M,21,2007
+373,Introduction to Financial Engineering,2014-1-7,2.5,10,Vadim,Lubskey,Professor,4,F,17,2010
+373,Introduction to Financial Engineering,2014-1-7,2.3,10,Vadim,Lubskey,Professor,5,,21,2010
+373,Introduction to Financial Engineering,2014-1-7,2,10,Vadim,Lubskey,Professor,6,,16,2011
+373,Introduction to Financial Engineering,2014-1-7,3.4,10,Vadim,Lubskey,Professor,7,F,18,2011
+373,Introduction to Financial Engineering,2014-1-7,1.7,10,Vadim,Lubskey,Professor,8,F,18,2011
+373,Introduction to Financial Engineering,2014-1-7,3.8,10,Vadim,Lubskey,Professor,16,M,17,2011
+373,Introduction to Financial Engineering,2014-1-7,3.8,10,Vadim,Lubskey,Professor,17,F,20,2011
+373,Introduction to Financial Engineering,2014-1-7,2.6,10,Vadim,Lubskey,Professor,21,M,22,2008
+373,Introduction to Financial Engineering,2014-1-7,3.9,10,Vadim,Lubskey,Professor,22,F,16,2011
+373,Introduction to Financial Engineering,2014-1-7,3,10,Vadim,Lubskey,Professor,26,F,16,2011
+373,Introduction to Financial Engineering,2014-1-7,3.6,10,Vadim,Lubskey,Professor,29,F,20,2008
+373,Introduction to Financial Engineering,2014-1-7,2.4,10,Vadim,Lubskey,Professor,32,F,17,2011
+373,Introduction to Financial Engineering,2014-1-7,3.7,10,Vadim,Lubskey,Professor,36,M,20,2009
+373,Introduction to Financial Engineering,2014-1-7,1.6,10,Vadim,Lubskey,Professor,37,F,23,2007
+373,Introduction to Financial Engineering,2014-1-7,1.4,10,Vadim,Lubskey,Professor,43,M,17,2011
+373,Introduction to Financial Engineering,2014-1-7,2,10,Vadim,Lubskey,Professor,46,F,22,2008
+373,Introduction to Financial Engineering,2014-1-7,3.5,10,Vadim,Lubskey,Professor,47,F,16,2011
+373,Introduction to Financial Engineering,2014-1-7,3.6,10,Vadim,Lubskey,Professor,48,M,22,2009
+373,Introduction to Financial Engineering,2014-1-7,2.5,10,Vadim,Lubskey,Professor,50,F,18,2009
+373,Introduction to Financial Engineering,2014-1-7,2.3,10,Vadim,Lubskey,Professor,51,F,17,2011
+373,Introduction to Financial Engineering,2014-1-7,1.7,10,Vadim,Lubskey,Professor,65,F,20,2008
+373,Introduction to Financial Engineering,2014-1-7,3.3,10,Vadim,Lubskey,Professor,67,F,18,2011
+373,Introduction to Financial Engineering,2014-1-7,2.2,10,Vadim,Lubskey,Professor,70,F,23,2008
+373,Introduction to Financial Engineering,2014-1-7,2.5,10,Vadim,Lubskey,Professor,71,F,20,2010
+373,Introduction to Financial Engineering,2014-1-7,2,10,Vadim,Lubskey,Professor,73,M,22,2007
+373,Introduction to Financial Engineering,2014-1-7,2.3,10,Vadim,Lubskey,Professor,76,F,19,2008
+373,Introduction to Financial Engineering,2014-1-7,3.7,10,Vadim,Lubskey,Professor,77,F,18,2010
+373,Introduction to Financial Engineering,2014-1-7,1.7,10,Vadim,Lubskey,Professor,78,M,22,2008
+373,Introduction to Financial Engineering,2014-1-7,1.2,10,Vadim,Lubskey,Professor,79,F,22,2007
+373,Introduction to Financial Engineering,2014-1-7,3.5,10,Vadim,Lubskey,Professor,85,M,20,2010
+373,Introduction to Financial Engineering,2014-1-7,2,10,Vadim,Lubskey,Professor,86,M,22,2007
+373,Introduction to Financial Engineering,2014-1-7,2.2,10,Vadim,Lubskey,Professor,88,F,17,2011
+373,Introduction to Financial Engineering,2014-1-7,2.6,10,Vadim,Lubskey,Professor,89,F,18,2011
+373,Introduction to Financial Engineering,2014-1-7,3.8,10,Vadim,Lubskey,Professor,90,F,22,2007
+373,Introduction to Financial Engineering,2014-1-7,2,10,Vadim,Lubskey,Professor,94,F,17,2011
+342,Organizational Behavior,2015-3-12,2,20,William,Wallace,Professor,0,F,19,2011
+342,Organizational Behavior,2015-3-12,2.5,20,William,Wallace,Professor,4,F,17,2010
+342,Organizational Behavior,2015-3-12,3.4,20,William,Wallace,Professor,5,,21,2010
+342,Organizational Behavior,2015-3-12,1.4,20,William,Wallace,Professor,7,F,18,2011
+342,Organizational Behavior,2015-3-12,2.9,20,William,Wallace,Professor,12,M,19,2011
+342,Organizational Behavior,2015-3-12,3.6,20,William,Wallace,Professor,18,M,20,2011
+342,Organizational Behavior,2015-3-12,2.7,20,William,Wallace,Professor,26,F,16,2011
+342,Organizational Behavior,2015-3-12,1.8,20,William,Wallace,Professor,27,M,20,2010
+342,Organizational Behavior,2015-3-12,3.9,20,William,Wallace,Professor,29,F,20,2008
+342,Organizational Behavior,2015-3-12,3.8,20,William,Wallace,Professor,31,F,21,2007
+342,Organizational Behavior,2015-3-12,3,20,William,Wallace,Professor,32,F,17,2011
+342,Organizational Behavior,2015-3-12,2.3,20,William,Wallace,Professor,33,F,21,2010
+342,Organizational Behavior,2015-3-12,2.5,20,William,Wallace,Professor,35,F,21,2008
+342,Organizational Behavior,2015-3-12,1.8,20,William,Wallace,Professor,37,F,23,2007
+342,Organizational Behavior,2015-3-12,3.6,20,William,Wallace,Professor,38,M,23,2008
+342,Organizational Behavior,2015-3-12,2.5,20,William,Wallace,Professor,40,M,18,2010
+342,Organizational Behavior,2015-3-12,3,20,William,Wallace,Professor,43,M,17,2011
+342,Organizational Behavior,2015-3-12,3.5,20,William,Wallace,Professor,43,M,17,2011
+342,Organizational Behavior,2015-3-12,1.3,20,William,Wallace,Professor,51,F,17,2011
+342,Organizational Behavior,2015-3-12,3.5,20,William,Wallace,Professor,53,F,19,2009
+342,Organizational Behavior,2015-3-12,1.9,20,William,Wallace,Professor,54,F,17,2011
+342,Organizational Behavior,2015-3-12,3.3,20,William,Wallace,Professor,56,M,20,2009
+342,Organizational Behavior,2015-3-12,1.6,20,William,Wallace,Professor,58,F,21,2010
+342,Organizational Behavior,2015-3-12,2.3,20,William,Wallace,Professor,61,F,19,2010
+342,Organizational Behavior,2015-3-12,3.3,20,William,Wallace,Professor,63,M,21,2007
+342,Organizational Behavior,2015-3-12,2.6,20,William,Wallace,Professor,70,F,23,2008
+342,Organizational Behavior,2015-3-12,2.4,20,William,Wallace,Professor,72,M,19,2010
+342,Organizational Behavior,2015-3-12,2.7,20,William,Wallace,Professor,73,M,22,2007
+342,Organizational Behavior,2015-3-12,3.4,20,William,Wallace,Professor,74,F,22,2009
+342,Organizational Behavior,2015-3-12,2.3,20,William,Wallace,Professor,78,M,22,2008
+342,Organizational Behavior,2015-3-12,3,20,William,Wallace,Professor,82,F,23,2008
+342,Organizational Behavior,2015-3-12,2,20,William,Wallace,Professor,84,M,19,2009
+342,Organizational Behavior,2015-3-12,1.7,20,William,Wallace,Professor,85,M,20,2010
+342,Organizational Behavior,2015-3-12,3.9,20,William,Wallace,Professor,89,F,18,2011
+342,Organizational Behavior,2015-3-12,3.9,20,William,Wallace,Professor,91,F,18,2009
+342,Organizational Behavior,2015-3-12,3.7,20,William,Wallace,Professor,96,M,22,2008
