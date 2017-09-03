@@ -4,7 +4,7 @@ This repository is a clearing house for resources for individual R workshops fro
 
 # Workshops
 
-Below are workshop materials from Northwestern IT Research Computing Services.
+Below are workshop materials from Northwestern IT Research Computing Services.  NOTE: Revisions to workshop materials and new exercises coming soon.  
 
 [Intro to R](https://github.com/nuitrcs/intro_r_workshop): Materials for both abbreviated and multi-part introductory workshops can be found here.  Introductory workshops cover 
 
