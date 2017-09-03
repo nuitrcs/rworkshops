@@ -10,7 +10,7 @@ Below are workshop materials from Northwestern IT Research Computing Services.  
 
 [`ggplot`](https://github.com/nuitrcs/ggplotworkshop): Workshop on how to use `ggplot`
 
-[Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also cover the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.
+[Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also cover the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  Note: R parts of databases workshop materials are still in the works; will be done by September 11th.
 
 # R Resources
 
