@@ -12,6 +12,25 @@ Below are workshop materials from Northwestern IT Research Computing Services.
 
 [Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also cover the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.
 
+
+# Software
+
+For workshops, it's best to install R and RStudio on your own laptop (both are free).
+
+[Install R](https://cran.rstudio.com/)
+
+[Install RStudio Desktop](https://www.rstudio.com/products/rstudio/download/)
+
+There is [a video](https://campus.datacamp.com/courses/working-with-the-rstudio-ide-part-1/orientation?ex=3) covering the process available from DataCamp.
+
+
+If, for some reason you can't install it, there are some web based options you could try for accessing R.  We are not endorsing these in anyway, just pointing out options that you could explore on your own if needed.  They may not allow you to do all of the things we do in the workshops.
+
+[Data Scientist Workbench](https://datascientistworkbench.com/)
+
+[R-Brain](https://r-brain.io)
+
+
 # R Resources
 
 ## Reference Materials
