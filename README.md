@@ -4,13 +4,11 @@ This repository is a clearing house for resources for individual R workshops fro
 
 # Workshops
 
-Below are workshop materials from Northwestern IT Research Computing Services.  NOTE: Revisions to workshop materials and new exercises coming soon.  
+[Intro to R](https://github.com/nuitrcs/intro_r_workshop)
 
-[Intro to R](https://github.com/nuitrcs/intro_r_workshop): Materials for both abbreviated and multi-part introductory workshops can be found here.  Introductory workshops cover 
+[`ggplot`](https://github.com/nuitrcs/ggplotworkshop)
 
-[`ggplot`](https://github.com/nuitrcs/ggplotworkshop): Workshop on how to use `ggplot`
-
-[Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also cover the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  Note: R parts of databases workshop materials are still in the works; will be done by September 11th.
+[Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also covers the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  Note: R parts of databases workshop materials are still in the works; will be done by September 11th.
 
 
 # Software
@@ -23,8 +21,9 @@ For workshops, it's best to install R and RStudio on your own laptop (both are f
 
 There is [a video](https://campus.datacamp.com/courses/working-with-the-rstudio-ide-part-1/orientation?ex=3) covering the process available from DataCamp.
 
+If you do not have administrator privileges on your work computer, either work with the relevant IT department to get R and RStudio installed, or use a different laptop for the workshop.
 
-If, for some reason you can't install it, there are some web based options you could try for accessing R.  We are not endorsing these in anyway, just pointing out options that you could explore on your own if needed.  They may not allow you to do all of the things we do in the workshops.
+If, for some reason you can't install R and RStudio, there are some web based options you could try for accessing R.  We are not endorsing these in anyway, just pointing out options that you could explore on your own if needed.  They may not allow you to do all of the things we do in the workshops.
 
 [Data Scientist Workbench](https://datascientistworkbench.com/)
 
@@ -49,6 +48,18 @@ If, for some reason you can't install it, there are some web based options you c
 
 [OnePageR](https://togaware.com/onepager/): Series of tutorials and sometimes book chapters on using R for data science.  Emphasis here is on machine learning models, but there's lots of useful info for people using R for other purposes as well.
 
+[UBC Stat 545: Data wrangling, exploration, and analysis with R](http://stat545.com/): includes exercises (homework) if you're looking to practice your skills more 
+
+## Books
+
+[R for Data Science](http://r4ds.had.co.nz/) is a book available online. It is written by Hadley Wickham, who wrote many of the packages you use throughout the assignments in this workshop, and Garrett Grolemund, who also works at RStudio. I wouldn't start with this as a complete newbie, but after the intro R workshop, you should be ok to start with this.  It may also be a useful reference for beginners working on the intro R exercises. It includes exercises for you to practice the skills you are learning.
+
+[An Introduction to Statistical and Data Sciences via R](http://moderndive.com/index.html) by Chester Ismay and Albert Y. Kim: learn data science and statistics concepts along with R
+
+The [Use R!](http://www.springer.com/series/6991?detailsPage=titles) series of books are available online through the Northwestern library. Search the [library catalog](http://search.library.northwestern.edu) for the title you're interested in, then follow the links in the search result to gain access to the online version of the book.  The series has a few titles about general skills, but many additional domain-specific titles.  Pay attention to the publication date, as occasionally information may be outdated (although usually still a good reference). 
+
+[Advanced R](http://adv-r.had.co.nz/) by Hadley Wickham, for when you're ready to take the next step.  Much of the material here you won't need when just doing routine analysis with R, but it's essential material if you're trying to really understand how R works.
+
 ## Others' Workshops
 
 Materials from other workshops.  These resources often include materials for both instructors and students.  They are often good resources if you're learning on your own as well though too.
@@ -57,17 +68,11 @@ Materials from other workshops.  These resources often include materials for bot
 
 [Software Carpentry: R for Reproducible Scientific Analysis](http://swcarpentry.github.io/r-novice-gapminder/): provides a good introduction to R. The materials are meant for teaching an in-person workshop, but you can work through them on your own as well.
 
+[R Beginner Workshop](https://annarborrusergroup.github.io/BeginnerWorkshop/) from Ann Arbor R User Group; covers a similar range of material to our intro R workshop
+
+[Berkeley D-lab R Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals) covers a similar range of material to our intro R workshop
+
 [University of Cambridge](https://github.com/lgatto/TeachingMaterial): extensive set of workshops taught on a wide range of R topics.
-
-[Berkeley D-lab R Fundamentals](https://github.com/dlab-berkeley/R-Fundamentals): some of this material has been incorporated into our workshops too.
-
-## Books
-
-[R for Data Science](http://r4ds.had.co.nz/) is a book available online. It is written by Hadley Wickham, who wrote many of the packages you use throughout the assignments in this workshop, and Garrett Grolemund, who also works at RStudio. It's a good resource to refer to after the workshop, but it may also be a useful reference as you work through the assignments here. It includes exercises for you to practice the skills you are learning.
-
-[An Introduction to Statistical and Data Sciences via R](http://moderndive.com/index.html) by Chester Ismay and Albert Y. Kim: learn data science and statistics concepts along with R
-
-The [Use R!](http://www.springer.com/series/6991?detailsPage=titles) series of books are available online through the Northwestern library. Search the [library catalog](http://search.library.northwestern.edu) for the title you're interested in, then follow the links in the search result to gain access to the online version of the book.  The series has a few titles about general skills, but many additional domain-specific titles.  Pay attention to the publication date, as occasionally information may be outdated (although usually still a good reference). 
 
 ## Videos
 
@@ -165,5 +170,7 @@ Looking to take your R code to the next level?  Ready to move beyond "It works" 
 [She Giggles, He Gallops](https://pudding.cool/2017/08/screen-direction/) by Julia Silge, et al., is an example of text analysis and data visualization.
 
 [Movie Lead Gender and Box Office](https://github.com/minimaxir/movie-gender/blob/master/movie_gender.ipynb) by Max Woolf
+
+[Animated Maps in R with SF and gganimate](https://www.blog.cultureofinsight.com/2017/09/animated-choropleth-maps-in-r) from Culture of Insight
 
 
