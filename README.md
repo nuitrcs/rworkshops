@@ -74,6 +74,10 @@ Materials from other workshops.  These resources often include materials for bot
 
 [University of Cambridge](https://github.com/lgatto/TeachingMaterial): extensive set of workshops taught on a wide range of R topics.
 
+## Other Resource Lists
+
+[Awesome R](https://github.com/qinwf/awesome-R): a curated list of awesome R packages, frameworks and software
+
 ## Videos
 
 [RStudio Webinars](https://www.rstudio.com/resources/webinars/) cover a wide range of topics on using R and RStudio
@@ -114,6 +118,8 @@ Many of the resources above include statistical components.  In addition, the re
 [Bioconductor](http://master.bioconductor.org/help/course-materials/), which provides tools and R packages for analysis of genomic data, has an archive of materials from various workshops and presentations.
 
 [Learning Statistics with R](http://health.adelaide.edu.au/psychology/ccs/teaching/lsr/) is an online book from a psychology professor who teaches statistics in his department. It covers both statistical concepts and R.
+
+[R Workshop Materials](http://m-clark.github.io/workshops/), mostly on specific statistical topics, from Michael Clark with University of Michigan Advanced Research Computing
 
 
 ## Visualization
@@ -163,6 +169,8 @@ Looking to take your R code to the next level?  Ready to move beyond "It works" 
 [Tidyverse Style Guide](http://style.tidyverse.org/): style guide used by authors of some of R's most popular packages
 
 [The Zen of R](https://gist.github.com/lambder/2066588): a example of improving R code, by Daniel Kwiecinski
+
+[Efficient R Programming](https://csgillespie.github.io/efficientR/) by Colin Gillespie and Robin Lovelace
 
 
 ## Fun Examples
