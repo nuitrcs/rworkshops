@@ -1,6 +1,6 @@
 # R Workshops
 
-This repository is a clearing house for resources for individual R workshops from Research Computing Services.  Materials from a few past workshops that were in this repository are now in the `pastworkshops` directory.
+This repository is a clearing house for resources for individual R workshops from Research Computing Services.  Materials from a few past workshops that were in this repository have been removed.  See the Intro to R repository linked below instead for current versions of those materials.
 
 # Workshops
 
@@ -180,5 +180,7 @@ Looking to take your R code to the next level?  Ready to move beyond "It works" 
 [Movie Lead Gender and Box Office](https://github.com/minimaxir/movie-gender/blob/master/movie_gender.ipynb) by Max Woolf
 
 [Animated Maps in R with SF and gganimate](https://www.blog.cultureofinsight.com/2017/09/animated-choropleth-maps-in-r) from Culture of Insight
+
+[Poisoned Baby Names](https://hilaryparker.com/2013/01/30/hilary-the-most-poisoned-baby-name-in-us-history/) from Hilary Parker
 
 
