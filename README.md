@@ -90,6 +90,12 @@ Materials from other workshops.  These resources often include materials for bot
 
 [Reproducible Science in R](https://grunwaldlab.github.io/Reproducible-science-in-R/index.html): recommended practices and tips
 
+## Git and R
+
+[Happy Git with R](http://happygitwithr.com/): another resource from UBC Stat 545 and Jenny Bryan's team
+
+[Github Quickstart for Scientists](https://rawgit.com/nazrug/Quickstart/master/GithubQuickstart.html): aims just at teaching the workflow that many scientists use
+
 ## R for Users of Other Statistical Programs
 
 If you're coming to R from Stata, SPSS, SAS, Matlab, or Python, the following resources might be useful to you. Some of them may be a little outdated, but each contains some tables of equivalent commands across programs that might help you get familiar with R more quickly.
