@@ -135,6 +135,8 @@ Many of the resources above include statistical components.  In addition, the re
 
 [R Workshop Materials](http://m-clark.github.io/workshops/), mostly on specific statistical topics, from Michael Clark with University of Michigan Advanced Research Computing
 
+[DataCamp: Intro to Statistics with R](https://www.datacamp.com/courses/intro-to-statistics-with-r-introduction): free DataCamp course -- very basic statistics
+
 
 ## Visualization
 
@@ -196,5 +198,7 @@ Looking to take your R code to the next level?  Ready to move beyond "It works" 
 [Animated Maps in R with SF and gganimate](https://www.blog.cultureofinsight.com/2017/09/animated-choropleth-maps-in-r) from Culture of Insight
 
 [Poisoned Baby Names](https://hilaryparker.com/2013/01/30/hilary-the-most-poisoned-baby-name-in-us-history/) from Hilary Parker
+
+[Exploring Minard's 1812 Plot with ggplot2](https://www.andrewheiss.com/blog/2017/08/10/exploring-minards-1812-plot-with-ggplot2) by Andrew Heiss
 
 
