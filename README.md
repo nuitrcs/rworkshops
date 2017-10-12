@@ -10,7 +10,7 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also covers the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  Note: R parts of databases workshop materials are still in the works; will be done by September 11th.
 
-[RMarkdown](https://github.com/nuitrcs/rmarkdown_workshop): in progress 
+[R Markdown](https://github.com/nuitrcs/rmarkdown_workshop): in progress 
 
 
 # Software
@@ -85,6 +85,10 @@ Materials from other workshops.  These resources often include materials for bot
 ## Videos
 
 [RStudio Webinars](https://www.rstudio.com/resources/webinars/) cover a wide range of topics on using R and RStudio
+
+## More Exercises
+
+[R Exercises](http://www.r-exercises.com/start-here-to-learn-r/) has a large collection of exercises on different topics that you can work through.  The website isn't the best format, but there's useful content there. 
 
 ## R for Reproducible Research
 
