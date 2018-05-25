@@ -8,9 +8,9 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [`ggplot`](https://github.com/nuitrcs/ggplotworkshop)
 
-[Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also covers the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  Note: R parts of databases workshop materials are still in the works; will be done by September 11th.
+[Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also covers the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  
 
-[R Markdown](https://github.com/nuitrcs/rmarkdown_workshop): in progress 
+[R Markdown](https://github.com/nuitrcs/rmarkdown_workshop)
 
 
 # Software
@@ -21,16 +21,9 @@ For workshops, it's best to install R and RStudio on your own laptop (both are f
 
 [Install RStudio Desktop](https://www.rstudio.com/products/rstudio/download/)
 
-There is [a video](https://campus.datacamp.com/courses/working-with-the-rstudio-ide-part-1/orientation?ex=3) covering the process available from DataCamp.
-
 If you do not have administrator privileges on your work computer, either work with the relevant IT department to get R and RStudio installed, or use a different laptop for the workshop.
 
-If, for some reason you can't install R and RStudio, there are some web based options you could try for accessing R.  We are not endorsing these in anyway, just pointing out options that you could explore on your own if needed.  They may not allow you to do all of the things we do in the workshops.
-
-[Data Scientist Workbench](https://datascientistworkbench.com/)
-
-[R-Brain](https://r-brain.io)
-
+If, for some reason you can't install R and RStudio, consider using [RStudio Cloud](http://www.it.northwestern.edu/research/user-services/quest/index.html).
 
 # R Resources
 
@@ -40,7 +33,7 @@ If, for some reason you can't install R and RStudio, there are some web based op
 
 ## Interactive Tutorials/Courses
 
-[DataCamp](https://www.datacamp.com): Excellent online courses teaching many aspects of R, Python, and SQL.  You write R code directly in your web browser as you work through each lesson.  DataCamp is aimed at training data scientists, but most of the courses and skills are applicable to academic researchers as well.  Some DataCamp courses assume familiarity with basic data analysis concepts, but many teach data analysis skills along with teaching R.  Northwestern Research Computing currently has a limited number of subscriptions available for students, faculty, and staff.  [More information](http://www.it.northwestern.edu/research/campus-events/data-camp.html).
+[DataCamp](https://www.datacamp.com): Excellent online courses teaching many aspects of R, Python, and SQL.  You write R code directly in your web browser as you work through each lesson.  DataCamp is aimed at training data scientists, but most of the courses and skills are applicable to academic researchers as well.  Some DataCamp courses assume familiarity with basic data analysis concepts, but many teach data analysis skills along with teaching R.  Northwestern Research Computing currently has a limited number of subscriptions available for researchers.  [More information](http://www.it.northwestern.edu/research/campus-events/data-camp.html).
 
 [Swirl](http://swirlstats.com/): Swirl courses run interactively directly in R.  There courses teach both statistical concepts and R together.  See the Swirl website for instructions on installing and using the package. 
 
