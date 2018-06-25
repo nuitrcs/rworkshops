@@ -1,6 +1,6 @@
 # R Workshops
 
-This repository is a clearing house for resources for individual R workshops from [Research Computing Services](http://www.it.northwestern.edu/research/).  Materials from a few past workshops that were in this repository have been removed.  See the Intro to R repository linked below instead for current versions of those materials.
+This repository is a clearing house for resources for individual R workshops from [Research Computing Services](http://www.it.northwestern.edu/research/). 
 
 # Workshops
 
