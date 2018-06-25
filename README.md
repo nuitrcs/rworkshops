@@ -1,10 +1,14 @@
 # R Workshops
 
-This repository is a clearing house for resources for individual R workshops from Research Computing Services.  Materials from a few past workshops that were in this repository have been removed.  See the Intro to R repository linked below instead for current versions of those materials.
+This repository is a clearing house for resources for individual R workshops from [Research Computing Services](http://www.it.northwestern.edu/research/).  Materials from a few past workshops that were in this repository have been removed.  See the Intro to R repository linked below instead for current versions of those materials.
 
 # Workshops
 
-[Intro to R](https://github.com/nuitrcs/intro_r_workshop)
+## Current Workshops
+
+**Some materials are still being updated for Summer 2018.**
+
+[Intro to R](https://github.com/nuitrcs/r_intro_june2018)
 
 [`ggplot`](https://github.com/nuitrcs/ggplotworkshop)
 
@@ -12,6 +16,11 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [R Markdown](https://github.com/nuitrcs/rmarkdown_workshop)
 
+[R Shiny](https://github.com/nuitrcs/rshiny)
+
+## Past Workshops
+
+[Intro to R](https://github.com/nuitrcs/intro_r_workshop)
 
 # Software
 
@@ -25,11 +34,19 @@ If you do not have administrator privileges on your work computer, either work w
 
 If, for some reason you can't install R and RStudio, consider using [RStudio Cloud](http://www.it.northwestern.edu/research/user-services/quest/index.html).
 
+See [Software Installation](https://sites.northwestern.edu/summerworkshops/resources/software-installation/) for more details.
+
 # R Resources
 
 ## Reference Materials
 
 [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) are short pdfs that summarize key R functions on specific topics. Many people print them out for reference while working in R.  The `ggplot` cheat sheet, in particular, in indispensable.  
+
+[R Reference Card](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf): lists many commonly used functions
+
+## Using RStudio
+
+[DataCamp: Working withe the RStudio IDE](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1): the first part of this online course is free and will help you get oriented in the RStudio application.  
 
 ## Interactive Tutorials/Courses
 
@@ -47,7 +64,7 @@ If, for some reason you can't install R and RStudio, consider using [RStudio Clo
 
 ## Books
 
-[R for Data Science](http://r4ds.had.co.nz/) is a book available online. It is written by Hadley Wickham, who wrote many of the packages you use throughout the assignments in this workshop, and Garrett Grolemund, who also works at RStudio. I wouldn't start with this as a complete newbie, but after the intro R workshop, you should be ok to start with this.  It may also be a useful reference for beginners working on the intro R exercises. It includes exercises for you to practice the skills you are learning.
+[R for Data Science](http://r4ds.had.co.nz/) is a book available online. It is written by Hadley Wickham and Garrett Grolemund, who work at RStudio and wrote many of the popular R packages for data manipulation. There's a [welcoming online community](https://medium.com/@kierisi/r4ds-the-next-iteration-d51e0a1b0b82) of folks working on material from this book.
 
 [An Introduction to Statistical and Data Sciences via R](http://moderndive.com/index.html) by Chester Ismay and Albert Y. Kim: learn data science and statistics concepts along with R
 
@@ -74,6 +91,8 @@ Materials from other workshops.  These resources often include materials for bot
 ## Other Resource Lists
 
 [Awesome R](https://github.com/qinwf/awesome-R): a curated list of awesome R packages, frameworks and software
+
+[RStudio Online Learning](https://www.rstudio.com/online-learning/): list of resources from RStudio and others
 
 ## Videos
 
@@ -108,19 +127,23 @@ If you're coming to R from Stata, SPSS, SAS, Matlab, or Python, the following re
 [haven Package](http://haven.tidyverse.org/): for importing Stata, SAS, and SPSS data into R.
 
 
-## Statistics
+## Statistics and Machine Learning
 
 Many of the resources above include statistical components.  In addition, the resources below have a particular focus on statistics.
 
 [UCLA's Statistics Consulting Group](http://www.ats.ucla.edu/stat/dae/) has a great set of tutorials showing how to conduct many types of ANOVA and regression analysis in various statistical packages, including R.  Highly recommended; check here first.
+
+[An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/): book, available online, by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+
+[The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/ElemStatLearn/): book, available online, by Trevor Hastie, Robert Tibshirani, Jerome Friedman
+
+[Deep Learning with R](https://www.manning.com/books/deep-learning-with-r): book, by François Chollet with J. J. Allaire 
 
 [Quick-R](http://www.statmethods.net/index.html) has many example snippets of R code covering statistical topics. Note that the visualization sections use the base R plotting functions and not `ggplot2`.
 
 [Kelly Black's R Tutorial](http://www.cyclismo.org/tutorial/R/index.html) covers a few R basics, but then moves on to cover various statistical functions. Like the other resources above, it also uses base R plotting functions instead of `ggplot2`.
 
 [Cookbook for R, Statistical Analysis section](http://www.cookbook-r.com/Statistical_analysis/) provides examples of many basic statistical methods.
-
-[An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/ISLR%20First%20Printing.pdf) is a statistics book that uses R for examples and exercises. It's a standard text for many statistics programs.
 
 [edX Statistics and R](https://www.edx.org/course/statistics-r-harvardx-ph525-1x) covers basic statistical concepts.
 
