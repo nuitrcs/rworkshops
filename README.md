@@ -8,7 +8,7 @@ This repository is a clearing house for resources for individual R workshops fro
 
 **Some materials are still being updated for Summer 2018.**
 
-[Intro to R](https://github.com/nuitrcs/r_intro_june2018)
+[Intro to R](https://github.com/nuitrcs/r_intro_july2018)
 
 [`ggplot2`](https://github.com/nuitrcs/r_ggplot_june2018)
 
