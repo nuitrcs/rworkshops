@@ -8,9 +8,9 @@ This repository is a clearing house for resources for individual R workshops fro
 
 **Some materials are still being updated for Summer 2018.**
 
-[Intro to R](https://github.com/nuitrcs/r_intro_july2018)
+[Intro to R](https://github.com/nuitrcs/r_intro_june2018)
 
-[`ggplot2`](https://github.com/nuitrcs/r_ggplot_june2018)
+[`ggplot2`](https://github.com/nuitrcs/r_ggplot_july2018)
 
 [Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also covers the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  
 
