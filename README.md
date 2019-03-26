@@ -17,11 +17,6 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [R Shiny](https://github.com/nuitrcs/rshiny)
 
-## Past Workshops
-
-[Intro to R - 2017](https://github.com/nuitrcs/intro_r_workshop)
-
-[`ggplot2` - 2017](https://github.com/nuitrcs/ggplotworkshop)
 
 # Software
 
