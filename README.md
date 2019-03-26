@@ -6,7 +6,6 @@ This repository is a clearing house for resources for individual R workshops fro
 
 ## Current Workshops
 
-**Some materials are still being updated for Summer 2018.**
 
 [Intro to R](https://github.com/nuitrcs/r_intro_july2018)
 
