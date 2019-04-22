@@ -40,17 +40,12 @@ See [Software Installation](https://sites.northwestern.edu/summerworkshops/resou
 
 [R Reference Card](https://cran.r-project.org/doc/contrib/Baggott-refcard-v2.pdf): lists many commonly used functions
 
-## Using RStudio
-
-[DataCamp: Working withe the RStudio IDE](https://www.datacamp.com/courses/working-with-the-rstudio-ide-part-1): the first part of this online course is free and will help you get oriented in the RStudio application.  
-
-## Interactive Tutorials/Courses
-
-[DataCamp](https://www.datacamp.com): Excellent online courses teaching many aspects of R, Python, and SQL.  You write R code directly in your web browser as you work through each lesson.  DataCamp is aimed at training data scientists, but most of the courses and skills are applicable to academic researchers as well.  Some DataCamp courses assume familiarity with basic data analysis concepts, but many teach data analysis skills along with teaching R.  Northwestern Research Computing currently has a limited number of subscriptions available for researchers.  [More information](http://www.it.northwestern.edu/research/campus-events/data-camp.html).
-
-[Swirl](http://swirlstats.com/): Swirl courses run interactively directly in R.  There courses teach both statistical concepts and R together.  See the Swirl website for instructions on installing and using the package. 
 
 ## Tutorials/Online Courses
+
+[RStudio Learning](https://www.rstudio.com/online-learning/): a list of resources from RStudio
+
+[Swirl](http://swirlstats.com/): Swirl courses run interactively directly in R.  There courses teach both statistical concepts and R together.  See the Swirl website for instructions on installing and using the package. 
 
 [Data Analysis and Visualization using R](http://varianceexplained.org/RData/): an online course from David Robinson, whose [blog](http://varianceexplained.org/) is also worth following.
 
@@ -84,11 +79,6 @@ Materials from other workshops.  These resources often include materials for bot
 
 [R for Researchers](http://www.ssc.wisc.edu/sscc/pubs/RFR/RFR_Introduction.html) online workshop materials from University of Wisconsin Social Science Computing Cooperative
 
-## Other Resource Lists
-
-[Awesome R](https://github.com/qinwf/awesome-R): a curated list of awesome R packages, frameworks and software
-
-[RStudio Online Learning](https://www.rstudio.com/online-learning/): list of resources from RStudio and others
 
 ## Videos
 
@@ -151,7 +141,6 @@ Many of the resources above include statistical components.  In addition, the re
 
 [R Workshop Materials](http://m-clark.github.io/workshops/), mostly on specific statistical topics, from Michael Clark with University of Michigan Advanced Research Computing
 
-[DataCamp: Intro to Statistics with R](https://www.datacamp.com/courses/intro-to-statistics-with-r-introduction): free DataCamp course -- very basic statistics
 
 
 ## Visualization
