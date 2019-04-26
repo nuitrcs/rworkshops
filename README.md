@@ -106,6 +106,8 @@ If you're coming to R from Stata, SPSS, SAS, Matlab, or Python, the following re
 
 [R for SAS and SPSS Users](https://drive.google.com/file/d/0B4mP5kf41BrmYkxkdmdRdWFibDA/view) is an early, condensed version of a book by the same name, from Bob Muenchen of <a href="https://www.r4stats.com">r4stats.com</a>
 
+[The Tidynomicon: R for Python Programmers](https://gvwilson.github.io/tidynomicon/) by Greg Wilson; may be helpful for those coming to R from other C-derived programming languages as well.
+
 [Matlab/R Reference](http://www.math.umaine.edu/~hiebeler/comp/matlabR.pdf): from David Hiebeler of the University of Maine.
 
 [Matlab/NumPy (Python)/R Commands Chart](http://mathesaurus.sourceforge.net/matlab-python-xref.pdf): from Vidar Bronken Gundersen; this one is about 10 years old, but it mostly covers basic commands, which haven't changed
