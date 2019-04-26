@@ -198,6 +198,8 @@ Looking to take your R code to the next level?  Ready to move beyond "It works" 
 
 ## Fun Examples
 
+[A Guide to Analyzing (American) Political Data in R](https://www.thecrosstab.com/project/r-politics-guide/guide.html) by G. Elliott Morris
+
 [She Giggles, He Gallops](https://pudding.cool/2017/08/screen-direction/) by Julia Silge, et al., is an example of text analysis and data visualization.
 
 [Movie Lead Gender and Box Office](https://github.com/minimaxir/movie-gender/blob/master/movie_gender.ipynb) by Max Woolf
