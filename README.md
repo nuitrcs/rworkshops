@@ -43,6 +43,8 @@ See [Software Installation](https://sites.northwestern.edu/summerworkshops/resou
 
 ## Tutorials/Online Courses
 
+[RStudio Primers](https://rstudio.cloud/learn/primers): interactive documents with videos, exercises, and explanations
+
 [RStudio Learning](https://www.rstudio.com/online-learning/): a list of resources from RStudio
 
 [Swirl](http://swirlstats.com/): Swirl courses run interactively directly in R.  There courses teach both statistical concepts and R together.  See the Swirl website for instructions on installing and using the package. 
