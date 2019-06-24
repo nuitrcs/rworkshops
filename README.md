@@ -7,7 +7,7 @@ This repository is a clearing house for resources for individual R workshops fro
 ## Current Workshops
 
 
-[Intro to R](https://github.com/nuitrcs/r_intro_june2018)
+[Intro to R](https://github.com/nuitrcs/r-intro-summer2019)
 
 [`ggplot2`](https://github.com/nuitrcs/r_ggplot_july2018)
 
