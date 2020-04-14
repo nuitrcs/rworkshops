@@ -22,9 +22,8 @@ This repository is a clearing house for resources for individual R workshops fro
 
 For workshops, it's best to [install R and RStudio](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/) on your own laptop (both are free).  If you can't install these programs or run into issues installing packages, [RStudio Cloud ](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/#option-2-rstudio-cloud)is a good option.
 
-# R Resources
 
-# R Reference Materials
+# Handouts
 
 [RStudio Cheat Sheets](https://www.rstudio.com/resources/cheatsheets/) are short pdfs that summarize key R functions on specific topics. Many people print them out for reference while working in R.  The `ggplot` cheat sheet, in particular, in indispensable.  
 
@@ -33,7 +32,7 @@ For workshops, it's best to [install R and RStudio](https://sites.northwestern.e
 
 # Learning More
 
-See our guide to free, [online resources for learning R](https://sites.northwestern.edu/researchcomputing/2020/03/20/online-learning-resources-r/) on the Research Computing Services blog for suggestions of resources to get started or get better with R.
+**See our guide to free, [online resources for learning R](https://sites.northwestern.edu/researchcomputing/2020/03/20/online-learning-resources-r/) on the Research Computing Services blog for suggestions of resources to get started or get better with R.**
 
 Resources for specific topics and R are below.
 
