@@ -17,9 +17,15 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [Databases](https://github.com/nuitrcs/databases_workshop/tree/master/r): Information on how to connect to databases from R is part of the databases workshop materials, which also covers the basics of SQL.  The example code there may be a useful reference, but you'll need a database connection to run it.  See that repository for more details.  
 
-[R Shiny](https://github.com/nuitrcs/rshiny)
+R Shiny: [Version 1](https://github.com/nuitrcs/rshiny) or [Version 2](https://github.com/turnerdan/shiny_tutorial_2020)
 
 [R Markdown](https://github.com/nuitrcs/rmarkdown_workshop): this one is a little older than the others, but the material should still be relevant
+
+[Webscraping with rvest](https://github.com/turnerdan/rvest_tutorial)
+
+[Statistical Models](https://github.com/aarcher07/stats_models)
+
+
 
 
 # Software
