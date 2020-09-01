@@ -9,7 +9,7 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [Intro to R](https://github.com/nuitrcs/r-intro-summer2019) (in-person workshop)
 
-[Intro to R Virtual Bootcamp](https://github.com/nuitrcs/rworkshops)
+[Intro to R Virtual Bootcamp](https://github.com/nuitrcs/r-online-2020)
 
 [`ggplot2`](https://github.com/nuitrcs/r-ggplot2-april2020)
 
