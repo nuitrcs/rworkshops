@@ -2,6 +2,8 @@
 
 This repository is a clearing house for resources for individual R workshops from [Research Computing Services](http://www.it.northwestern.edu/research/). 
 
+## *Info and links for Summer 2023 R Workshops are coming soon!*
+
 # Workshops
 
 ## Current Workshops
