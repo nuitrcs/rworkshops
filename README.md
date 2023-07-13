@@ -2,11 +2,17 @@
 
 This repository is a clearing house for resources for individual R workshops from [Research Computing Services](http://www.it.northwestern.edu/research/). 
 
-## *Info and links for Summer 2023 R Workshops are coming soon!*
+# Summer 2023
 
-# Workshops
+[R Programming Concepts for Complete Beginners](https://github.com/nuitrcs/programmingConceptsR)
 
-## Current Workshops
+[R Introductory Bootcamp](https://github.com/nuitrcs/R-Bootcamp-summer-2023)
+
+[R Intro to Tidyverse]()https://github.com/nuitrcs/R-intro-tidyverse-2023
+
+[R Intermediate Tidyverse](https://github.com/nuitrcs/R-intermediate-tidyverse-2023)
+
+# Past Workshops
 
 [R Fundamentals Series](https://github.com/nuitrcs/r-intro-series): the most recently taught materials
 
@@ -23,8 +29,6 @@ This repository is a clearing house for resources for individual R workshops fro
 [Webscraping with rvest](https://github.com/turnerdan/rvest_tutorial)
 
 [Statistical Models](https://github.com/aarcher07/stats_models)
-
-## Previous Introductory Workshops
 
 [Intro to R](https://github.com/nuitrcs/r-intro-summer2019) (in-person workshop)
 
