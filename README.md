@@ -4,6 +4,8 @@ This repository is a clearing house for resources for individual R workshops fro
 
 # Summer 2023
 
+[Chicago Sept 5-7](https://github.com/nuitrcs/R-Bootcamp-summer-2023)
+
 [R Programming Concepts for Complete Beginners](https://github.com/nuitrcs/programmingConceptsR)
 
 [R Introductory Bootcamp](https://github.com/nuitrcs/R-Bootcamp-summer-2023)
