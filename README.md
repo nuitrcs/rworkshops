@@ -1,6 +1,6 @@
 # R Workshops
 
-This repository is a clearing house for resources for individual R workshops from [Research Computing Services](http://www.it.northwestern.edu/research/). 
+This repository is a clearing house for resources for individual R workshops from [Research Computing and Data Services](http://www.it.northwestern.edu/research/). 
 
 # Summer 2023
 
@@ -10,7 +10,7 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [R Introductory Bootcamp](https://github.com/nuitrcs/R-Bootcamp-summer-2023)
 
-[R Intro to Tidyverse]()https://github.com/nuitrcs/R-intro-tidyverse-2023
+[R Intro to Tidyverse](https://github.com/nuitrcs/R-intro-tidyverse-2023)
 
 [R Intermediate Tidyverse](https://github.com/nuitrcs/R-intermediate-tidyverse-2023)
 
@@ -40,7 +40,7 @@ This repository is a clearing house for resources for individual R workshops fro
 
 # Software
 
-For workshops, it's best to [install R and RStudio](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/) on your own laptop (both are free).  If you can't install these programs or run into issues installing packages, [RStudio Cloud ](https://sites.northwestern.edu/researchcomputing/resources/r-and-rstudio/#option-2-rstudio-cloud)is a good option.
+For workshops, it's best to [install R and RStudio](https://posit.co/download/rstudio-desktop/) on your own laptop (both are free).  If you can't install these programs or run into issues installing packages, [Posit Cloud ](https://posit.cloud/)is a good option.
 
 
 # Handouts
@@ -68,9 +68,9 @@ If you're coming to R from Stata, SPSS, SAS, Matlab, or Python, the following re
 
 [R/Stata Comparison](http://www.princeton.edu/~otorres/RStata.pdf) from Princeton's Data & Statistical Services
 
-[R for SAS and SPSS Users](https://drive.google.com/file/d/0B4mP5kf41BrmYkxkdmdRdWFibDA/view) is an early, condensed version of a book by the same name, from Bob Muenchen of <a href="https://www.r4stats.com">r4stats.com</a>
+[R for SAS and SPSS Users](https://r4stats.com/books/free-version/) is a book by Bob Muenchen of <a href="https://www.r4stats.com">r4stats.com</a>
 
-[The Tidynomicon: R for Python Programmers](https://gvwilson.github.io/tidynomicon/) by Greg Wilson; may be helpful for those coming to R from other C-derived programming languages as well.
+[The Tidynomicon: R for Python Programmers](https://third-bit.com/tidynomicon/) by Greg Wilson; may be helpful for those coming to R from other C-derived programming languages as well.
 
 [Matlab/R Reference](http://www.math.umaine.edu/~hiebeler/comp/matlabR.pdf): from David Hiebeler of the University of Maine.
 
@@ -81,9 +81,9 @@ If you're coming to R from Stata, SPSS, SAS, Matlab, or Python, the following re
 
 ## Statistics and Machine Learning
 
-[UCLA's Statistics Consulting Group](http://www.ats.ucla.edu/stat/dae/) has a great set of tutorials showing how to conduct many types of ANOVA and regression analysis in various statistical packages, including R.  Highly recommended; check here first.
+[UCLA's Statistics Consulting Group](https://stats.oarc.ucla.edu/) has a great set of tutorials showing how to conduct many types of ANOVA and regression analysis in various statistical packages, including R.  Highly recommended; check here first.
 
-[An Introduction to Statistical Learning with Applications in R](http://www-bcf.usc.edu/~gareth/ISL/): book, available online, by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
+[An Introduction to Statistical Learning with Applications in R](https://www.statlearning.com/): book, available online, by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 
 [The Elements of Statistical Learning: Data Mining, Inference, and Prediction](https://web.stanford.edu/~hastie/ElemStatLearn/): book, available online, by Trevor Hastie, Robert Tibshirani, Jerome Friedman
 
