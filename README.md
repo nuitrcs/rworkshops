@@ -10,6 +10,8 @@ This repository is a clearing house for resources for individual R workshops fro
 
 [R Intermediate Tidyverse](https://github.com/nuitrcs/R-intermediate-tidyverse-2024) June 25, 2024 from 9:30am-3:30pm in Mudd Library, North Study Lounge (Evanston)
 
+[R Statistical Modeling](https://github.com/nuitrcs/r-statistical-modeling). June 26, 2024 from 9:30am-12:00pm in Mudd Library, North Study Lounge (Evanston)
+
 # Past Workshops
 
 [R Fundamentals Series](https://github.com/nuitrcs/r-intro-series): the most recently taught materials
