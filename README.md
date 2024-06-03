@@ -4,11 +4,11 @@ This repository is a clearing house for resources for individual R workshops fro
 
 # Summer 2024
 
-[R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop)
+[R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop) June 11-14, 2024 from 9:30am-3:30pm in Mudd Library, North Study Lounge (Evanston)
 
-[R Intro to Tidyverse](https://github.com/nuitrcs/R-intro-tidyverse-2024)
+[R Intro to Tidyverse](https://github.com/nuitrcs/R-intro-tidyverse-2024) June 24, 2024 from 9:30am-3:30pm in Mudd Library, North Study Lounge (Evanston)
 
-[R Intermediate Tidyverse](https://github.com/nuitrcs/R-intermediate-tidyverse-2024)
+[R Intermediate Tidyverse](https://github.com/nuitrcs/R-intermediate-tidyverse-2024) June 25, 2024 from 9:30am-3:30pm in Mudd Library, North Study Lounge (Evanston)
 
 # Past Workshops
 
