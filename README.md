@@ -3,7 +3,11 @@
 This repository is a clearing house for resources for individual R workshops from [Research Computing and Data Services](http://www.it.northwestern.edu/research/). 
 
 # Summer 2024
+## Upcoming
+[R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop) Sep 3-6, 2024 from 9:30am-3:30pm in Wieboldt Hall, Room 421 (Chicago)
+[R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop) Sep 9-12, 2024 from 9:30am-3:30pm in Wieboldt Hall, Room 421 (Chicago)
 
+## Completed
 [R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop) June 11-14, 2024 from 9:30am-3:30pm in Mudd Library, North Study Lounge (Evanston)
 
 [R Intro to Tidyverse](https://github.com/nuitrcs/R-intro-tidyverse-2024) June 24, 2024 from 9:30am-3:30pm in Mudd Library, North Study Lounge (Evanston)
