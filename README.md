@@ -5,6 +5,7 @@ This repository is a clearing house for resources for individual R workshops fro
 # Summer 2024
 ## Upcoming
 [R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop) Sep 3-6, 2024 from 9:30am-3:30pm in Wieboldt Hall, Room 421 (Chicago)
+
 [R Fundamentals Bootcamp](https://github.com/nuitrcs/R-fundamentals-summer-workshop) Sep 9-12, 2024 from 9:30am-3:30pm in Wieboldt Hall, Room 421 (Chicago)
 
 ## Completed
